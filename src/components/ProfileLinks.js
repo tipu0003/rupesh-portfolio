@@ -8,6 +8,7 @@ import scopusIcon from '../assets/icons/scopus.png';
 import wosIcon from '../assets/icons/wos.png';
 import vidwanIcon from '../assets/icons/vidwan.png';
 
+
 function ProfileLinks() {
     useEffect(() => {
         AOS.init({ duration: 1000 });
