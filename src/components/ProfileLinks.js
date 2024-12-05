@@ -4,9 +4,9 @@ import AOS from 'aos';
 import orcidIcon from '../assets/icons/orcid.png';
 import scholarIcon from '../assets/icons/scholar.png';
 import linkedinIcon from '../assets/icons/linkedin.png';
-import scopusIcon from '../assets/icons/scopus.png';
+import scopusIcon from '../assets/icons/scopus.jpg';
 import wosIcon from '../assets/icons/wos.png';
-import vidwanIcon from '../assets/icons/vidwan.png';
+import vidwanIcon from '../assets/icons/vidwan.jpg';
 
 
 function ProfileLinks() {
