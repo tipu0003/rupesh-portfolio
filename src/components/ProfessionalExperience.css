@@ -1,0 +1,89 @@
+.professional-experience {
+    padding: 60px 20px;
+    background-color: #ffffff;
+}
+
+.professional-experience .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.professional-experience h2 {
+    color: #003366;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.professional-experience table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+.professional-experience th,
+.professional-experience td {
+    border: 2px solid #003366;
+    padding: 10px;
+}
+
+.professional-experience th {
+    background-color: #003366;
+    color: white;
+}
+
+.professional-experience tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.professional-experience .responsibilities {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.professional-experience .responsibilities h3 {
+    color: #003366;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.professional-experience .responsibilities ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .professional-experience table,
+    .professional-experience thead,
+    .professional-experience tbody,
+    .professional-experience th,
+    .professional-experience td,
+    .professional-experience tr {
+        display: block;
+    }
+
+    .professional-experience tr {
+        margin-bottom: 15px;
+    }
+
+    .professional-experience td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+
+    .professional-experience td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .professional-experience .responsibilities {
+        text-align: center;
+    }
+}

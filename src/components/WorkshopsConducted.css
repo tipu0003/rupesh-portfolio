@@ -1,0 +1,39 @@
+.workshops-conducted {
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+}
+
+.workshops-conducted .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.workshops-conducted h2 {
+    color: #003366;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.workshops-conducted ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    text-align: left;
+    display: inline-block;
+}
+
+.workshops-conducted li {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.workshops-conducted li strong {
+    color: #003366;
+}
+
+@media (max-width: 768px) {
+    .workshops-conducted ul {
+        padding-left: 20px;
+    }
+}

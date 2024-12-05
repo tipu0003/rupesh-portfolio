@@ -1,0 +1,46 @@
+.experience-overview {
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+}
+
+.experience-overview .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.experience-overview h2 {
+    color: #003366;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.overview {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.experience {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #003366;
+    border-radius: 10px;
+    width: 200px;
+    transition: transform 0.3s;
+}
+
+.experience:hover {
+    transform: translateY(-10px);
+}
+
+.experience h3 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.experience p {
+    font-size: 1.5rem;
+    color: #333;
+}

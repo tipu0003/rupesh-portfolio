@@ -1,0 +1,38 @@
+.conference-presentations {
+    padding: 60px 20px;
+}
+
+.conference-presentations .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.conference-presentations h2 {
+    color: #003366;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.conference-presentations ol {
+    list-style-type: decimal;
+    padding-left: 40px;
+    text-align: left;
+    display: inline-block;
+}
+
+.conference-presentations li {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.conference-presentations li em {
+    color: #003366;
+}
+
+@media (max-width: 768px) {
+    .conference-presentations ol {
+        padding-left: 20px;
+    }
+}
