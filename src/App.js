@@ -1,5 +1,7 @@
+// src/App.js
+
 import React from 'react';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import ProfileLinks from './components/ProfileLinks';
@@ -7,7 +9,7 @@ import ExperienceOverview from './components/ExperienceOverview';
 import Education from './components/Education';
 import ProfessionalExperience from './components/ProfessionalExperience';
 import ResearchPublications from './components/ResearchPublications';
-import Skills from './components/Skills';
+import SkillsFlow from './components/SkillsFlow'; // If using react-flow-renderer
 import Memberships from './components/Memberships';
 import CoursesTaught from './components/CoursesTaught';
 import ConferencePresentations from './components/ConferencePresentations';
@@ -35,24 +37,24 @@ function App() {
           </Helmet>
           <Header />
           <Routes>
-            <Route exact path="/">
-              <AboutMe />
-              <ProfileLinks />
-              <ExperienceOverview />
-              <Education />
-              <ProfessionalExperience />
-              <ResearchPublications />
-              <Skills />
-              <Memberships />
-              <CoursesTaught />
-              <ConferencePresentations />
-              <WorkshopsConducted />
-              <ContactForm />
-              <FeedbackForm />
-            </Route>
-            <Route path="*">
-              <AboutMe /> {/* Redirect to home for undefined routes */}
-            </Route>
+            <Route path="/" element={
+              <>
+                <AboutMe />
+                <ProfileLinks />
+                <ExperienceOverview />
+                <Education />
+                <ProfessionalExperience />
+                <ResearchPublications />
+                <SkillsFlow />
+                <Memberships />
+                <CoursesTaught />
+                <ConferencePresentations />
+                <WorkshopsConducted />
+                <ContactForm />
+                <FeedbackForm />
+              </>
+            } />
+            <Route path="*" element={<AboutMe />} /> {/* Redirect to home for undefined routes */}
           </Routes>
         </div>
       </Router>

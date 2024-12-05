@@ -1,0 +1,22 @@
+.skills-flow {
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+}
+
+.skills-flow .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skills-flow h2 {
+    color: #003366;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.flow-container {
+    height: 600px;
+    border: 2px solid #003366;
+    border-radius: 10px;
+}
