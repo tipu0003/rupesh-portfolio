@@ -7,6 +7,7 @@
     top: 0;
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Prevents overflow from animations */
 }
 
 /* Navbar Styles */
@@ -26,6 +27,7 @@
 }
 
 .navbar ul li {
+    position: relative;
     cursor: pointer;
 }
 
@@ -33,7 +35,7 @@
     color: white;
     text-decoration: none;
     font-size: 0.95rem; /* Slightly smaller font */
-    transition: color 0.3s, background-color 0.3s;
+    transition: color 0.3s;
     padding: 5px 10px;
     border-radius: 4px;
 }
@@ -41,6 +43,12 @@
 .navbar ul li a:hover {
     color: #ffcc00;
     background-color: rgba(255, 204, 0, 0.2);
+}
+
+/* Active Link Indicator */
+.active-link {
+    color: #ffcc00;
+    border-bottom: 2px solid #ffcc00;
 }
 
 /* Header Content Styles */
@@ -54,6 +62,7 @@
     justify-content: center;
     gap: 20px; /* Space between image and text */
     flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    animation: fadeInSlideUp 1s ease-out;
 }
 
 /* Profile Image Styles */
@@ -67,17 +76,48 @@
     object-fit: cover;
     border-radius: 50%; /* Makes the image circular */
     border: 2px solid #ffffff;
+    transition: transform 0.3s, box-shadow 0.3s;
+    animation: bounceIn 1s ease-out;
+}
+
+.profile-image:hover {
+    transform: scale(1.05) rotate(5deg);
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.7);
 }
 
 /* Header Text Styles */
 .header-text h1 {
     font-size: 2rem; /* Reduced font size */
     margin-bottom: 8px; /* Reduced margin */
+    animation: fadeIn 1.5s ease-in-out;
 }
 
 .header-text p {
     font-size: 1rem; /* Reduced font size */
     margin-bottom: 0;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Keyframe Animations */
+
+/* Fade In */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Fade In and Slide Up */
+@keyframes fadeInSlideUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Bounce In */
+@keyframes bounceIn {
+    0% { transform: scale(0.3); opacity: 0; }
+    50% { transform: scale(1.05); opacity: 1; }
+    70% { transform: scale(0.9); }
+    100% { transform: scale(1); }
 }
 
 /* Responsive Design */

@@ -3,7 +3,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import './Header.css';
-import profileImage from '../assets/profile.png'; // Adjust the path as necessary
+import profileImage from '../assets/profile.png'; // Ensure the path is correct
 
 function Header() {
     return (
@@ -11,18 +11,88 @@ function Header() {
             {/* Navigation Bar */}
             <nav className="navbar">
                 <ul>
-                    <li><Link to="about" smooth={true} duration={500}>About Me</Link></li>
-                    <li><Link to="profile-links" smooth={true} duration={500}>Profiles</Link></li>
-                    <li><Link to="experience-overview" smooth={true} duration={500}>Experience</Link></li>
-                    <li><Link to="education" smooth={true} duration={500}>Education</Link></li>
-                    <li><Link to="publications" smooth={true} duration={500}>Publications</Link></li>
-                    <li><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
-                    <li><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
+                    <li>
+                        <Link
+                            to="about"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            activeClass="active-link"
+                        >
+                            About Me
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to="profile-links"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            activeClass="active-link"
+                        >
+                            Profiles
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to="experience-overview"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            activeClass="active-link"
+                        >
+                            Experience
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to="education"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            activeClass="active-link"
+                        >
+                            Education
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to="publications"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            activeClass="active-link"
+                        >
+                            Publications
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to="skills"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            activeClass="active-link"
+                        >
+                            Skills
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to="contact"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            activeClass="active-link"
+                        >
+                            Contact
+                        </Link>
+                    </li>
                 </ul>
             </nav>
 
             {/* Header Content */}
-            <div className="header-content" data-aos="fade-down">
+            <div className="header-content">
                 {/* Profile Image */}
                 <div className="profile-image-container">
                     <img src={profileImage} alt="Dr. Rupesh Kumar Tipu" className="profile-image" />
