@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import ProfileLinks from './components/ProfileLinks';
@@ -34,7 +34,7 @@ function App() {
             <meta property="og:image" content="https://yourusername.github.io/rupesh-portfolio/assets/images/profile.jpg" />
           </Helmet>
           <Header />
-          <Switch>
+          <Routes>
             <Route exact path="/">
               <AboutMe />
               <ProfileLinks />
@@ -53,7 +53,7 @@ function App() {
             <Route path="*">
               <AboutMe /> {/* Redirect to home for undefined routes */}
             </Route>
-          </Switch>
+          </Routes>
         </div>
       </Router>
   );
