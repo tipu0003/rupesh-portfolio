@@ -9,7 +9,7 @@ import ExperienceOverview from './components/ExperienceOverview';
 import Education from './components/Education';
 import ProfessionalExperience from './components/ProfessionalExperience';
 import ResearchPublications from './components/ResearchPublications';
-import SkillsFlow from './components/SkillsFlow'; // If using react-flow-renderer
+
 import Memberships from './components/Memberships';
 import CoursesTaught from './components/CoursesTaught';
 import ConferencePresentations from './components/ConferencePresentations';
@@ -19,6 +19,7 @@ import FeedbackForm from './components/FeedbackForm';
 import { Helmet } from 'react-helmet';
 import './App.css';
 import 'aos/dist/aos.css';
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -32,8 +33,8 @@ function App() {
             <meta property="og:title" content="Rupesh Kumar Tipu - Assistant Professor Portfolio" />
             <meta property="og:description" content="Portfolio website of Dr. Rupesh Kumar Tipu, Assistant Professor at K. R. Mangalam University, specializing in Structural Engineering." />
             <meta property="og:type" content="website" />
-            <meta property="og:url" content="https://yourusername.github.io/rupesh-portfolio/" />
-            <meta property="og:image" content="https://yourusername.github.io/rupesh-portfolio/assets/images/profile.jpg" />
+            <meta property="og:url" content="https://tipu0003.github.io/rupesh-portfolio/" />
+            <meta property="og:image" content="https://tipu0003.github.io/rupesh-portfolio/assets/images/profile.jpg" />
           </Helmet>
           <Header />
           <Routes>
@@ -45,7 +46,7 @@ function App() {
                 <Education />
                 <ProfessionalExperience />
                 <ResearchPublications />
-                <SkillsFlow />
+                <Skills />
                 <Memberships />
                 <CoursesTaught />
                 <ConferencePresentations />

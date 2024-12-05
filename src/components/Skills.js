@@ -1,25 +1,34 @@
-import React, { useEffect } from 'react';
+// src/components/Skills.js
+
+import React from 'react';
 import './Skills.css';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import {
+    FaTools,
+    FaProjectDiagram,
+    FaPython,
+    FaJava,
+    FaDatabase,
+    FaCogs,
+    FaDraftingCompass,
+    FaBuilding,
+    FaCalculator,
+    FaHammer,
+    FaCube
+} from 'react-icons/fa';
 
 function Skills() {
-    useEffect(() => {
-        AOS.init({ duration: 1000 });
-    }, []);
-
     const skills = [
-        'Structural Analysis',
-        'AutoCAD',
-        'Revit',
-        'MATLAB',
-        'Python',
-        'Concrete Design',
-        'Steel Design',
-        '3dsMax',
-        'Engineering Codes and Standards',
-        'Project Management',
-        'Construction Materials Testing',
+        { name: 'Structural Analysis', icon: <FaTools /> },
+        { name: 'AutoCAD', icon: <FaDraftingCompass /> },
+        { name: 'Revit', icon: <FaBuilding /> },
+        { name: 'MATLAB', icon: <FaCalculator /> },
+        { name: 'Python', icon: <FaPython /> },
+        { name: 'Concrete Design', icon: <FaHammer /> },
+        { name: 'Steel Design', icon: <FaCogs /> },
+        { name: '3ds Max', icon: <FaCube /> },
+        { name: 'Engineering Codes and Standards', icon: <FaDatabase /> },
+        { name: 'Project Management', icon: <FaProjectDiagram /> },
+        { name: 'Construction Materials Testing', icon: <FaTools /> },
     ];
 
     return (
@@ -30,34 +39,15 @@ function Skills() {
                     {skills.map((skill, index) => (
                         <div className="skill-item" key={index}>
                             <div className="skill-icon">
-                                {/* You can replace this with actual icons if available */}
-                                <span role="img" aria-label={skill}>{getSkillIcon(skill)}</span>
+                                {skill.icon}
                             </div>
-                            <div className="skill-name">{skill}</div>
+                            <div className="skill-name">{skill.name}</div>
                         </div>
                     ))}
                 </div>
             </div>
         </section>
     );
-}
-
-// Helper function to get an emoji or icon for each skill
-function getSkillIcon(skill) {
-    const icons = {
-        'Structural Analysis': '🧱',
-        'AutoCAD': '✏️',
-        'Revit': '🏗️',
-        'MATLAB': '📊',
-        'Python': '🐍',
-        'Concrete Design': '🏢',
-        'Steel Design': '⚙️',
-        '3dsMax': '🎨',
-        'Engineering Codes and Standards': '📚',
-        'Project Management': '📈',
-        'Construction Materials Testing': '🔬',
-    };
-    return icons[skill] || '🔧';
 }
 
 export default Skills;
