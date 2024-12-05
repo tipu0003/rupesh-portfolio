@@ -6,7 +6,6 @@ import {
     FaTools,
     FaProjectDiagram,
     FaPython,
-    FaJava,
     FaDatabase,
     FaCogs,
     FaDraftingCompass,
