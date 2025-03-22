@@ -18,15 +18,15 @@ function AboutMe() {
                     <div className="metrics-container">
                         <div className="metric">
                             <span className="metric-label">Total Citations:</span><br/>
-                            <span className="metric-value">307</span>
+                            <span className="metric-value">323</span>
                         </div>
                         <div className="metric">
                             <span className="metric-label">h-index:</span><br/>
-                            <span className="metric-value">10</span>
+                            <span className="metric-value">11</span>
                         </div>
                         <div className="metric">
                             <span className="metric-label">i10-index:</span><br/>
-                            <span className="metric-value">13</span>
+                            <span className="metric-value">14</span>
                         </div>
                     </div>
                 </div>
