@@ -14,7 +14,7 @@ function ProfessionalExperience() {
             position: 'Assistant Professor',
             from: '15/02/2023',
             to: 'Till date',
-            duration: '1 Year, 10 Months',
+            duration: '2 Years, 1 Month',
             responsibilities: [
                 'Responsible for teaching, mentoring, and assisting B.Tech Civil Engineering, CSE, and MCA students with their projects.',
                 'Hold the position of NAAC Criteria 1 Head at the School of Engineering & Technology level.',
