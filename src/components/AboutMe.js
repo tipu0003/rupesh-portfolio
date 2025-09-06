@@ -18,7 +18,7 @@ function AboutMe() {
                     <div className="metrics-container">
                         <div className="metric">
                             <span className="metric-label">Total Citations:</span><br/>
-                            <span className="metric-value">489</span>
+                            <span className="metric-value">516</span>
                         </div>
                         <div className="metric">
                             <span className="metric-label">h-index:</span><br/>
