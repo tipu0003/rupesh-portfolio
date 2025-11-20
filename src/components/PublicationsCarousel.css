@@ -1,0 +1,48 @@
+/* src/components/PublicationsCarousel.css */
+.pubs-hero {
+  margin: 24px 0 12px;
+}
+
+.pubs-strip {
+  background: linear-gradient(90deg, #0ea5e9, #8b5cf6);
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  padding: 8px 14px;
+  border-radius: 8px 8px 0 0;
+}
+
+.pubs-slide {
+  padding: 18px 16px 24px;
+  border: 1px solid #eef0f4;
+  border-top: none;
+  border-radius: 0 0 12px 12px;
+  background: #ffffff;
+}
+
+.pubs-title {
+  margin: 4px 0 8px;
+  line-height: 1.25;
+  font-size: 1.25rem; /* bump if your design allows */
+}
+
+.pubs-meta {
+  margin: 0 0 8px;
+  color: #475569; /* slate-600 */
+  font-size: 0.95rem;
+}
+
+.pubs-highlight {
+  margin: 0;
+  color: #0f172a; /* slate-900 */
+  font-size: 1rem;
+}
+
+.pubs-link-wrapper {
+  text-decoration: none;
+  color: inherit;
+}
+
+.slick-dots li button:before {
+  font-size: 10px;
+}

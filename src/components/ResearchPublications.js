@@ -6,6 +6,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Bar } from 'react-chartjs-2';
 import 'chart.js/auto';
+import PublicationsCarousel from "./PublicationsCarousel";
+
 
 function ResearchPublications() {
     useEffect(() => {
