@@ -1,6 +1,5 @@
 // src/App.js
-
-import React from 'react';
+import React, { useMemo } from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
@@ -16,40 +15,30 @@ import ConferencePresentations from './components/ConferencePresentations';
 import WorkshopsConducted from './components/WorkshopsConducted';
 import ContactForm from './components/ContactForm';
 import FeedbackForm from './components/FeedbackForm';
+import Skills from './components/Skills';
 import { Helmet } from 'react-helmet';
 import './App.css';
 import 'aos/dist/aos.css';
-import Skills from './components/Skills';
 
-// TEMP: example items for the top carousel.
-// Replace with your real publications or remove this prop later
-// to let PublicationsCarousel fetch /data/scholar.json.
-const pubsForHero = [
-  {
-    title:
-      'Calendar–Weather Fusion with Explainable Gradient Boosting for Smart-Home Appliance Energy Prediction',
-    year: 2024,
-    venue: 'Journal / Conference',
-    scholar_url: 'https://scholar.google.com/',
-    citations: 12,
-    highlight: 'Energy savings with explainable models'
-  },
-  {
-    title:
-      'Physics-Guided Monotone Gradient Boosting for Self-Compacting Concrete',
-    year: 2024,
-    venue: 'Journal / Conference',
-    citations: 9
-  },
-  {
-    title:
-      'AI-Driven Optimization for Chiller Plant Performance',
-    year: 2023,
-    venue: 'Journal / Conference'
-  }
-];
+// 🔗 single source of truth for publications
+import { publications } from './data/publications';
 
 function App() {
+  // pick “recent 5”: prefer addedAt, fallback to year, then keep stable order
+  const recentFive = useMemo(() => {
+    return [...publications]
+      .sort((a, b) => {
+        const ad = a.addedAt ? new Date(a.addedAt).getTime() : 0;
+        const bd = b.addedAt ? new Date(b.addedAt).getTime() : 0;
+        if (bd !== ad) return bd - ad;
+        const ay = a.year || 0;
+        const by = b.year || 0;
+        if (by !== ay) return by - ay;
+        return 0;
+      })
+      .slice(0, 5);
+  }, []);
+
   return (
     <Router>
       <div className="App">
@@ -80,12 +69,12 @@ function App() {
         {/* Top banner */}
         <Header />
 
-        {/* NEW: Carousel below header, above About Me */}
+        {/* Carousel below header, auto-fed with latest 5 */}
         <div
           className="top-carousel-wrap"
           style={{ maxWidth: '1000px', margin: '12px auto 24px', padding: '0 12px' }}
         >
-          <PublicationsCarousel publications={pubsForHero} />
+          <PublicationsCarousel publications={recentFive} />
         </div>
 
         <Routes>
@@ -98,6 +87,7 @@ function App() {
                 <ExperienceOverview />
                 <Education />
                 <ProfessionalExperience />
+                {/* Full list pulls from the same source (see note below) */}
                 <ResearchPublications />
                 <Skills />
                 <Memberships />
@@ -109,7 +99,6 @@ function App() {
               </>
             }
           />
-          {/* Redirect to home for undefined routes */}
           <Route path="*" element={<AboutMe />} />
         </Routes>
       </div>
