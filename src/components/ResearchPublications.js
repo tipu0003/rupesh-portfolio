@@ -5,7 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Bar } from 'react-chartjs-2';
 import 'chart.js/auto';
-import { PUBLICATIONS as publications } from '../data/publications';
+import { publications } from '../data/publications';
 
 function ResearchPublications() {
   useEffect(() => {
@@ -104,3 +104,4 @@ function ResearchPublications() {
 }
 
 export default ResearchPublications;
+
