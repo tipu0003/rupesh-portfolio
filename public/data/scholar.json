@@ -1,0 +1,508 @@
+{
+  "fetched_at": "2025-11-20T16:58:28.624096+00:00",
+  "scholar_id": "uZzLU8IAAAAJ",
+  "profile": {
+    "name": "Dr. Rupesh Kumar Tipu",
+    "affiliation": "Assistant Profesor, K.R. Mangalam University",
+    "interests": [
+      {
+        "title": "Structural optimization",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:structural_optimization",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Astructural_optimization"
+      },
+      {
+        "title": "Machine learning",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:machine_learning",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Amachine_learning"
+      },
+      {
+        "title": "Deep learning",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:deep_learning",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Adeep_learning"
+      },
+      {
+        "title": "Concrete",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:concrete",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Aconcrete"
+      }
+    ]
+  },
+  "metrics": {
+    "citations": null,
+    "citations_5y": null,
+    "h_index": null,
+    "h_index_5y": null,
+    "i10_index": null,
+    "i10_index_5y": null
+  },
+  "publications": [
+    {
+      "title": "Weighted-ensemble machine learning for simultaneous non-destructive prediction of rebound number and ultrasonic pulse velocity in concrete",
+      "year": 2025,
+      "venue": null,
+      "authors": "N Sharma, A Dewangan, N Singh, D Bhattacharya, S Paruthi, RK Tipu",
+      "citations": 1,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:bEWYMUwI8FkC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2911414432124064382"
+    },
+    {
+      "title": "Utilization of numerical and machine learning to predict the monotonic compressive response of square double-skin tubular columns (SDSTC)",
+      "year": 2025,
+      "venue": null,
+      "authors": "Y Ren, HF Isleem, A Jahami, RK Tipu",
+      "citations": 1,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:ZeXyd9-uunAC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7097102519722914657"
+    },
+    {
+      "title": "Time-Series Forecasting of Energy Consumption Using LSTM Networks for Optimized Microgrid Management",
+      "year": 2025,
+      "venue": null,
+      "authors": "KS Pandya, RK Tipu, JK Pandya",
+      "citations": 1,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:hFOr9nPyWt4C",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12716549929244897646"
+    },
+    {
+      "title": "Sustainability and economic evaluation of recycled aggregate geopolymer concrete using fly ash and slag",
+      "year": 2025,
+      "venue": null,
+      "authors": "MS Rawat, S Kaloni, RK Tipu, P Bhandari",
+      "citations": 1,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:isC4tDSrTZIC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14501089412372635752"
+    },
+    {
+      "title": "Predictive modelling of flexural strength in recycled aggregate-based concrete: A comprehensive approach with machine learning and global sensitivity analysis",
+      "year": 2025,
+      "venue": null,
+      "authors": "R Singh, RK Tipu, AA Mir, M Patel",
+      "citations": 23,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:Zph67rFs4hoC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3447831887356467476"
+    },
+    {
+      "title": "Predicting compressive and tensile strength of concrete with different sand types using machine learning",
+      "year": 2025,
+      "venue": null,
+      "authors": "TS Abdennaji, RK Tipu, Y Alassaf",
+      "citations": 1,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:R3hNpaxXUhUC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13203154909740306999"
+    },
+    {
+      "title": "Physics-informed neural networks for predicting sediment transport in pressurized pipe flows",
+      "year": 2025,
+      "venue": null,
+      "authors": "RK Tipu, R Bhakhar, KS Pandya, VR Panchal",
+      "citations": 1,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:e5wmG9Sq2KIC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9114733419299100856"
+    },
+    {
+      "title": "Optimizing sustainable blended concrete mixes using deep learning and multi-objective optimization",
+      "year": 2025,
+      "venue": null,
+      "authors": "RK Tipu, P Rathi, KS Pandya, VR Panchal",
+      "citations": 6,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:TQgYirikUcIC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14154306997162767486"
+    },
+    {
+      "title": "Learning Smarter, Not Harder: A Unified Strategy for Efficient Representation Learning with Limited Labels",
+      "year": 2025,
+      "venue": null,
+      "authors": "A Goyal, R Bhakhar, RK Tipu, S Singh",
+      "citations": null,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:M3NEmzRMIkIC",
+      "cluster_id": null
+    },
+    {
+      "title": "Interpretable GA-PSO-optimised deep learning for multi-objective geopolymer concrete strength prediction",
+      "year": 2025,
+      "venue": null,
+      "authors": "N Sharma, Seema, S Paruthi, RK Tipu",
+      "citations": null,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:iH-uZ7U-co4C",
+      "cluster_id": null
+    },
+    {
+      "title": "Integrated deep learning and bayesian optimization approach for enhanced prediction of high-performance concrete strength",
+      "year": 2025,
+      "venue": null,
+      "authors": "RK Tipu, A Goyal, D Singh, AKA Kumar",
+      "citations": 2,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:-f6ydRqryjwC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11101345715853039390"
+    },
+    {
+      "title": "Hybrid machine learning modelling and feature interpretation of load-carrying capacity of PVC tube-confined concrete columns",
+      "year": 2025,
+      "venue": null,
+      "authors": "RK Tipu, VK Verma",
+      "citations": null,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:mB3voiENLucC",
+      "cluster_id": null
+    },
+    {
+      "title": "Hybrid assessment of concrete with recycled aggregate using experiment and machine learning techniques for structural performance optimization",
+      "year": 2025,
+      "venue": null,
+      "authors": "S Paruthi, RK Tipu, N Nisar, N Nisar, M Waris, AH Khan",
+      "citations": null,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:JV2RwH3_ST0C",
+      "cluster_id": null
+    },
+    {
+      "title": "GA–PSO–optimised dual-path attention network for predicting strength of nano/micro-modified alkali-activated concrete",
+      "year": 2025,
+      "venue": null,
+      "authors": "N Sharma, A Dewangan, V Tiwari, N Singh, RK Tipu, S Paruthi",
+      "citations": 1,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:r0BpntZqJG4C",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11174202869850467744"
+    },
+    {
+      "title": "Ensemble machine learning models for predicting concrete compressive strength incorporating various sand types",
+      "year": 2025,
+      "venue": null,
+      "authors": "RK Tipu, S Bansal, V Batra, Suman, GA Patel",
+      "citations": 2,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:hC7cP41nSMkC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6218164332736168766"
+    },
+    {
+      "title": "Eco-strengthNet: a multi-objective, explainable ensemble and GUI for sustainable concrete optimisation",
+      "year": 2025,
+      "venue": null,
+      "authors": "M Vijarania, Swati, A Jatain, RK Tipu",
+      "citations": 1,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:TFP_iSt0sucC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15043038669883538194"
+    },
+    {
+      "title": "Deep Learning and Optimization Techniques for Sentiment-Driven Stock Market Prediction Using Transformer Models",
+      "year": 2025,
+      "venue": null,
+      "authors": "V Batra, RK Tipu",
+      "citations": null,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:maZDTaKrznsC",
+      "cluster_id": null
+    },
+    {
+      "title": "An enhanced weighted ensemble approach for predicting concrete compressive strength",
+      "year": 2025,
+      "venue": null,
+      "authors": "RK Tipu, V Batra, Suman, KS Pandya",
+      "citations": null,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:RHpTSmoSYBkC",
+      "cluster_id": null
+    },
+    {
+      "title": "An ANN-based approach for estimating load capacity and strain in FRP confined concrete columns",
+      "year": 2025,
+      "venue": null,
+      "authors": "L Shang, HF Isleem, SA Yehia, RK Tipu, K El Hindi",
+      "citations": 1,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:j3f4tGmQtD8C",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14127364889126295416"
+    },
+    {
+      "title": "Advancing Water Quality Management: An Integrated Approach Using Ensemble Machine Learning and Real-Time Interactive Visualization",
+      "year": 2025,
+      "venue": null,
+      "authors": "JK Pandya, SS Khandelwal, RK Tipu, KS Pandya",
+      "citations": 3,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:_Qo2XoVZTnwC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13514470212643527256"
+    },
+    {
+      "title": "AI based predictive modelling for compressive strength of metakaolin-based geopolymer concrete incorporated with Nano Titanium",
+      "year": 2025,
+      "venue": null,
+      "authors": "S Paruthi, YY Raghav, P Kumari, R Kumar Tipu, N Sharma",
+      "citations": 5,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:k_IJM867U9cC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3887769350501196880"
+    },
+    {
+      "title": "A hybrid deep learning and evolutionary framework for energy-aware interior augmentation via photorealistic visual illusions",
+      "year": 2025,
+      "venue": null,
+      "authors": "Y Liu, HF Isleem, RK Tipu, K El Hindi",
+      "citations": null,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:hMod-77fHWUC",
+      "cluster_id": null
+    },
+    {
+      "title": "The future of digital marketing: Leveraging artificial intelligence for competitive strategies and tactics",
+      "year": 2024,
+      "venue": null,
+      "authors": "YY Raghav, RK Tipu, R Bhakhar, T Gupta, K Sharma",
+      "citations": 25,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:UebtZRa9Y70C",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8967265092095142063"
+    },
+    {
+      "title": "Repurposing plastic waste: Experimental study and predictive analysis using machine learning in bricks",
+      "year": 2024,
+      "venue": null,
+      "authors": "P Lamba, DP Kaur, S Raj, RK Tipu, J Sorout, A Malik, AA Khan",
+      "citations": 14,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:4TOpqqG69KYC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3208443279381877988"
+    },
+    {
+      "title": "Prognosis of flow of fly ash and blast furnace slag-based concrete: leveraging advanced machine learning algorithms",
+      "year": 2024,
+      "venue": null,
+      "authors": "R Kumar, A Rathore, R Singh, AA Mir, RK Tipu, M Patel",
+      "citations": 27,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:Se3iqnhoufwC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15964436477055143585"
+    },
+    {
+      "title": "Predictive modelling of surface chloride concentration in marine concrete structures: a comparative analysis of machine learning approaches",
+      "year": 2024,
+      "venue": null,
+      "authors": "RK Tipu, V Batra, Suman, VR Panchal, KS Pandya",
+      "citations": 22,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:eQOLeE2rZwMC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8220992244604285581"
+    },
+    {
+      "title": "Predictive modeling of shear strength in fiber-reinforced cementitious matrix-strengthened RC beams using machine learning",
+      "year": 2024,
+      "venue": null,
+      "authors": "RK Tipu, V Batra, Suman",
+      "citations": 6,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:3fE2CSJIrl8C",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8037071394629318838"
+    },
+    {
+      "title": "Predictive Modeling of Shear Capacity for FRCM-Strengthened RC Beams using MLP Neural Networks and Global Sensitivity Analysis for Sustainable Construction",
+      "year": 2024,
+      "venue": null,
+      "authors": "OA Shah, RK Tipu, S Vats, S Purohit, S Bansal, AK Yadav, A Verma",
+      "citations": null,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:HDshCWvjkbEC",
+      "cluster_id": null
+    },
+    {
+      "title": "Predictive Modeling of Compressive Strength in Coconut Shell-Embedded Concrete Using Ensemble Regression Models",
+      "year": 2024,
+      "venue": null,
+      "authors": "RK Tipu, OA Shah, S Vats, A Tomar, IA Khan, P Whig, KB Ali, A Verma",
+      "citations": null,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:IWHjjKOFINEC",
+      "cluster_id": null
+    },
+    {
+      "title": "Prediction of Flexural Strength for Coconut Shell Embedded Concrete using Machine Learning Technique",
+      "year": 2024,
+      "venue": null,
+      "authors": "RK Tipu, OA Shah, S Vats, T Ahmed, P Singh, A Verma",
+      "citations": null,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:7PzlFSSx8tAC",
+      "cluster_id": null
+    },
+    {
+      "title": "Predicting compressive strength of concrete with iron waste: A BPNN approach",
+      "year": 2024,
+      "venue": null,
+      "authors": "RK Tipu, V Batra, Suman, KS Pandya, VR Panchal",
+      "citations": 10,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:M3ejUd6NZC8C",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14987151742200572279"
+    },
+    {
+      "title": "Predicting Concrete Flow Using Advanced Machine Learning Techniques: Insights and Applications",
+      "year": 2024,
+      "venue": null,
+      "authors": "RK Tipu, OA Shah, S Vats, A Tomar, MA Sohail, A Verma",
+      "citations": 1,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:dhFuZR0502QC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=212708324337132275"
+    },
+    {
+      "title": "Optimizing compressive strength in sustainable concrete: a machine learning approach with iron waste integration",
+      "year": 2024,
+      "venue": null,
+      "authors": "RK Tipu, V Batra, Suman, VR Panchal, KS Pandya, GA Patel",
+      "citations": 14,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:KlAtU1dfN6UC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13928646486464976929"
+    },
+    {
+      "title": "Numerical and machine learning models for concentrically and eccentrically loaded CFST columns confined with FRP wraps",
+      "year": 2024,
+      "venue": null,
+      "authors": "C Xu, Y Zhang, HF Isleem, D Qiu, Y Zhang, MM Alsaadawi, RK Tipu, ...",
+      "citations": 27,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:mVmsd5A6BfQC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12666589679391730786"
+    },
+    {
+      "title": "Machine learning-based prediction of concrete strengths with coconut shell as partial coarse aggregate replacement: A comprehensive analysis and sensitivity study",
+      "year": 2024,
+      "venue": null,
+      "authors": "RK Tipu, VR Panchal, KS Pandya",
+      "citations": 5,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:8k81kl-MbHgC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=661017327647110192"
+    },
+    {
+      "title": "Machine learning-based prediction of concrete strength properties with coconut shell as partial aggregate replacement: A sustainable approach in construction engineering",
+      "year": 2024,
+      "venue": null,
+      "authors": "RK Tipu, R Arora, K Kumar",
+      "citations": 22,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:5nxA0vEk-isC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10675367468996536258"
+    },
+    {
+      "title": "Influence of machine learning approaches for partial replacement of cement content through waste in construction sector",
+      "year": 2024,
+      "venue": null,
+      "authors": "K Kumar, R Arora, RK Tipu, S Dixit, N Vatin, S Arya",
+      "citations": 6,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:MXK_kJrjxJIC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3525291420056612951"
+    },
+    {
+      "title": "Enhancing prediction accuracy of workability and compressive strength of high-performance concrete through extended dataset and improved machine learning models",
+      "year": 2024,
+      "venue": null,
+      "authors": "RK Tipu, Suman, V Batra",
+      "citations": 29,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:W7OEmFMy1HYC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11155875182338173324"
+    },
+    {
+      "title": "Enhancing chloride concentration prediction in marine concrete using conjugate gradient-optimized backpropagation neural network",
+      "year": 2024,
+      "venue": null,
+      "authors": "RK Tipu, VR Panchal, KS Pandya",
+      "citations": 24,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:YsMSGLbcyi4C",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17270043236934423485"
+    },
+    {
+      "title": "Enhancing Concrete Properties Through the Integration of Recycled Coarse Aggregate: A Machine Learning Approach for Sustainable Construction",
+      "year": 2024,
+      "venue": null,
+      "authors": "SVSP R. K. Tipu, O. A. Shah",
+      "citations": 11,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:ULOm3_A8WrAC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7196201061432103944"
+    },
+    {
+      "title": "Deep Learning Projections for High-Performance Concrete Strength Forecasting",
+      "year": 2024,
+      "venue": null,
+      "authors": "RK Tipu, OA Shah, S Vats, S Arora",
+      "citations": 9,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:YOwf2qJgpHMC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5664948550351059663"
+    },
+    {
+      "title": "Compressive behavior of elliptical concrete-filled steel tubular short columns using numerical investigation and machine learning techniques",
+      "year": 2024,
+      "venue": null,
+      "authors": "HS Mohamed, T Qiong, HF Isleem, RK Tipu, RI Shahin, SA Yehia, ...",
+      "citations": 43,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:L8Ckcad2t8MC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10666688516791823088"
+    },
+    {
+      "title": "Shear capacity prediction for FRCM-strengthened RC beams using Hybrid ReLU-Activated BPNN model",
+      "year": 2023,
+      "venue": null,
+      "authors": "RK Tipu, V Batra, KS Pandya, VR Panchal",
+      "citations": 27,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:roLk4NBRz8UC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8258569092541896291"
+    },
+    {
+      "title": "Parametric investigation of coconut shells as partial replacement of coarse aggregates in sustainable concrete",
+      "year": 2023,
+      "venue": null,
+      "authors": "R Arora, K Kumar, S Dixit, RK Tipu, P Kaul, S Chauhan, YK Raju, ...",
+      "citations": 5,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:_FxGoFyzp5QC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2029866493471795014"
+    },
+    {
+      "title": "Multi-objective optimized high-strength concrete mix design using a hybrid machine learning and metaheuristic algorithm",
+      "year": 2023,
+      "venue": null,
+      "authors": "RK Tipu, VR Panchal, KS Pandya",
+      "citations": 34,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:Y0pCki6q_DkC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1342161822856283884"
+    },
+    {
+      "title": "Multi-objective optimization of the concrete mixture blended with mineral admixture using machine learning and NSGA-II algorithms",
+      "year": 2023,
+      "venue": null,
+      "authors": "RK Tipu, VR Panchal, KS Pandya",
+      "citations": 5,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:zYLM7Y9cAGgC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7161633836492515962"
+    },
+    {
+      "title": "Enhancing load capacity prediction of column using eReLU-activated BPNN model",
+      "year": 2023,
+      "venue": null,
+      "authors": "RK Tipu, V Batra, KS Pandya, VR Panchal",
+      "citations": 26,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:0EnyYjriUFMC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2155410253485249004"
+    },
+    {
+      "title": "Efficient compressive strength prediction of concrete incorporating recycled coarse aggregate using Newton’s boosted backpropagation neural network (NB-BPNN)",
+      "year": 2023,
+      "venue": null,
+      "authors": "RK Tipu, V Batra, KS Pandya, VR Panchal",
+      "citations": 37,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:hqOjcs7Dif8C",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4914544626005827811"
+    },
+    {
+      "title": "Development of a hybrid stacked machine learning model for predicting compressive strength of high-performance concrete",
+      "year": 2023,
+      "venue": null,
+      "authors": "RK Tipu, Suman, V Batra",
+      "citations": 33,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:Tyk-4Ss8FVUC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15701879156615345808"
+    },
+    {
+      "title": "Ann-based scalable video encoding method for crime surveillance-intelligence of things applications",
+      "year": 2023,
+      "venue": null,
+      "authors": "R Agarwal, P Pathak, RK Tipu, D Singh, A Kalnawat, D Dhabliya",
+      "citations": 6,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:ufrVoPGSRksC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10863294532920350135"
+    },
+    {
+      "title": "Prediction of concrete properties using machine learning algorithm",
+      "year": 2022,
+      "venue": null,
+      "authors": "RK Tipu, VR Panchal, KS Pandya",
+      "citations": 29,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:u-x6o8ySG0sC",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5376530548783796414"
+    },
+    {
+      "title": "An ensemble approach to improve BPNN model precision for predicting compressive strength of high-performance concrete",
+      "year": 2022,
+      "venue": null,
+      "authors": "RK Tipu, VR Panchal, KS Pandya",
+      "citations": 71,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uZzLU8IAAAAJ&pagesize=100&citation_for_view=uZzLU8IAAAAJ:u5HHmVD_uO8C",
+      "cluster_id": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2975108342559278123"
+    }
+  ]
+}
