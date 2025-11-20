@@ -9,7 +9,8 @@ function AboutMe() {
   });
 
   useEffect(() => {
-    const url = (process.env.PUBLIC_URL || '') + '/data/scholar.json';
+    const url = (process.env.PUBLIC_URL || '') + '/data/scholar.json?v=' + Date.now();
+
     fetch(url)
       .then((r) => (r.ok ? r.json() : null))
       .then((json) => {
