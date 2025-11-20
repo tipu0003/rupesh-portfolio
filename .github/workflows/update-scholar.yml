@@ -2,12 +2,17 @@ name: Update Google Scholar data
 
 on:
   schedule:
-    - cron: "15 2 * * *"  # daily ~07:45 IST
+    - cron: "15 2 * * *"   # daily 07:45 IST
   workflow_dispatch:
+
+# allow this job to push scholar.json back to the repo
+permissions:
+  contents: write
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -20,19 +25,20 @@ jobs:
       - name: Install deps
         run: |
           python -m pip install --upgrade pip
-          pip install scholarly==1.7.11
+          pip install scholarly==1.7.11 google-search-results==2.4.2
 
       - name: Fetch Scholar profile
         env:
           SCHOLAR_USER_ID: ${{ secrets.SCHOLAR_USER_ID }}
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}   # optional; add if you set it
         run: |
           python scripts/fetch_scholar.py
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain)" ]; then
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain)" ]]; then
             git add public/data/scholar.json
             git commit -m "chore(data): update scholar.json"
             git push
