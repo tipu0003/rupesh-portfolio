@@ -36,7 +36,7 @@ function App() {
     let seq = 0;
     const flat = [];
 
-    (PUBLICATIONS['Journal Articles'] || []).forEach((p) => {
+    (publications['Journal Articles'] || []).forEach((p) => {
       flat.push({
         title: p.title,
         year: p.year || 0,
@@ -48,7 +48,7 @@ function App() {
       });
     });
 
-    (PUBLICATIONS['Conference Proceedings'] || []).forEach((p) => {
+    (publications['Conference Proceedings'] || []).forEach((p) => {
       flat.push({
         title: p.title,
         year: p.year || 0,
@@ -60,7 +60,7 @@ function App() {
       });
     });
 
-    (PUBLICATIONS['Patents'] || []).forEach((p) => {
+   (publications['Patents'] || []).forEach((p) => {
       flat.push({
         title: p.title,
         year: p.year || 0,
