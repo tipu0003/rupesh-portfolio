@@ -1,0 +1,41 @@
+name: Update Google Scholar data
+
+on:
+  schedule:
+    - cron: "15 2 * * *"  # daily ~07:45 IST
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install scholarly==1.7.11
+
+      - name: Fetch Scholar profile
+        env:
+          SCHOLAR_USER_ID: ${{ secrets.SCHOLAR_USER_ID }}
+        run: |
+          python scripts/fetch_scholar.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add public/data/scholar.json
+            git commit -m "chore(data): update scholar.json"
+            git push
+          else
+            echo "No changes to commit."
+          fi
