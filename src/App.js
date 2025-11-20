@@ -21,7 +21,7 @@ import './App.css';
 import 'aos/dist/aos.css';
 
 // 🔗 single source of truth
-import { PUBLICATIONS } from './data/publications';
+import { publications } from './data/publications';
 
 function App() {
   const recentFive = useMemo(() => {
