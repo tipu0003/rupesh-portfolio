@@ -8,7 +8,7 @@
  * @property {string[]} authors               // short names in order
  * @property {number} year
  * @property {string} venue                   // Source title (journal / conference / book)
- * @property {"Article"|"Conference paper"|"Book chapter"} type
+ * @property {"Article"|"Conference paper"|"Book chapter"|"Patent"} type
  * @property {string=} volume
  * @property {string=} issue
  * @property {string=} articleNumber
@@ -22,7 +22,7 @@
  * @property {string=} isbn
  */
 
-const publications /** @type {Publication[]} */ = [
+const publicationsFlat /** @type {Publication[]} */ = [
   {
     title:
       "Hybrid assessment of concrete with recycled aggregate using experiment and machine learning techniques for structural performance optimization",
@@ -847,4 +847,77 @@ const publications /** @type {Publication[]} */ = [
   // arrays or add fields like `isOpenAccess` per item for badge rendering.
 ];
 
+// ---- build grouped object expected by the UI ----
+const joinAuthors = (a) => Array.isArray(a) ? a.join(', ') : (a || '');
+
+const publications = {
+  'Journal Articles': publicationsFlat
+    .filter(p => p.type === 'Article')
+    .map(p => ({
+      title: p.title,
+      authors: joinAuthors(p.authors),
+      year: p.year,
+      journal: p.venue || '',
+      volume: p.volume,
+      issue: p.issue,
+      pages: p.pages,
+      articleNumber: p.articleNumber,
+      doi: p.doi,
+      url: p.url,
+      publisher: p.publisher,
+      issn: p.issn,
+      date: p.date, // optional "DD-MM-YYYY" if present
+    })),
+
+  'Conference Proceedings': publicationsFlat
+    .filter(p => (p.type || '').toLowerCase().includes('conference'))
+    .map(p => ({
+      title: p.title,
+      authors: joinAuthors(p.authors),
+      year: p.year,
+      conference: p.venue || '',
+      publisher: p.publisher,
+      volume: p.volume,
+      issue: p.issue,
+      pages: p.pages,
+      articleNumber: p.articleNumber,
+      doi: p.doi,
+      url: p.url,
+      eid: p.eid,
+      date: p.date,
+    })),
+
+  'Book Chapters': publicationsFlat
+    .filter(p => p.type === 'Book chapter')
+    .map(p => ({
+      title: p.title,
+      authors: joinAuthors(p.authors),
+      year: p.year,
+      book: p.venue || '',
+      publisher: p.publisher,
+      pages: p.pages,
+      doi: p.doi,
+      url: p.url,
+      isbn: p.isbn,
+      date: p.date,
+    })),
+
+  'Patents': publicationsFlat
+    .filter(p => p.type === 'Patent')
+    .map(p => ({
+      title: p.title,
+      authors: joinAuthors(p.authors),
+      year: p.year,
+      country: p.country,
+      patentNumber: p.patentNumber,
+      status: p.status,
+      doi: p.doi,
+      url: p.url,
+      date: p.date,
+    })),
+};
+
+// Named + default exports
+export { publications, publicationsFlat };
 export default publications;
+
