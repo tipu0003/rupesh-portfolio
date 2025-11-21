@@ -40,15 +40,15 @@ function AboutMe() {
           <div className="metrics-container">
             <div className="metric">
               <span className="metric-label">Total Citations:</span><br/>
-              <span className="metric-value">{metrics.citations ?? '—'}</span>
+              <span className="metric-value">618</span>
             </div>
             <div className="metric">
               <span className="metric-label">h-index:</span><br/>
-              <span className="metric-value">{metrics.h_index ?? '—'}</span>
+              <span className="metric-value">16</span>
             </div>
             <div className="metric">
               <span className="metric-label">i10-index:</span><br/>
-              <span className="metric-value">{metrics.i10_index ?? '—'}</span>
+              <span className="metric-value">20</span>
             </div>
           </div>
         </div>
