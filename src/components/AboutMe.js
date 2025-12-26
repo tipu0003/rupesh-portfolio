@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import './AboutMe.css';
 
 function AboutMe() {
-  // Static target values (your real metrics)
+  // Static target values
   const targetMetrics = useMemo(
     () => ({
       citations: 674,
@@ -12,23 +12,25 @@ function AboutMe() {
     []
   );
 
-  // Displayed values (start from 0 for animation)
+  // Display values (animated from 0)
   const [metrics, setMetrics] = useState({
     citations: 0,
     h_index: 0,
     i10_index: 0,
   });
 
+  // Pulse trigger (adds CSS class briefly)
+  const [pulse, setPulse] = useState(false);
+
   const boxRef = useRef(null);
   const startedRef = useRef(false);
 
   useEffect(() => {
-    // Respect user's OS reduced-motion preference
     const prefersReducedMotion =
       window.matchMedia &&
       window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-    // If reduced motion, show final numbers immediately
+    // If reduced motion, show final numbers immediately (no pulse)
     if (prefersReducedMotion) {
       setMetrics(targetMetrics);
       return;
@@ -38,14 +40,19 @@ function AboutMe() {
     if (!el) return;
 
     let rafId = 0;
+    let pulseTimeoutId = 0;
+
+    const triggerPulse = () => {
+      setPulse(true);
+      pulseTimeoutId = window.setTimeout(() => setPulse(false), 520);
+    };
 
     const animateCounts = (durationMs = 1200) => {
       const start = performance.now();
 
       const tick = (now) => {
         const t = Math.min((now - start) / durationMs, 1);
-        // Ease-out cubic
-        const eased = 1 - Math.pow(1 - t, 3);
+        const eased = 1 - Math.pow(1 - t, 3); // ease-out cubic
 
         setMetrics({
           citations: Math.round(eased * targetMetrics.citations),
@@ -53,7 +60,13 @@ function AboutMe() {
           i10_index: Math.round(eased * targetMetrics.i10_index),
         });
 
-        if (t < 1) rafId = requestAnimationFrame(tick);
+        if (t < 1) {
+          rafId = requestAnimationFrame(tick);
+        } else {
+          // ensure final values + pulse
+          setMetrics(targetMetrics);
+          triggerPulse();
+        }
       };
 
       rafId = requestAnimationFrame(tick);
@@ -75,6 +88,7 @@ function AboutMe() {
     return () => {
       observer.disconnect();
       cancelAnimationFrame(rafId);
+      window.clearTimeout(pulseTimeoutId);
     };
   }, [targetMetrics]);
 
@@ -83,35 +97,33 @@ function AboutMe() {
       <div className="container">
         <h2>About Me</h2>
         <p>
-          I am an Assistant Professor at K. R. Mangalam University with over 10 years
-          of teaching experience and 5 years of research experience in Structural
-          Engineering. I specialize in Structural Engineering and have authored
-          multiple reputed research articles in the field. My research interests focus
-          on advanced structural analysis, design of concrete structures, developing
-          machine & deep learning predictive models, optimization, and sustainable
+          I am an Assistant Professor at K. R. Mangalam University with over 10 years of teaching
+          experience and 5 years of research experience in Structural Engineering. I specialize in
+          Structural Engineering and have authored multiple reputed research articles in the field.
+          My research interests focus on advanced structural analysis, design of concrete structures,
+          developing machine & deep learning predictive models, optimization, and sustainable
           construction materials.
         </p>
 
-        {/* Scholarly Metrics At-a-Glance */}
         <div ref={boxRef} className="scholarly-metrics-box">
           <div className="metrics-header">Scholarly Metrics At-a-Glance</div>
 
           <div className="metrics-container">
-            <div className="metric">
+            <div className={`metric ${pulse ? 'metric-pulse' : ''}`}>
               <div className="metric-icon" aria-hidden="true">📚</div>
               <span className="metric-label">Total Citations</span>
               <span className="metric-value">{metrics.citations}</span>
               <span className="metric-subtext">Across published work</span>
             </div>
 
-            <div className="metric">
+            <div className={`metric ${pulse ? 'metric-pulse' : ''}`}>
               <div className="metric-icon" aria-hidden="true">📈</div>
               <span className="metric-label">h-index</span>
               <span className="metric-value">{metrics.h_index}</span>
               <span className="metric-subtext">Impact indicator</span>
             </div>
 
-            <div className="metric">
+            <div className={`metric ${pulse ? 'metric-pulse' : ''}`}>
               <div className="metric-icon" aria-hidden="true">🏅</div>
               <span className="metric-label">i10-index</span>
               <span className="metric-value">{metrics.i10_index}</span>
