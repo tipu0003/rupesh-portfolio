@@ -1,5 +1,3 @@
-/* src/components/AboutMe.css */
-
 .about-me {
   padding: 60px 20px;
   background-color: #f5f5f5;
@@ -23,7 +21,6 @@
   color: #333;
 }
 
-/* Scholarly Metrics At-a-Glance */
 .scholarly-metrics-box {
   margin-top: 30px;
   border-radius: 16px;
@@ -67,7 +64,6 @@
   overflow: hidden;
 }
 
-/* entrance stagger */
 .metric:nth-child(1) { animation-delay: 0ms; }
 .metric:nth-child(2) { animation-delay: 120ms; }
 .metric:nth-child(3) { animation-delay: 240ms; }
@@ -108,7 +104,7 @@
   opacity: 0.9;
 }
 
-/* Small glow pulse overlay (does NOT override popIn animation) */
+/* Glow pulse overlay */
 .metric::after {
   content: "";
   position: absolute;
@@ -149,7 +145,6 @@
   }
 }
 
-/* Reduce motion accessibility */
 @media (prefers-reduced-motion: reduce) {
   .metric {
     animation: none;
@@ -160,7 +155,6 @@
   }
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .metrics-container {
     grid-template-columns: 1fr;
