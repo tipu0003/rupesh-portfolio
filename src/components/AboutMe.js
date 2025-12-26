@@ -3,9 +3,9 @@ import './AboutMe.css';
 
 function AboutMe() {
   const [metrics] = useState({
-    citations: 588,
-    h_index: 16,
-    i10_index: 20,
+    citations: 674,
+    h_index: 17,
+    i10_index: 21,
   });
 
   return (
