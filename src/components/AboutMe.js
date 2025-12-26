@@ -1,30 +1,12 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import './AboutMe.css';
 
 function AboutMe() {
-  const [metrics, setMetrics] = useState({
+  const [metrics] = useState({
     citations: 588,
     h_index: 16,
     i10_index: 20,
   });
-
-  useEffect(() => {
-    const url = (process.env.PUBLIC_URL || '') + '/data/scholar.json?v=' + Date.now();
-
-    fetch(url)
-      .then((r) => (r.ok ? r.json() : null))
-      .then((json) => {
-        if (json?.metrics) {
-          setMetrics({
-            citations: json.metrics.citations ?? metrics.citations,
-            h_index: json.metrics.h_index ?? metrics.h_index,
-            i10_index: json.metrics.i10_index ?? metrics.i10_index,
-          });
-        }
-      })
-      .catch(() => {});
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
 
   return (
     <section id="about" className="about-me" data-aos="fade-up">
@@ -39,16 +21,19 @@ function AboutMe() {
           <div className="metrics-header">Scholarly Metrics At-a-Glance</div>
           <div className="metrics-container">
             <div className="metric">
-              <span className="metric-label">Total Citations:</span><br/>
-              <span className="metric-value">618</span>
+              <span className="metric-label">Total Citations:</span>
+              <br />
+              <span className="metric-value">{metrics.citations}</span>
             </div>
             <div className="metric">
-              <span className="metric-label">h-index:</span><br/>
-              <span className="metric-value">16</span>
+              <span className="metric-label">h-index:</span>
+              <br />
+              <span className="metric-value">{metrics.h_index}</span>
             </div>
             <div className="metric">
-              <span className="metric-label">i10-index:</span><br/>
-              <span className="metric-value">20</span>
+              <span className="metric-label">i10-index:</span>
+              <br />
+              <span className="metric-value">{metrics.i10_index}</span>
             </div>
           </div>
         </div>
