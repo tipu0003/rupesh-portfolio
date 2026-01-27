@@ -5,9 +5,9 @@ function AboutMe() {
   // Scholarly metrics (static targets)
   const targetMetrics = useMemo(
     () => ({
-      citations: 674,
+      citations: 741,
       h_index: 17,
-      i10_index: 21,
+      i10_index: 23,
     }),
     []
   );
