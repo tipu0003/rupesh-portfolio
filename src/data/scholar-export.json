@@ -1,0 +1,372 @@
+[
+  {
+    "title": "An ensemble approach to improve BPNN model precision for predicting compressive strength of high-performance concrete",
+    "authors": [
+      "Tipu, Rupesh Kumar",
+      "Panchal, VR",
+      "Pandya, KS"
+    ],
+    "year": 2022,
+    "venue": "Structures",
+    "type": "Journal article",
+    "volume": "45",
+    "issue": "",
+    "pages": "500-508",
+    "publisher": "Elsevier",
+    "source": "Scholar export",
+    "url": "https://scholar.google.com/scholar?q=%22An+ensemble+approach+to+improve+BPNN+model+precision+for+predicting+compressive+strength+of+high-performance+concrete%22"
+  },
+  {
+    "title": "Prediction of concrete properties using machine learning algorithm",
+    "authors": [
+      "Tipu, Rupesh Kumar",
+      "Panchal, VR",
+      "Pandya, KS"
+    ],
+    "year": 2022,
+    "venue": "Journal of physics: conference series",
+    "type": "Conference paper",
+    "volume": "2273",
+    "issue": "1",
+    "pages": "012016",
+    "publisher": "IOP Publishing",
+    "source": "Scholar export",
+    "url": "https://scholar.google.com/scholar?q=%22Prediction+of+concrete+properties+using+machine+learning+algorithm%22"
+  },
+  {
+    "title": "Development of a hybrid stacked machine learning model for predicting compressive strength of high-performance concrete",
+    "authors": [
+      "Tipu, Rupesh Kumar",
+      "Suman",
+      "Batra, Vandna"
+    ],
+    "year": 2023,
+    "venue": "Asian Journal of Civil Engineering",
+    "type": "Journal article",
+    "volume": "24",
+    "issue": "8",
+    "pages": "2985-3000",
+    "publisher": "Springer International Publishing, Cham",
+    "source": "Scholar export",
+    "url": "https://scholar.google.com/scholar?q=%22Development+of+a+hybrid+stacked+machine+learning+model+for+predicting+compressive+strength+of+high-performance+concrete%22"
+  },
+  {
+    "title": "Multi-objective optimized high-strength concrete mix design using a hybrid machine learning and metaheuristic algorithm",
+    "authors": [
+      "Tipu, Rupesh Kumar",
+      "Panchal, VR",
+      "Pandya, KS"
+    ],
+    "year": 2023,
+    "venue": "Asian Journal of Civil Engineering",
+    "type": "Journal article",
+    "volume": "24",
+    "issue": "3",
+    "pages": "849-867",
+    "publisher": "Springer",
+    "source": "Scholar export",
+    "url": "https://scholar.google.com/scholar?q=%22Multi-objective+optimized+high-strength+concrete+mix+design+using+a+hybrid+machine+learning+and+metaheuristic+algorithm%22"
+  },
+  {
+    "title": "Enhancing prediction accuracy of workability and compressive strength of high-performance concrete through extended dataset and improved machine learning models",
+    "authors": [
+      "Tipu, Rupesh Kumar",
+      "Suman",
+      "Batra, Vandna"
+    ],
+    "year": 2024,
+    "venue": "Asian Journal of Civil Engineering",
+    "type": "Journal article",
+    "volume": "25",
+    "issue": "1",
+    "pages": "197-218",
+    "publisher": "Springer International Publishing, Cham",
+    "source": "Scholar export",
+    "url": "https://scholar.google.com/scholar?q=%22Enhancing+prediction+accuracy+of+workability+and+compressive+strength+of+high-performance+concrete+through+extended+dataset+and+improved+machine+learning+models%22"
+  },
+  {
+    "title": "Enhancing chloride concentration prediction in marine concrete using conjugate gradient-optimized backpropagation neural network",
+    "authors": [
+      "Tipu, Rupesh Kumar",
+      "Panchal, VR",
+      "Pandya, KS"
+    ],
+    "year": 2024,
+    "venue": "Asian Journal of Civil Engineering",
+    "type": "Journal article",
+    "volume": "25",
+    "issue": "1",
+    "pages": "637-656",
+    "publisher": "Springer International Publishing, Cham",
+    "source": "Scholar export",
+    "url": "https://scholar.google.com/scholar?q=%22Enhancing+chloride+concentration+prediction+in+marine+concrete+using+conjugate+gradient-optimized+backpropagation+neural+network%22"
+  },
+  {
+    "title": "Predictive modelling of surface chloride concentration in marine concrete structures: a comparative analysis of machine learning approaches",
+    "authors": [
+      "Tipu, Rupesh Kumar",
+      "Batra, Vandna",
+      "Suman",
+      "Panchal, VR",
+      "Pandya, KS"
+    ],
+    "year": 2024,
+    "venue": "Asian Journal of Civil Engineering",
+    "type": "Journal article",
+    "volume": "25",
+    "issue": "2",
+    "pages": "1443-1465",
+    "publisher": "Springer International Publishing, Cham",
+    "source": "Scholar export",
+    "url": "https://scholar.google.com/scholar?q=%22Predictive+modelling+of+surface+chloride+concentration+in+marine+concrete+structures%3A+a+comparative+analysis+of+machine+learning+approaches%22"
+  },
+  {
+    "title": "Shear capacity prediction for FRCM-strengthened RC beams using Hybrid ReLU-Activated BPNN model",
+    "authors": [
+      "Tipu, Rupesh Kumar",
+      "Batra, Vandna",
+      "Pandya, KS",
+      "Panchal, VR"
+    ],
+    "year": 2023,
+    "venue": "Structures",
+    "type": "Journal article",
+    "volume": "58",
+    "issue": "",
+    "pages": "105432",
+    "publisher": "Elsevier",
+    "source": "Scholar export",
+    "url": "https://scholar.google.com/scholar?q=%22Shear+capacity+prediction+for+FRCM-strengthened+RC+beams+using+Hybrid+ReLU-Activated+BPNN+model%22"
+  },
+  {
+    "title": "Prognosis of flow of fly ash and blast furnace slag-based concrete: leveraging advanced machine learning algorithms",
+    "authors": [
+      "Kumar, Rahul",
+      "Rathore, Ayush",
+      "Singh, Rajwinder",
+      "Mir, Ajaz Ahmad",
+      "Tipu, Rupesh Kumar",
+      "Patel, Mahesh"
+    ],
+    "year": 2024,
+    "venue": "Asian Journal of Civil Engineering",
+    "type": "Journal article",
+    "volume": "25",
+    "issue": "3",
+    "pages": "2483-2497",
+    "publisher": "Springer International Publishing, Cham",
+    "source": "Scholar export",
+    "url": "https://scholar.google.com/scholar?q=%22Prognosis+of+flow+of+fly+ash+and+blast+furnace+slag-based+concrete%3A+leveraging+advanced+machine+learning+algorithms%22"
+  },
+  {
+    "title": "The future of digital marketing: Leveraging artificial intelligence for competitive strategies and tactics",
+    "authors": [
+      "Raghav, Yogita Yashveer",
+      "Tipu, Rupesh Kumar",
+      "Bhakhar, Ruchika",
+      "Gupta, Tanu",
+      "Sharma, Kriti"
+    ],
+    "year": 2024,
+    "venue": "The use of artificial intelligence in digital marketing: Competitive strategies and tactics",
+    "type": "Journal article",
+    "volume": "",
+    "issue": "",
+    "pages": "249-274",
+    "publisher": "IGI Global Scientific Publishing",
+    "source": "Scholar export",
+    "url": "https://scholar.google.com/scholar?q=%22The+future+of+digital+marketing%3A+Leveraging+artificial+intelligence+for+competitive+strategies+and+tactics%22"
+  },
+  {
+    "title": "Efficient compressive strength prediction of concrete incorporating recycled coarse aggregate using Newton’s boosted backpropagation neural network (NB-BPNN)",
+    "authors": [
+      "Tipu, Rupesh Kumar",
+      "Batra, Vandna",
+      "Pandya, KS",
+      "Panchal, VR"
+    ],
+    "year": 2023,
+    "venue": "Structures",
+    "type": "Journal article",
+    "volume": "58",
+    "issue": "",
+    "pages": "105559",
+    "publisher": "Elsevier",
+    "source": "Scholar export",
+    "url": "https://scholar.google.com/scholar?q=%22Efficient+compressive+strength+prediction+of+concrete+incorporating+recycled+coarse+aggregate+using+Newton%E2%80%99s+boosted+backpropagation+neural+network+%28NB-BPNN%29%22"
+  },
+  {
+    "title": "Enhancing load capacity prediction of column using eReLU-activated BPNN model",
+    "authors": [
+      "Tipu, Rupesh Kumar",
+      "Batra, Vandna",
+      "Pandya, KS",
+      "Panchal, VR"
+    ],
+    "year": 2023,
+    "venue": "Structures",
+    "type": "Journal article",
+    "volume": "58",
+    "issue": "",
+    "pages": "105600",
+    "publisher": "Elsevier",
+    "source": "Scholar export",
+    "url": "https://scholar.google.com/scholar?q=%22Enhancing+load+capacity+prediction+of+column+using+eReLU-activated+BPNN+model%22"
+  },
+  {
+    "title": "Machine learning-based prediction of concrete strength properties with coconut shell as partial aggregate replacement: A sustainable approach in construction engineering",
+    "authors": [
+      "Tipu, Rupesh Kumar",
+      "Arora, Rishabh",
+      "Kumar, Kaushal"
+    ],
+    "year": 2024,
+    "venue": "Asian Journal of Civil Engineering",
+    "type": "Journal article",
+    "volume": "25",
+    "issue": "3",
+    "pages": "2979-2992",
+    "publisher": "Springer International Publishing, Cham",
+    "source": "Scholar export",
+    "url": "https://scholar.google.com/scholar?q=%22Machine+learning-based+prediction+of+concrete+strength+properties+with+coconut+shell+as+partial+aggregate+replacement%3A+A+sustainable+approach+in+construction+engineering%22"
+  },
+  {
+    "title": "Optimizing compressive strength in sustainable concrete: a machine learning approach with iron waste integration",
+    "authors": [
+      "Tipu, Rupesh Kumar",
+      "Batra, Vandna",
+      "Suman",
+      "Panchal, VR",
+      "Pandya, KS",
+      "Patel, Gaurang A"
+    ],
+    "year": 2024,
+    "venue": "Asian Journal of Civil Engineering",
+    "type": "Journal article",
+    "volume": "25",
+    "issue": "6",
+    "pages": "4487-4512",
+    "publisher": "Springer International Publishing, Cham",
+    "source": "Scholar export",
+    "url": "https://scholar.google.com/scholar?q=%22Optimizing+compressive+strength+in+sustainable+concrete%3A+a+machine+learning+approach+with+iron+waste+integration%22"
+  },
+  {
+    "title": "Predictive modelling of flexural strength in recycled aggregate-based concrete: A comprehensive approach with machine learning and global sensitivity analysis",
+    "authors": [
+      "Singh, Rajwinder",
+      "Tipu, Rupesh Kumar",
+      "Mir, Ajaz Ahmad",
+      "Patel, Mahesh"
+    ],
+    "year": 2025,
+    "venue": "Iranian Journal of Science and Technology, Transactions of Civil Engineering",
+    "type": "Journal article",
+    "volume": "49",
+    "issue": "2",
+    "pages": "1089-1114",
+    "publisher": "Springer International Publishing, Cham",
+    "source": "Scholar export",
+    "url": "https://scholar.google.com/scholar?q=%22Predictive+modelling+of+flexural+strength+in+recycled+aggregate-based+concrete%3A+A+comprehensive+approach+with+machine+learning+and+global+sensitivity+analysis%22"
+  },
+  {
+    "title": "Numerical and machine learning models for concentrically and eccentrically loaded CFST columns confined with FRP wraps",
+    "authors": [
+      "Xu, Chi",
+      "Zhang, Ying",
+      "Isleem, Haytham F",
+      "Qiu, Dianle",
+      "Zhang, Yun",
+      "Alsaadawi, Mostafa Medhat",
+      "Tipu, Rupesh Kumar",
+      "El‐Demerdash, Waleed E",
+      "Hamed, Asmaa Y"
+    ],
+    "year": 2024,
+    "venue": "Structural Concrete",
+    "type": "Journal article",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "publisher": "WILEY‐VCH Verlag GmbH & Co. KGaA",
+    "source": "Scholar export",
+    "url": "https://scholar.google.com/scholar?q=%22Numerical+and+machine+learning+models+for+concentrically+and+eccentrically+loaded+CFST+columns+confined+with+FRP+wraps%22"
+  },
+  {
+    "title": "Compressive behavior of elliptical concrete-filled steel tubular short columns using numerical investigation and machine learning techniques",
+    "authors": [
+      "Mohamed, Hazem Samih",
+      "Qiong, Tang",
+      "Isleem, Haytham F",
+      "Tipu, Rupesh Kumar",
+      "Shahin, Ramy I",
+      "Yehia, Saad A",
+      "Jangir, Pradeep",
+      "Arpita",
+      "Khishe, Mohammad"
+    ],
+    "year": 2024,
+    "venue": "Scientific Reports",
+    "type": "Journal article",
+    "volume": "14",
+    "issue": "1",
+    "pages": "27007",
+    "publisher": "Nature Publishing Group UK, London",
+    "source": "Scholar export",
+    "url": "https://scholar.google.com/scholar?q=%22Compressive+behavior+of+elliptical+concrete-filled+steel+tubular+short+columns+using+numerical+investigation+and+machine+learning+techniques%22"
+  },
+  {
+    "title": "Optimizing sustainable blended concrete mixes using deep learning and multi-objective optimization",
+    "authors": [
+      "Tipu, Rupesh Kumar",
+      "Rathi, Preeti",
+      "Pandya, Kartik S",
+      "Panchal, Vijay R"
+    ],
+    "year": 2025,
+    "venue": "Scientific Reports",
+    "type": "Journal article",
+    "volume": "15",
+    "issue": "1",
+    "pages": "16356",
+    "publisher": "Nature Publishing Group UK, London",
+    "source": "Scholar export",
+    "url": "https://scholar.google.com/scholar?q=%22Optimizing+sustainable+blended+concrete+mixes+using+deep+learning+and+multi-objective+optimization%22"
+  },
+  {
+    "title": "Interpretable GA-PSO-optimised deep learning for multi-objective geopolymer concrete strength prediction",
+    "authors": [
+      "Sharma, Neha",
+      "Seema",
+      "Paruthi, Sagar",
+      "Tipu, Rupesh Kumar"
+    ],
+    "year": 2025,
+    "venue": "Asian Journal of Civil Engineering",
+    "type": "Journal article",
+    "volume": "26",
+    "issue": "11",
+    "pages": "4679-4706",
+    "publisher": "Springer International Publishing, Cham",
+    "source": "Scholar export",
+    "url": "https://scholar.google.com/scholar?q=%22Interpretable+GA-PSO-optimised+deep+learning+for+multi-objective+geopolymer+concrete+strength+prediction%22"
+  },
+  {
+    "title": "AI based predictive modelling for compressive strength of metakaolin-based geopolymer concrete incorporated with Nano Titanium",
+    "authors": [
+      "Paruthi, Sagar",
+      "Raghav, Yogita Yashveer",
+      "Kumari, Parveen",
+      "Kumar Tipu, Rupesh",
+      "Sharma, Neha"
+    ],
+    "year": 2025,
+    "venue": "Journal of structural integrity and maintenance",
+    "type": "Journal article",
+    "volume": "10",
+    "issue": "3",
+    "pages": "2503027",
+    "publisher": "Taylor & Francis",
+    "source": "Scholar export",
+    "url": "https://scholar.google.com/scholar?q=%22AI+based+predictive+modelling+for+compressive+strength+of+metakaolin-based+geopolymer+concrete+incorporated+with+Nano+Titanium%22"
+  }
+]

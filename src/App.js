@@ -1,156 +1,80 @@
-// src/App.js
-import React, { useMemo } from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import AboutMe from './components/AboutMe';
-import ProfileLinks from './components/ProfileLinks';
-import ExperienceOverview from './components/ExperienceOverview';
-import Education from './components/Education';
-import ProfessionalExperience from './components/ProfessionalExperience';
-import ResearchPublications from './components/ResearchPublications';
-import PublicationsCarousel from './components/PublicationsCarousel';
-import Memberships from './components/Memberships';
-import CoursesTaught from './components/CoursesTaught';
-import ConferencePresentations from './components/ConferencePresentations';
-import WorkshopsConducted from './components/WorkshopsConducted';
-import ContactForm from './components/ContactForm';
-import FeedbackForm from './components/FeedbackForm';
-import Skills from './components/Skills';
-import { Helmet } from 'react-helmet';
+import React, { useEffect, useMemo, useState } from 'react';
+import portrait from './assets/profile.png';
+import fallback from './data/publications-cache.json';
+import scholarExport from './data/scholar-export.json';
+import { publicationsFlat } from './data/publications';
+import { experience, patents, profiles, research } from './data/profile';
+import { mergePublications, filterPublications, toBibtex, safeUrl } from './lib/publications';
 import './App.css';
-import 'aos/dist/aos.css';
 
-// 🔗 single source of truth
-import { publications } from './data/publications';
+const root = process.env.PUBLIC_URL || '';
+const cv = 'mailto:tipu0003@gmail.com?subject=Request%20for%20academic%20CV';
+const curated = [...scholarExport, ...publicationsFlat];
+const initialPublications = mergePublications(fallback.publications, curated);
+const Arrow = () => <span aria-hidden="true">↗</span>;
+const External = ({ href, children, ...props }) => <a href={safeUrl(href)} target="_blank" rel="noopener noreferrer" {...props}>{children}</a>;
 
-function App() {
-  const recentFive = useMemo(() => {
-    const parseDMY = (s) => {
-      if (!s) return 0;
-      const m = String(s).match(/^(\d{1,2})-(\d{1,2})-(\d{4})$/);
-      if (!m) return 0;
-      const [, dd, mm, yyyy] = m;
-      return new Date(Number(yyyy), Number(mm) - 1, Number(dd)).getTime();
-    };
-
-    let seq = 0;
-    const flat = [];
-
-    (publications['Journal Articles'] || []).forEach((p) => {
-      flat.push({
-        title: p.title,
-        year: p.year || 0,
-        venue: p.journal || '',
-        scholar_url: p.doi ? `https://doi.org/${p.doi}` : undefined,
-        category: 'Journal Article',
-        sortDate: parseDMY(p.date),
-        seq: ++seq,
-      });
-    });
-
-    (publications['Conference Proceedings'] || []).forEach((p) => {
-      flat.push({
-        title: p.title,
-        year: p.year || 0,
-        venue: p.conference || p.publisher || '',
-        scholar_url: p.doi ? `https://doi.org/${p.doi}` : undefined,
-        category: 'Conference',
-        sortDate: parseDMY(p.date),
-        seq: ++seq,
-      });
-    });
-
-   (publications['Patents'] || []).forEach((p) => {
-      flat.push({
-        title: p.title,
-        year: p.year || 0,
-        venue: `Patent • ${p.country || ''}`.trim(),
-        scholar_url: p.doi ? `https://doi.org/${p.doi}` : undefined,
-        category: 'Patent',
-        sortDate: parseDMY(p.date),
-        seq: ++seq,
-      });
-    });
-
-    flat.sort((a, b) => {
-      if (b.year !== a.year) return b.year - a.year;
-      if (b.sortDate !== a.sortDate) return b.sortDate - a.sortDate;
-      return b.seq - a.seq;
-    });
-
-    return flat.slice(0, 5).map((p) => ({
-      title: p.title,
-      year: p.year,
-      venue: p.venue,
-      scholar_url: p.scholar_url,
-      highlight: p.category,
-    }));
-  }, []);
-
-  return (
-    <Router>
-      <div className="App">
-        <Helmet>
-          <title>Rupesh Kumar Tipu - Assistant Professor Portfolio</title>
-          <meta
-            name="description"
-            content="Portfolio website of Dr. Rupesh Kumar Tipu, Assistant Professor at K. R. Mangalam University, specializing in Structural Engineering."
-          />
-          <meta
-            name="keywords"
-            content="Rupesh Kumar Tipu, Assistant Professor, Structural Engineering, Research, Teaching, Civil Engineering"
-          />
-          <meta name="author" content="Rupesh Kumar Tipu" />
-          <meta property="og:title" content="Rupesh Kumar Tipu - Assistant Professor Portfolio" />
-          <meta
-            property="og:description"
-            content="Portfolio website of Dr. Rupesh Kumar Tipu, Assistant Professor at K. R. Mangalam University, specializing in Structural Engineering."
-          />
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://tipu0003.github.io/rupesh-portfolio/" />
-          <meta
-            property="og:image"
-            content="https://tipu0003.github.io/rupesh-portfolio/assets/images/profile.jpg"
-          />
-        </Helmet>
-
-        {/* Header / name banner */}
-        <Header />
-
-        {/* NEW: Top-of-page carousel (below header, above About Me) */}
-        <div
-          className="top-carousel-wrap"
-          style={{ maxWidth: '1000px', margin: '12px auto 24px', padding: '0 12px' }}
-        >
-          <PublicationsCarousel publications={recentFive} />
-        </div>
-
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <AboutMe />
-                <ProfileLinks />
-                <ExperienceOverview />
-                <Education />
-                <ProfessionalExperience />
-                <ResearchPublications />
-                <Skills />
-                <Memberships />
-                <CoursesTaught />
-                <ConferencePresentations />
-                <WorkshopsConducted />
-                <ContactForm />
-                <FeedbackForm />
-              </>
-            }
-          />
-          <Route path="*" element={<AboutMe />} />
-        </Routes>
-      </div>
-    </Router>
-  );
+function StructureArt() {
+  return <svg viewBox="0 0 500 400" fill="none" aria-hidden="true" className="structure-art"><g stroke="currentColor" strokeWidth=".8">{[0,1,2,3,4,5].map(i => <g key={i} transform={`translate(${i*28},${-i*13})`}><path d="M100 330V145L285 220V405M100 145L205 70L390 145L285 220M205 70V256L390 330V145M100 330L205 256M285 405L390 330M100 238L285 313L390 238L205 163Z"/><path d="M100 145L285 313M285 220L100 238M100 238L285 405M205 70L390 238M390 145L205 163M205 163L390 330" opacity=".4"/></g>)}</g></svg>;
+}
+function Publication({ paper, number, onCite }) {
+  return <article className="publication"><div className="pub-number">{String(number).padStart(2,'0')}</div><div className="pub-main"><div className="pub-meta"><span>{paper.year || 'Year not listed'}</span><span>{paper.type}</span><span className="source-tag">{paper.source}</span></div><h3><External href={paper.url}>{paper.title}<Arrow /></External></h3>{paper.authors.length > 0 && <p className="pub-authors">{paper.authors.join(' · ')}</p>}{paper.venue && <p className="pub-venue">{paper.venue}</p>}<div className="pub-actions"><button type="button" onClick={() => onCite(paper)}>Cite / BibTeX</button><External href={paper.url}>{paper.doi ? 'View publication' : 'View record'} <Arrow /></External></div></div></article>;
 }
 
+function App() {
+  const [menu,setMenu] = useState(false);
+  const [catalog,setCatalog] = useState({...fallback,publications:initialPublications});
+  const [query,setQuery] = useState('');
+  const [type,setType] = useState('All');
+  const [year,setYear] = useState('All');
+  const [sort,setSort] = useState('newest');
+  const [limit,setLimit] = useState(6);
+  const [citation,setCitation] = useState(null);
+  const [copied,setCopied] = useState(false);
+  const [active,setActive] = useState('about');
+  useEffect(() => {
+    const controller = new AbortController();
+    fetch(`${root}/data/publications.json`,{signal:controller.signal,cache:'no-cache'})
+      .then(r => {if (!r.ok) throw new Error('Saved catalog unavailable');return r.json();})
+      .then(data => {if (Array.isArray(data.publications) && data.publications.length) setCatalog({...data,publications:mergePublications(data.publications,curated)});})
+      .catch(() => {});
+    return () => controller.abort();
+  },[]);
+  useEffect(() => {
+    const observer = new IntersectionObserver(entries => entries.forEach(entry => {if(entry.isIntersecting) setActive(entry.target.id);}),{rootMargin:'-15% 0px -65% 0px'});
+    document.querySelectorAll('main section[id]').forEach(el => observer.observe(el));
+    return () => observer.disconnect();
+  },[]);
+  useEffect(() => {setLimit(6);},[query,type,year,sort]);
+  useEffect(() => {
+    if(!citation) return;
+    const previous=document.activeElement,dialog=document.querySelector('.citation-dialog');
+    dialog.querySelector('button').focus();
+    const key=e=>{if(e.key==='Escape') setCitation(null);if(e.key==='Tab'){const items=dialog.querySelectorAll('button'),first=items[0],last=items[items.length-1];if(e.shiftKey && document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey && document.activeElement===last){e.preventDefault();first.focus();}}};
+    document.addEventListener('keydown',key);const overflow=document.body.style.overflow;document.body.style.overflow='hidden';
+    return ()=>{document.removeEventListener('keydown',key);document.body.style.overflow=overflow;if(previous) previous.focus();};
+  },[citation]);
+  const filtered=useMemo(()=>filterPublications(catalog.publications,{query,type,year,sort}),[catalog.publications,query,type,year,sort]);
+  const years=[...new Set(catalog.publications.map(p=>p.year).filter(Boolean))].sort((a,b)=>b-a);
+  const types=[...new Set(catalog.publications.map(p=>p.type))].sort();
+  const updated=catalog.updated_at ? new Date(catalog.updated_at).toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'Asia/Kolkata'}) : 'Saved record';
+  const openCitation=p=>{setCitation(p);setCopied(false);};
+  const download=(papers,filename)=>{const url=URL.createObjectURL(new Blob([papers.map(toBibtex).join('\n\n')],{type:'text/plain;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download=filename;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
+  const copyCitation=async()=>{try{await navigator.clipboard.writeText(toBibtex(citation));setCopied(true);}catch{setCopied(false);download([citation],'citation.bib');}};
+  return <>
+    <a className="skip-link" href="#main">Skip to content</a>
+    <header className="site-header"><div className="nav-wrap"><a className="wordmark" href="#about" aria-label="Rupesh Kumar Tipu home">RKT<span>.</span><small>RESEARCH · TEACHING · IMPACT</small></a><button type="button" className="menu-button" aria-expanded={menu} aria-controls="primary-nav" onClick={()=>setMenu(!menu)}>{menu?'Close ×':'Menu ☰'}</button><nav id="primary-nav" aria-label="Main navigation" className={menu?'is-open':''}>{[['about','About'],['research','Research'],['publications','Publications'],['experience','Experience']].map(([id,label])=><a key={id} href={`#${id}`} aria-current={active===id?'location':undefined} onClick={()=>setMenu(false)}>{label}</a>)}<a href="#contact" className="nav-contact" onClick={()=>setMenu(false)}>Let’s connect <Arrow /></a></nav></div></header>
+    <main id="main">
+      <section className="hero wrap" id="about"><div className="hero-copy"><div className="eyebrow"><span className="status-dot"/> ASSOCIATE PROFESSOR · CIVIL ENGINEERING</div><h1>Dr. Rupesh<br/>Kumar <em>Tipu.</em></h1><p className="hero-position">Dayananda Sagar College of Engineering<br/><span>Bengaluru, India</span></p><p className="hero-description">Connecting structural engineering and artificial intelligence to build smarter, more sustainable infrastructure.</p><div className="hero-buttons"><a className="button button-dark" href="#publications">Explore research <span aria-hidden="true">↓</span></a><a className="button button-outline" href={cv}>Request CV <span aria-hidden="true">↓</span></a></div><div className="hero-specialties"><span>Physics-guided AI</span><span>Structural optimization</span><span>Sustainable materials</span></div></div><div className="hero-visual"><div className="visual-top"><span>ENGINEERING WITH INTELLIGENCE</span><span>01 / PROFILE</span></div><StructureArt /><div className="portrait-frame"><img src={portrait} alt="Dr. Rupesh Kumar Tipu" width="411" height="421" fetchPriority="high"/></div><div className="recognition-stamp"><span className="stamp-star" aria-hidden="true">✧</span><div><span>STANFORD–ELSEVIER · 2026</span><strong>World’s Top 2%<br/>Scientists</strong><small>Single-Year Impact · Civil Engineering</small></div></div><div className="visual-bottom"><span>RESEARCH THAT MOVES<br/>FROM DATA TO DECISIONS.</span><span>12+<small>YEARS IN TEACHING</small></span></div></div></section>
+      <div className="metrics-band"><div className="wrap metrics-inner"><div className="metrics-intro"><span className="eyebrow">SCHOLARLY IMPACT</span><p>Ideas, measured<br/>through research.</p></div>{[['1,199','Google Scholar citations'],['22','Google Scholar h-index'],['31','Google Scholar i10-index'],['76','Scopus documents']].map(([value,label])=><div className="metric" key={label}><strong>{value}</strong><span>{label}</span></div>)}<p className="metrics-date">Scholar: 3 Nov 2026<br/>Scopus: CV, 14 Oct 2026</p></div></div>
+      <section className="section wrap research-section" id="research"><div className="section-heading"><div><div className="eyebrow">01 / RESEARCH FOCUS</div><h2>Engineering knowledge.<br/><em>Intelligent solutions.</em></h2></div><p>Research combines mechanics, experiments and data to improve prediction, design and decision-making in civil engineering.</p></div><div className="research-grid">{research.map((area,i)=><article className="research-card" key={area.title}><div className="research-card-top"><span>0{i+1}</span><span aria-hidden="true">{['⌁','◇','↗'][i]}</span></div><h3>{area.title}</h3><p>{area.description}</p><div className="tag-list">{area.tags.map(tag=><span key={tag}>{tag}</span>)}</div></article>)}</div><div className="recognition-note"><span className="note-icon" aria-hidden="true">✧</span><p><strong>International research recognition</strong><br/>Included in the Stanford–Elsevier World’s Top 2% Scientists list, 2026 edition, for Single-Year Impact (citation year 2025) in Civil Engineering.</p><External href="https://data.mendeley.com/datasets/btchxktzyw/9">View database <Arrow /></External></div></section>
+      <section className="publications-section section" id="publications"><div className="wrap"><div className="section-heading"><div><div className="eyebrow">02 / PUBLICATIONS</div><h2>A growing body<br/>of <em>research.</em></h2></div><div className="publication-summary"><p>Explore journal articles, conference papers and book chapters across engineering and applied AI.</p><External href="https://scholar.google.com/citations?user=uZzLU8IAAAAJ">Google Scholar profile <Arrow /></External></div></div><div className="sync-note"><span className="status-dot"/><p>Public ORCID records refreshed {updated}. <span>Includes the supplied Scholar export and curated publications.</span></p><External href="https://orcid.org/0000-0001-8476-8364">ORCID <Arrow /></External></div><div className="publication-toolbar"><label className="search-field"><span className="sr-only">Search publications</span><span aria-hidden="true">⌕</span><input value={query} onChange={e=>setQuery(e.target.value)} type="search" placeholder="Search by title, author, journal or DOI…"/></label><div className="filter-fields"><label><span className="sr-only">Publication type</span><select value={type} onChange={e=>setType(e.target.value)}><option value="All">All types</option>{types.map(t=><option key={t}>{t}</option>)}</select></label><label><span className="sr-only">Publication year</span><select value={year} onChange={e=>setYear(e.target.value)}><option value="All">All years</option>{years.map(y=><option key={y}>{y}</option>)}</select></label><label><span className="sr-only">Sort publications</span><select value={sort} onChange={e=>setSort(e.target.value)}><option value="newest">Newest first</option><option value="oldest">Oldest first</option><option value="title">Title A–Z</option></select></label></div></div><div className="results-bar"><span aria-live="polite">{filtered.length} {filtered.length===1?'publication':'publications'}{query||type!=='All'||year!=='All'?' found':' in this collection'}</span><button type="button" disabled={!filtered.length} onClick={()=>download(filtered,'Rupesh_Kumar_Tipu_Publications.bib')}>Export BibTeX <span aria-hidden="true">↓</span></button></div><div className="publication-list">{filtered.slice(0,limit).map((paper,i)=><Publication key={paper.id} paper={paper} number={i+1} onCite={openCitation}/>)}</div>{!filtered.length&&<div className="empty-state"><h3>No matching publications</h3><p>Try another keyword or clear the filters.</p><button className="button button-outline" onClick={()=>{setQuery('');setType('All');setYear('All');}}>Clear filters</button></div>}{filtered.length>limit&&<div className="load-more"><button className="button button-outline" onClick={()=>setLimit(n=>n+10)}>Show more publications <span aria-hidden="true">+</span></button><span>Showing {Math.min(limit,filtered.length)} of {filtered.length}</span></div>}<p className="catalog-note">Publication dates follow source metadata and may reflect journal issue dates. Google Scholar metrics above are from the supplied snapshot dated 3 November 2026.</p></div></section>
+      <section className="section wrap contributions" id="contributions"><div className="section-heading"><div><div className="eyebrow">03 / BEYOND PUBLICATIONS</div><h2>From research<br/>to <em>practice.</em></h2></div><p>Books, published patent applications and student mentoring extend research into learning and practical engineering tools.</p></div><div className="contributions-grid"><article className="book-feature"><div className="eyebrow">BOOKS & KNOWLEDGE SHARING</div><h3>Building knowledge.<br/>Sharing the tools.</h3><div className="book-entry"><span className="book-spine" aria-hidden="true">01</span><div><small>BPB PUBLICATIONS · PUBLISHED</small><h4>Full Stack Web Development with React, Angular, Node.js, and DevOps</h4><p>R. K. Tipu & P. Agarwal · ISBN 9789365891249</p></div></div><div className="book-entry"><span className="book-spine" aria-hidden="true">02</span><div><small>SPRINGER · FORTHCOMING</small><h4>MATLAB Optimization Techniques: A Comprehensive Guide to Algorithms and Applications</h4><p>R. K. Tipu & K. S. Pandya · ISBN 9789819209057</p></div></div></article><div className="practice-stack"><article className="patent-feature"><div><strong>09</strong><span>Published Indian<br/>patent applications</span></div><p>AI-assisted prediction tools, concrete mix design interfaces, and smart formwork systems.</p><a href="#patent-details">Explore patent applications <span aria-hidden="true">↓</span></a></article><article className="mentoring-feature"><div className="eyebrow">RESEARCH MENTORING</div><div><span><strong>4</strong>Ph.D. scholars<br/><small>Co-guidance · pursuing</small></span><span><strong>2</strong>M.Tech dissertations</span><span><strong>30+</strong>B.Tech students<br/><small>Project mentoring</small></span></div></article></div></div><details className="patent-details" id="patent-details"><summary>Published patent applications <span>9 applications · status from CV, 14 October 2026</span></summary><div>{patents.map(p=><article key={p.number}><span>{p.number}</span><h4>{p.title}</h4><p>Published {p.date}</p></article>)}<p className="small-note">Application publication does not imply patent grant. Application 202641118986: examination pending as of 14 October 2026.</p></div></details><div className="grant-line"><span className="eyebrow">FUNDED RESEARCH</span><h3>AI-Driven Structural Engineering Research</h3><p>Principal Investigator · K. R. Mangalam University<br/>₹2,41,500 seed grant · sanctioned 14 June 2025 · two-year duration</p></div></section>
+      <section className="experience-section section" id="experience"><div className="wrap experience-layout"><div className="experience-intro"><div className="eyebrow">04 / ACADEMIC JOURNEY</div><h2>Teaching with purpose.<br/>Research with <em>direction.</em></h2><p>More than 12 years of teaching and over 6 years of research experience across structural engineering, computing and applied AI.</p><a href={cv} className="text-link">Request full curriculum vitae <Arrow /></a><div className="education"><h3>Education</h3><p><strong>Ph.D. · 2024</strong><span>CHARUSAT University<br/>AI-based modelling and optimization of concrete</span></p><p><strong>M.Tech · 2016</strong><span>Structural Engineering · MDU, Rohtak</span></p><p><strong>B.Tech · 2013</strong><span>Civil Engineering · MDU, Rohtak</span></p></div></div><div className="timeline">{experience.map((job,i)=><article key={job.institution} className={i===0?'current':''}><div className="timeline-date">{job.period}{i===0&&<span>CURRENT</span>}</div><h3>{job.role}</h3><h4>{job.institution}</h4><p>{job.description}</p></article>)}</div></div></section>
+      <section className="section wrap teaching-section" id="teaching"><div><div className="eyebrow">05 / TEACHING & TECHNICAL PRACTICE</div><h2>Connecting disciplines.<br/><em>Developing researchers.</em></h2><p>Teaching spans civil engineering, programming, machine learning and research methods, with an emphasis on clear concepts and practical implementation.</p></div><div className="teaching-areas"><article><span>01</span><div><h3>Civil & structural engineering</h3><p>MATLAB & spreadsheet applications, mechanics of materials, concrete technology, structural analysis and design.</p></div></article><article><span>02</span><div><h3>Computing & artificial intelligence</h3><p>Python, machine learning, natural language processing, data structures and web development.</p></div></article><article><span>03</span><div><h3>Research methods & mentoring</h3><p>Dataset preparation, model development, quantitative techniques, research ethics and academic writing.</p></div></article></div><div className="tools-row"><span>RESEARCH TOOLKIT</span>{['Python','MATLAB','Abaqus','ANSYS','ETABS','STAAD.Pro','LaTeX'].map(t=><span key={t}>{t}</span>)}</div></section>
+      <section className="contact-section" id="contact"><div className="wrap contact-inner"><div><div className="eyebrow">LET’S CONNECT</div><h2>Good research starts<br/>with a <em>conversation.</em></h2><p>For research collaboration, invited lectures, academic exchanges and student project discussions.</p><a className="email-link" href="mailto:tipu0003@gmail.com">tipu0003@gmail.com <Arrow /></a><p className="contact-affiliation">Department of Civil Engineering<br/>Dayananda Sagar College of Engineering · Bengaluru, India</p></div><div className="profile-links"><h3>Find the research</h3>{profiles.map(p=><External key={p.name} href={p.url}><span>{p.name}</span><Arrow /></External>)}</div></div></section>
+    </main><footer><div className="wrap footer-inner"><a className="wordmark" href="#about">RKT<span>.</span></a><p>© {new Date().getFullYear()} Dr. Rupesh Kumar Tipu</p><a href="#about">Back to top ↑</a></div></footer>
+    {citation&&<div className="modal-backdrop" onClick={e=>{if(e.target===e.currentTarget)setCitation(null);}}><div role="dialog" aria-modal="true" aria-labelledby="citation-title" className="citation-dialog"><div className="dialog-header"><h2 id="citation-title">Cite this publication</h2><button aria-label="Close citation" onClick={()=>setCitation(null)}>×</button></div><p>{citation.title}</p><pre>{toBibtex(citation)}</pre><div className="dialog-actions"><button className="button button-dark" onClick={copyCitation}>{copied?'Copied ✓':'Copy BibTeX'}</button><button className="button button-outline" onClick={()=>download([citation],'citation.bib')}>Download .bib</button></div><p className="small-note">Citation fields reflect the available record. Check the publisher record before manuscript submission.</p></div></div>}
+  </>;
+}
 export default App;

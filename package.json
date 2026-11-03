@@ -2,7 +2,7 @@
   "name": "rupesh-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tipu0003.github.io/rupesh-portfolio/",
+  "homepage": ".",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.7.1",
     "@fortawesome/react-fontawesome": "^0.2.2",
@@ -22,10 +22,7 @@
     "react-router-dom": "^7.0.2",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.9.0",
-    "web-vitals": "^2.1.4",
-    "react-slick": "^0.29.0",
-    "slick-carousel": "^1.8.1"
-    
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",

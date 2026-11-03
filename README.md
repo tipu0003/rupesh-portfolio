@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Dr. Rupesh Kumar Tipu — academic portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React portfolio for https://tipu0003.github.io/rupesh-portfolio/.
 
-## Available Scripts
+## Run locally
 
-In the project directory, you can run:
+Use Node.js 22 and Python 3.12 (the publication scripts use only Python standard-library modules).
 
-### `npm start`
+```bash
+npm ci
+npm start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Build and verify
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+npm test -- --watchAll=false --runInBand
+python -m unittest discover -s scripts -p 'test_*.py'
+npm run build
+```
 
-### `npm test`
+The production build uses relative asset URLs and supports the existing GitHub Pages project path. No router or third-party contact form is required. Contact opens the visitor's email application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Publication automation — no paid key
 
-### `npm run build`
+`.github/workflows/deploy.yml` refreshes the public ORCID record daily at approximately 07:47 IST, on main-branch pushes, and on manual dispatch. It tests, builds, saves the refreshed catalog and deploys in the same run. Standard GitHub-hosted Actions runners are free for this public repository. GitHub can delay scheduled runs or disable schedules after 60 days without repository activity; re-enable them in Actions when needed.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`python scripts/fetch_publications.py` retrieves the public works for ORCID 0000-0001-8476-8364, including author lists. It writes both the public JSON and a bundled fallback. Failed requests, empty responses and unexpectedly large record drops leave the last good catalog intact. New works appear after they become public in this ORCID record. Enabling Crossref as a trusted party in ORCID and permitting automatic updates can reduce manual ORCID maintenance, but this website cannot change those account settings.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The site merges ORCID records, the owner-supplied Scholar export and the existing curated list. It deduplicates by DOI and normalized title. Metadata can retain journal issue dates that are later than online publication dates. The collection count describes this merged catalog; it is not a claimed Google Scholar or Scopus document total.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Import another Google Scholar export
 
-### `npm run eject`
+Export all desired records from Scholar as CSV, then run:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+python scripts/import_scholar.py "/path/to/citations.csv"
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Commit `src/data/scholar-export.json`. The supplied CSV on 3 November 2026 contains 20 rows, all represented in the current combined catalog. Original Scholar CSV records do not contain DOI or citation counts, so those fields are never fabricated.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Dated metrics and profile details
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The Scholar screenshot supplied on 3 November 2026 reports 1,199 citations, h-index 22, i10-index 31. Scopus 76 documents comes from the supplied CV dated 14 October 2026. These are dated snapshots, not live API results. Google Scholar does not provide a supported public profile API; automatic scraping is not used. Update those figures and their visible dates in `src/App.js` when a fresh snapshot is available.
 
-## Learn More
+Update research themes, experience, patent applications and external profiles in `src/data/profile.js`. The Request CV link opens the visitor’s email application; the attached full CV is not published. The Top 2% statement follows the CV: 2026 edition, Single-Year Impact, citation year 2025, Civil Engineering. It links to the Stanford–Elsevier research database v9. Patent entries describe published applications, not granted patents. The Springer book is labelled forthcoming according to the CV.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Deployment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The workflow uses the automatic `GITHUB_TOKEN`, not a personal access token or paid service. The current hosting method publishes the built site to the `gh-pages` branch. GitHub Settings → Pages should use Deploy from a branch → gh-pages → /(root). Keep repository Actions permissions set to allow the workflow's declared contents write access. No secrets are needed for the ORCID refresh.
 
-### Code Splitting
+## Sources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- CV supplied by the owner, updated 14 October 2026.
+- Google Scholar profile screenshot and CSV supplied by the owner, 3 November 2026.
+- Public ORCID works: https://pub.orcid.org/v3.0/0000-0001-8476-8364/works
+- ORCID anonymous API limits: https://info.orcid.org/ufaqs/what-are-the-api-limits/
+- Stanford–Elsevier 2026 database: https://data.mendeley.com/datasets/btchxktzyw/9
+- GitHub Actions usage: https://docs.github.com/en/actions/concepts/billing-and-usage
+- GitHub scheduled-run limits: https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule
