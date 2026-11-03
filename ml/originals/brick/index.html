@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#102b53"><title>Ceramic-waste brick strength | Dr. Rupesh Kumar Tipu</title>
+<link rel="icon" href="../../../assets/mark.svg" type="image/svg+xml"><link rel="stylesheet" href="../../lab.css"><link rel="stylesheet" href="../originals.css"><script defer src="../../plot.js"></script><script defer src="../../export.js"></script><script defer src="brick.js"></script></head>
+<body><a class="skip-link" href="#main">Skip to content</a>
+<header class="mast"><div class="mast-inner"><a class="identity" href="../../../"><span class="monogram">RKT</span><span>Rupesh Kumar Tipu<small>Academic portfolio</small></span></a>
+<nav aria-label="Primary navigation"><a href="../../../#research">Research</a><a href="../../../#publications">Publications</a><a class="nav-selected" href="../../">ML models</a><a href="../../../#contact">Contact</a></nav></div></header>
+<main id="main" class="page">
+<section class="intro scholarly"><div><p class="kicker"><span class="dash"></span> Published model · Brick materials</p><h1>Ceramic-waste <em>brick strength</em></h1><p class="intro-text">Explore the effect of replacing sand with ceramic waste in a 100 kg batch. The model holds fly ash and cement constant and changes the balance between sand and ceramic.</p></div></section>
+<a class="return-link" href="../">← All published research models</a>
+<div id="loading" class="notice" role="status">Loading the published brick model…</div>
+<noscript><p>Enable JavaScript to run the model.</p></noscript>
+<section id="workspace" hidden>
+<div class="grid"><section class="panel"><div class="panel-head"><p class="kicker">01 / Study inputs</p><h2>Batch composition</h2><p>Choose a substitution level from 0% to 100%. Moving the slider updates the batch quantities and prediction.</p></div>
+<label for="replacement"><strong>Ceramic replacement of sand</strong></label>
+<div class="slider-row"><input type="range" min="0" max="100" step="1" value="40" id="replacement" aria-label="Ceramic replacement percentage"><output id="ratio" for="replacement">40%</output></div>
+<div class="stats"><div class="stat"><span>Fly ash</span><strong>40 kg</strong></div><div class="stat"><span>Cement</span><strong>20 kg</strong></div><div class="stat"><span>Sand</span><strong id="sand">24 kg</strong></div><div class="stat"><span>Ceramic waste</span><strong id="ceramic">16 kg</strong></div></div>
+</section><section class="panel"><div class="panel-head"><p class="kicker">02 / Model output</p><h2>Predicted brick strength</h2></div>
+<div class="result-card"><small>Compressive strength</small><strong><output id="prediction" for="replacement">…</output> <span>MPa</span></strong></div>
+<p class="helper" style="margin-top:1rem">The source dataset covers variations of this batch. Use this tool to explore the series and validate any proposed mix with physical tests.</p></section></div>
+<section class="panel chart-panel"><div class="panel-head"><p class="kicker">03 / Response curve</p><h2>Strength across replacement levels</h2></div><div id="chart"></div>
+<div class="downloads"><button id="xls" type="button">Export Excel</button><button id="svg" type="button">Save SVG</button><button id="png" type="button">Save PNG</button><span id="export-state" role="status"></span></div></section>
+<section class="panel evidence-panel"><div class="panel-head"><p class="kicker">04 / Evidence</p><h2>Model and validation</h2></div><p class="evidence-copy">This browser port uses the 1,325-tree XGBoost model published in Dr. Rupesh Kumar Tipu’s brick-strength repository. It applies the final training fold’s minimum–maximum transformation before inference.</p>
+<div class="stats"><div class="stat"><span>Final-fold test rows</span><strong id="samples"></strong></div><div class="stat"><span>Test RMSE</span><strong id="rmse"></strong></div><div class="stat"><span>Test MAE</span><strong id="mae"></strong></div><div class="stat"><span>Test R²</span><strong id="rsq"></strong></div></div>
+<p class="evidence-copy">These scores use the original shuffled final split. The 307-row workbook contains only 12 distinct strength labels, so these scores do not establish performance on independent brick experiments. No prediction interval has been validated for this port.</p>
+<div class="project-links"><a href="https://github.com/tipu0003/Brick-compressive-strength-prediction/tree/c869946226065b955f02914a40b245c0e42468cb">Original model and training code ↗</a><a href="https://doi.org/10.1007/s10163-025-02443-w">Brick manufacturing research ↗</a></div></section>
+</section>
+</main><footer><div class="mast-inner"><span>Dr. Rupesh Kumar Tipu · Research software</span><a href="../../">Back to the model lab</a></div></footer></body></html>

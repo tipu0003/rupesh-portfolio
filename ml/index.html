@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102b53">
+  <title>Concrete ML models | Dr. Rupesh Kumar Tipu</title>
+  <meta name="description" content="Explore public benchmark models for concrete strength, slump and flow, compare measured mixtures, and export results and plots directly from your browser.">
+  <link rel="icon" href="../assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="lab.css">
+  <script src="engine.js" defer></script><script src="plot.js" defer></script><script src="export.js" defer></script><script src="lab.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#workspace">Skip to model workspace</a>
+<header class="mast"><div class="mast-inner">
+  <a class="identity" href="../" aria-label="Dr. Rupesh Kumar Tipu, return to portfolio"><span class="monogram">RKT</span><span>Rupesh Kumar Tipu<small>Academic portfolio</small></span></a>
+  <nav aria-label="Primary navigation"><a href="../#research">Research</a><a href="../#publications">Publications</a><a class="nav-selected" href="./" aria-current="page">ML models</a><a href="../#contact">Contact</a></nav>
+</div></header>
+<main class="page">
+  <section class="intro"><div>
+    <p class="kicker"><span class="dash"></span> Computational materials</p>
+    <h1>Concrete <em>model lab</em></h1>
+    <p class="intro-text">Estimate strength and workability, study how age changes a prediction, or compare recorded mixtures against a target. All calculations run in your browser.</p>
+  </div><div class="intro-readout" aria-label="Lab overview"><div class="readout-graphic" aria-hidden="true"><svg viewBox="0 0 200 64"><g stroke="#45628c" fill="none"><path d="M0 10h200M0 32h200M0 54h200M18 0v64M68 0v64M118 0v64M168 0v64"/></g><path fill="none" stroke="#96c4ff" stroke-width="2.5" d="M3 50 C25 49 33 47 51 43 S82 29 103 26 S132 26 154 17 S184 15 198 7"/><g fill="#dbeaff"><circle cx="51" cy="43" r="3"/><circle cx="103" cy="26" r="3"/><circle cx="154" cy="17" r="3"/></g></svg></div><small>MODEL COLLECTION</small><strong>9 interactive tools</strong><span>2 published research models · 7 benchmark tools</span></div></section>
+  <noscript><p class="notice">Enable JavaScript to run the browser models and export results.</p></noscript>
+  <p class="originals-link"><a href="./originals/">Explore the author’s research models <span aria-hidden="true">↗</span></a></p>
+  <p class="loading" id="load-state" role="status">Loading the trained models…</p>
+  <section id="workspace" hidden>
+    <div class="taskbar">
+      <div><span class="kicker">01 / Select a task</span><label for="task">Model workspace</label></div>
+      <select id="task" aria-label="Select a prediction or analysis tool">
+        <optgroup label="Author’s research models"><option value="original-brick">Ceramic-waste brick strength</option><option value="original-rca">Recycled-aggregate concrete strength</option></optgroup>
+        <optgroup label="Public benchmark predictions"><option value="strength">Compressive strength at a chosen age</option><option value="slump">Concrete slump</option><option value="flow">Concrete spread (flow)</option><option value="strength28">28-day strength from the slump dataset</option><option value="early28">28-day strength from a measured 7-day test</option></optgroup>
+        <optgroup label="Public benchmark design studies"><option value="age">Strength development with age</option><option value="inverse">Mix search for a target strength</option></optgroup>
+      </select>
+    </div>
+    <div class="grid">
+      <section class="panel inputs-panel" aria-labelledby="inputs-title">
+        <div class="panel-head"><p class="kicker">02 / Inputs</p><h2 id="inputs-title">Mix quantities</h2><p id="task-help"></p></div>
+        <form id="mix-form"><div id="input-fields" class="fields"></div>
+          <div id="input-error" role="alert" class="error" hidden></div>
+          <div class="form-actions"><button class="primary" type="submit" id="run-tool">Run prediction <span aria-hidden="true">→</span></button><button type="button" id="example" class="text-button">Reset example</button></div>
+        </form>
+      </section>
+      <section class="panel output-panel" aria-labelledby="result-title">
+        <div class="panel-head"><p class="kicker">03 / Result</p><h2 id="result-title">Model estimate</h2></div>
+        <p id="accuracy" class="model-caution" hidden></p>
+        <p id="dirty" class="notice" hidden>Inputs have changed. Run the tool to update the result and enable exports.</p>
+        <div id="result-value" class="result-card" role="status" aria-live="polite"></div>
+        <p id="result-note" class="helper"></p>
+        <div id="result-detail"></div>
+        <div id="comparison" class="comparison"><div><button id="pin" type="button">Pin this mix</button><button id="clear-pin" type="button" hidden>Clear comparison</button></div><p id="comparison-note" aria-live="polite">Pin a result, change the inputs, and run again to compare the two mixtures.</p></div>
+      </section>
+    </div>
+    <section class="panel chart-panel" aria-labelledby="chart-title">
+      <div class="chart-heading"><div><p class="kicker">04 / Explore</p><h2 id="chart-title">Response &amp; validation</h2></div><div class="plot-selectors"><label for="chart-view">Plot<select id="chart-view"></select></label><label id="feature-control" for="feature">Vary ingredient<select id="feature"></select></label></div></div>
+      <div id="chart" aria-label="Model chart"></div><p id="chart-note" class="helper"></p>
+      <div class="downloads"><button id="xlsx" type="button">↓ Excel results</button><button id="svg" type="button">↓ SVG plot</button><button id="png" type="button">↓ PNG plot</button><span id="export-status" role="status"></span></div>
+    </section>
+    <section class="panel evidence-panel" aria-labelledby="evidence-title"><div class="panel-head"><p class="kicker">05 / Evidence</p><h2 id="evidence-title">Model &amp; evaluation</h2></div><div id="evidence"></div></section>
+  </section>
+  <aside class="use-note"><strong>Research use.</strong> These portfolio tools use models trained on published concrete experiments. Predictions support comparison and teaching. Confirm proportions and performance through project-specific trial batches and testing before construction use.</aside>
+</main>
+<footer><div class="mast-inner"><span>Dr. Rupesh Kumar Tipu · Concrete model lab</span><a href="../">← Return to portfolio</a></div></footer>
+</body></html>
