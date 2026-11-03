@@ -1,0 +1,1050 @@
+[
+  {
+    "title": "Explainable and uncertainty-calibrated stacked ensemble for predicting compressive strength of blended cementitious concrete",
+    "authors": [
+      "Arvind Dewangan",
+      "Sagar Paruthi",
+      "Rupesh Kumar Tipu",
+      "Nikita Jain",
+      "Reeta Gulia",
+      "Sumit Saini",
+      "Neha Sharma"
+    ],
+    "year": 2026,
+    "venue": "Scientific Reports",
+    "doi": "10.1038/s41598-026-71534-x",
+    "type": "Journal article"
+  },
+  {
+    "title": "Optimizing brick manufacturing: integrating ceramic waste and predictive analytics for sustainable production",
+    "authors": [
+      "Dilraj Preet Kaur",
+      "Seema Raj",
+      "Rupesh Kumar Tipu",
+      "Siddarth Gupta",
+      "Jyoti Sorout",
+      "Pooja Lamba"
+    ],
+    "year": 2026,
+    "venue": "Journal of Material Cycles and Waste Management",
+    "doi": "10.1007/s10163-025-02443-w",
+    "type": "Journal article"
+  },
+  {
+    "title": "Physics-guided deep ensemble and inverse design for sustainable concrete",
+    "authors": [
+      "Arvind Dewangan",
+      "Neha Sharma",
+      "Akanksha Kulshreshtha",
+      "Reeta Gulia",
+      "Sumit Saini",
+      "Sagar Paruthi",
+      "Rupesh Kumar Tipu"
+    ],
+    "year": 2026,
+    "venue": "Multiscale and Multidisciplinary Modeling, Experiments and Design",
+    "doi": "10.1007/s41939-025-01154-x",
+    "type": "Journal article"
+  },
+  {
+    "title": "Interpretable shap-weighted stacked ensemble for joint prediction of ultrasonic pulse velocity and rebound number in scm-modified concrete",
+    "authors": [
+      "Arvind Dewangan",
+      "Nikita Jain",
+      "Neelaz Singh",
+      "Neha Sharma",
+      "Sagar Paruthi",
+      "Rupesh Kumar Tipu"
+    ],
+    "year": 2026,
+    "venue": "Iranian Journal of Science and Technology, Transactions of Civil Engineering",
+    "doi": "10.1007/s40996-025-02109-5",
+    "type": "Journal article"
+  },
+  {
+    "title": "GreenMix-pareto: Uncertainty-aware, physics-guided multi-objective optimization of low-carbon concrete mix designs",
+    "authors": [
+      "Tarek Salem Abdennaji",
+      "Amel Ksibi",
+      "Aymen Flah",
+      "Vandna Batra",
+      "Rupesh Kumar Tipu"
+    ],
+    "year": 2026,
+    "venue": "Ain Shams Engineering Journal",
+    "doi": "10.1016/j.asej.2026.104009",
+    "type": "Journal article"
+  },
+  {
+    "title": "Reliable strength prediction and mix optimization of self-compacting concrete using physics-constrained boosting and conformal intervals",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Sagar Paruthi"
+    ],
+    "year": 2026,
+    "venue": "Asian Journal of Civil Engineering",
+    "doi": "10.1007/s42107-026-01650-6",
+    "type": "Journal article"
+  },
+  {
+    "title": "Deep learning-based optimization for predicting and enhancing compressive strength of high-performance concrete",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Gaurang A Patel"
+    ],
+    "year": 2026,
+    "venue": "International Journal of System Assurance Engineering and Management",
+    "doi": "10.1007/s13198-026-03170-7",
+    "type": "Journal article"
+  },
+  {
+    "title": "Multi-View Transformers for Structure-Aware HA–NA Drift Risk Scoring and Mutation Hotspot Mapping",
+    "authors": [
+      "Pankaj Agarwal",
+      "Sumendra Yogarayan",
+      "Md Shohel Sayeed",
+      "Rupesh Kumar Tipu"
+    ],
+    "year": 2026,
+    "venue": "Viruses",
+    "doi": "10.3390/v18040421",
+    "type": "Journal article"
+  },
+  {
+    "title": "Integrating large language models with epidemiological data for antigenic drift monitoring and influenza A/B forecasting",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Sagar Paruthi",
+      "Rishika Mehta",
+      "Karan Singh"
+    ],
+    "year": 2026,
+    "venue": "Journal of Ambient Intelligence and Humanized Computing",
+    "doi": "10.1007/s12652-026-05080-9",
+    "type": "Journal article"
+  },
+  {
+    "title": "Bayesian-optimized explainable machine learning framework for predicting reinforced concrete beam ultimate load-carrying capacity",
+    "authors": [
+      "Arvind Dewangan",
+      "Nikita Jain",
+      "Neha Sharma",
+      "Sagar Paruthi",
+      "Rupesh Kumar Tipu"
+    ],
+    "year": 2026,
+    "venue": "Asian Journal of Civil Engineering",
+    "doi": "10.1007/s42107-026-01692-w",
+    "type": "Journal article"
+  },
+  {
+    "title": "Advances in Machine Learning for Predicting Compressive Strength of High-Performance Concrete: A Review",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Sagar Paruthi"
+    ],
+    "year": 2026,
+    "venue": "Iranian Journal of Science and Technology, Transactions of Civil Engineering",
+    "doi": "10.1007/s40996-026-02188-y",
+    "type": "Journal article"
+  },
+  {
+    "title": "A Systematic and Critical Review of Ensemble, Hybrid, and Stacked Learning Models for Predicting the Compressive Strength of Cement-Based Mortars",
+    "authors": [
+      "Oussama Elalaoui",
+      "Tarek Salem Abdennaji",
+      "Ahmed O Alanazi",
+      "Ahlem Fatnassi",
+      "Rupesh Kumar Tipu",
+      "Kartik S Pandya"
+    ],
+    "year": 2026,
+    "venue": "Archives of Computational Methods in Engineering",
+    "doi": "10.1007/s11831-026-10662-z",
+    "type": "Journal article"
+  },
+  {
+    "title": "Mechanics-aware machine learning for axial-capacity prediction of circular and rectangular concrete-filled steel tubular columns",
+    "authors": [
+      "Arvind Dewangan",
+      "Nikita Jain",
+      "Aaqib Anwaar Butt",
+      "Neha Sharma",
+      "Rupesh Kumar Tipu",
+      "Sagar Paruthi",
+      "Vipin Kumar Verma"
+    ],
+    "year": 2026,
+    "venue": "Asian Journal of Civil Engineering",
+    "doi": "10.1007/s42107-026-01733-4",
+    "type": "Journal article"
+  },
+  {
+    "title": "Physics-guided monotone stacking for reliable prediction of pile load–settlement curves using SPT–σ′ profiles and geometry",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Meshel Q Alkahtani",
+      "Sagar Paruthi",
+      "Samia Parvez"
+    ],
+    "year": 2026,
+    "venue": "Scientific Reports",
+    "doi": "10.1038/s41598-026-58184-9",
+    "type": "Journal article"
+  },
+  {
+    "title": "Physics-Aware Interpretable Machine Learning for Rapid Seismic Damage Screening and Fragility Curve Estimation Using Post-Earthquake Building Survey Data",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Abdullah Nasser M Asiri",
+      "Sagar Paruthi"
+    ],
+    "year": 2026,
+    "venue": "Journal of Earthquake Engineering",
+    "doi": "10.1080/13632469.2026.2698828",
+    "type": "Journal article"
+  },
+  {
+    "title": "Edge-Aware Graph Transformer (EdgeGT-Net): A Meta Optimized, Energy Efficient Architecture for Real-Time Multisensor Stress Monitoring in Wearable Electronics",
+    "authors": [
+      "Owais Ahmad Shah",
+      "Rupesh Kumar Tipu",
+      "Vakkalakula Bharath Sreenivasulu"
+    ],
+    "year": 2026,
+    "venue": "IEEE Access",
+    "doi": "10.1109/ACCESS.2026.3709777",
+    "type": "Journal article"
+  },
+  {
+    "title": "Investigation of Heat Transfer and Flow Characteristics in Solar Air Heaters with a Spherical Turbulator Using Machine Learning Models",
+    "authors": [
+      "Vijay Singh Bisht",
+      "Desh Bandhu Singh",
+      "Pushpendra Kumar",
+      "Prabhakar Bhandari",
+      "Rupesh Kumar Tipu",
+      "Sandeep Singh",
+      "Ankur Singh Bist"
+    ],
+    "year": 2026,
+    "venue": "Archives of Thermodynamics",
+    "doi": "10.24425/ather.2026.158677",
+    "type": "Journal article"
+  },
+  {
+    "title": "Leakage-Safe and Interpretable Multi-view Stacked Learning Framework for Compressive Strength Prediction of Glass-Powder Concrete",
+    "authors": [
+      "Neha H Rajput",
+      "Nikita Jain",
+      "Neha Sharma",
+      "Sagar Paruthi",
+      "Rupesh Kumar Tipu",
+      "Vipin Kumar Verma"
+    ],
+    "year": 2026,
+    "venue": "Iranian Journal of Science and Technology, Transactions of Civil Engineering",
+    "doi": "10.1007/s40996-026-02219-8",
+    "type": "Journal article"
+  },
+  {
+    "title": "Risk-aware surrogate-assisted multi-objective design optimization of profiled steel-concrete composite slabs",
+    "authors": [
+      "Pinal C. Patel",
+      "Vijaykumar R Panchal",
+      "Rupesh Kumar Tipu"
+    ],
+    "year": 2026,
+    "venue": "Asian Journal of Civil Engineering",
+    "doi": "10.1007/s42107-026-01757-w",
+    "type": "Journal article"
+  },
+  {
+    "title": "Predictive-uncertainty-aware multiobjective design of reinforced concrete beams using surrogate modeling",
+    "authors": [
+      "Tarek Salem Abdennaji",
+      "Samia Parvez",
+      "Rupesh Kumar Tipu",
+      "Sagar Paruthi"
+    ],
+    "year": 2026,
+    "venue": "Structures",
+    "doi": "10.1016/j.istruc.2026.112741",
+    "type": "Journal article"
+  },
+  {
+    "title": "Hybrid Machine Learning Framework for Reliable Strength Prediction of Glass Powder-Blended Sustainable Concrete",
+    "authors": [
+      "Neha H Rajput",
+      "Nikita Jain",
+      "Neelaz Singh",
+      "Neha Sharma",
+      "Sagar Paruthi",
+      "Rupesh Kumar Tipu",
+      "Amar Saraswat"
+    ],
+    "year": 2026,
+    "venue": "Iranian Journal of Science and Technology, Transactions of Civil Engineering",
+    "doi": "10.1007/s40996-026-02239-4",
+    "type": "Journal article"
+  },
+  {
+    "title": "Predictive modelling of flexural strength in recycled aggregate-based concrete: A comprehensive approach with machine learning and global sensitivity analysis",
+    "authors": [
+      "Rajwinder Singh",
+      "Rupesh Kumar Tipu",
+      "Ajaz Ahmad Mir",
+      "Mahesh Patel"
+    ],
+    "year": 2025,
+    "venue": "Iranian Journal of Science and Technology, Transactions of Civil Engineering",
+    "doi": "10.1007/s40996-024-01502-w",
+    "type": "Journal article"
+  },
+  {
+    "title": "Utilization of numerical and machine learning to predict the monotonic compressive response of square double-skin tubular columns (SDSTC)",
+    "authors": [
+      "Yang Ren",
+      "Haytham F Isleem",
+      "Ali Jahami",
+      "Rupesh Kumar Tipu"
+    ],
+    "year": 2025,
+    "venue": "Structures",
+    "doi": "10.1016/j.istruc.2025.108206",
+    "type": "Journal article"
+  },
+  {
+    "title": "Ensemble machine learning models for predicting concrete compressive strength incorporating various sand types",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Shweta Bansal",
+      "Vandna Batra",
+      "Suman",
+      "Gaurang A Patel"
+    ],
+    "year": 2025,
+    "venue": "Multiscale and Multidisciplinary Modeling, Experiments and Design",
+    "doi": "10.1007/s41939-025-00812-4",
+    "type": "Journal article"
+  },
+  {
+    "title": "Integrated deep learning and Bayesian optimization approach for enhanced prediction of high-performance concrete strength",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Archna Goyal",
+      "Digvijay Singh",
+      "Ayyala Kishore Ajay Kumar"
+    ],
+    "year": 2025,
+    "venue": "Asian Journal of Civil Engineering",
+    "doi": "10.1007/s42107-025-01313-y",
+    "type": "Journal article"
+  },
+  {
+    "title": "Hybrid machine learning modelling and feature interpretation of load-carrying capacity of PVC tube-confined concrete columns",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Vipin Kumar Verma"
+    ],
+    "year": 2025,
+    "venue": "Asian Journal of Civil Engineering",
+    "doi": "10.1007/s42107-025-01350-7",
+    "type": "Journal article"
+  },
+  {
+    "title": "Optimizing sustainable blended concrete mixes using deep learning and multi-objective optimization",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Preeti Rathi",
+      "Kartik S Pandya",
+      "Vijay R Panchal"
+    ],
+    "year": 2025,
+    "venue": "Scientific Reports",
+    "doi": "10.1038/S41598-025-00943-1",
+    "type": "Journal article"
+  },
+  {
+    "title": "Predicting compressive and tensile strength of concrete with different sand types using machine learning",
+    "authors": [
+      "Tarek Salem Abdennaji",
+      "Rupesh Kumar Tipu",
+      "Yahya Alassaf"
+    ],
+    "year": 2025,
+    "venue": "Ain Shams Engineering Journal",
+    "doi": "10.1016/j.asej.2025.103474",
+    "type": "Journal article"
+  },
+  {
+    "title": "Physics-informed neural networks for predicting sediment transport in pressurized pipe flows",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Ruchika Bhakhar",
+      "Kartik S Pandya",
+      "Vijay R Panchal"
+    ],
+    "year": 2025,
+    "venue": "Environmental earth sciences",
+    "doi": "10.1007/s12665-025-12295-0",
+    "type": "Journal article"
+  },
+  {
+    "title": "Advancing water quality management: an integrated approach using ensemble machine learning and real-time interactive visualization",
+    "authors": [
+      "Jigna K Pandya",
+      "Suresh S Khandelwal",
+      "Rupesh Kumar Tipu",
+      "Kartik S Pandya"
+    ],
+    "year": 2025,
+    "venue": "IEEE Access",
+    "doi": "10.1109/ACCESS.2025.3573589",
+    "type": "Journal article"
+  },
+  {
+    "title": "An enhanced weighted ensemble approach for predicting concrete compressive strength",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Vandna Batra",
+      "Suman",
+      "Kartik S Pandya"
+    ],
+    "year": 2025,
+    "venue": "Multiscale and Multidisciplinary Modeling, Experiments and Design",
+    "doi": "10.1007/s41939-025-00920-1",
+    "type": "Journal article"
+  },
+  {
+    "title": "An ANN-based approach for estimating load capacity and strain in FRP confined concrete columns",
+    "authors": [
+      "Li Shang",
+      "Haytham F Isleem",
+      "Saad A Yehia",
+      "Rupesh Kumar Tipu",
+      "Khalil El Hindi"
+    ],
+    "year": 2025,
+    "venue": "Egyptian Informatics Journal",
+    "doi": "10.1016/j.eij.2025.100738",
+    "type": "Journal article"
+  },
+  {
+    "title": "GA–PSO–optimised dual-path attention network for predicting strength of nano/micro-modified alkali-activated concrete",
+    "authors": [
+      "Neha Sharma",
+      "Arvind Dewangan",
+      "Vidhika Tiwari",
+      "Neelaz Singh",
+      "Rupesh Kumar Tipu",
+      "Sagar Paruthi"
+    ],
+    "year": 2025,
+    "venue": "Asian Journal of Civil Engineering",
+    "doi": "10.1007/s42107-025-01425-5",
+    "type": "Journal article"
+  },
+  {
+    "title": "Interpretable GA-PSO-optimised deep learning for multi-objective geopolymer concrete strength prediction",
+    "authors": [
+      "Neha Sharma",
+      "Seema",
+      "Sagar Paruthi",
+      "Rupesh Kumar Tipu"
+    ],
+    "year": 2025,
+    "venue": "Asian Journal of Civil Engineering",
+    "doi": "10.1007/s42107-025-01450-4",
+    "type": "Journal article"
+  },
+  {
+    "title": "Weighted-ensemble machine learning for simultaneous non-destructive prediction of rebound number and ultrasonic pulse velocity in concrete",
+    "authors": [
+      "Neha Sharma",
+      "Arvind Dewangan",
+      "Neelaz Singh",
+      "Devjani Bhattacharya",
+      "Sagar Paruthi",
+      "Rupesh Kumar Tipu"
+    ],
+    "year": 2025,
+    "venue": "Asian Journal of Civil Engineering",
+    "doi": "10.1007/s42107-025-01455-z",
+    "type": "Journal article"
+  },
+  {
+    "title": "Eco-strengthNet: a multi-objective, explainable ensemble and GUI for sustainable concrete optimisation",
+    "authors": [
+      "Meenu Vijarania",
+      "Swati",
+      "Aman Jatain",
+      "Rupesh Kumar Tipu"
+    ],
+    "year": 2025,
+    "venue": "Asian Journal of Civil Engineering",
+    "doi": "10.1007/s42107-025-01475-9",
+    "type": "Journal article"
+  },
+  {
+    "title": "Sustainability and economic evaluation of recycled aggregate geopolymer concrete using fly ash and slag",
+    "authors": [
+      "Mahavir Singh Rawat",
+      "Smita Kaloni",
+      "Rupesh Kumar Tipu",
+      "Prabhakar Bhandari"
+    ],
+    "year": 2025,
+    "venue": "Journal of Material Cycles and Waste Management",
+    "doi": "10.1007/s10163-025-02373-7",
+    "type": "Journal article"
+  },
+  {
+    "title": "AI based predictive modelling for compressive strength of metakaolin-based geopolymer concrete incorporated with Nano Titanium",
+    "authors": [
+      "Sagar Paruthi",
+      "Yogita Yashveer Raghav",
+      "Parveen Kumari",
+      "Rupesh Kumar Tipu",
+      "Neha Sharma"
+    ],
+    "year": 2025,
+    "venue": "Journal of structural integrity and maintenance",
+    "doi": "10.1080/24705314.2025.2503027",
+    "type": "Journal article"
+  },
+  {
+    "title": "Hybrid assessment of concrete with recycled aggregate using experiment and machine learning techniques for structural performance optimization",
+    "authors": [
+      "Sagar Paruthi",
+      "Rupesh Kumar Tipu",
+      "Nadeem Nisar",
+      "Nakeem Nisar",
+      "Mohammad Waris",
+      "Afzal Husain Khan"
+    ],
+    "year": 2025,
+    "venue": "Innovative Infrastructure Solutions",
+    "doi": "10.1007/s41062-025-02290-6",
+    "type": "Journal article"
+  },
+  {
+    "title": "A hybrid deep learning and evolutionary framework for energy-aware interior augmentation via photorealistic visual illusions",
+    "authors": [
+      "Yu Liu",
+      "Haytham F Isleem",
+      "Rupesh Kumar Tipu",
+      "Khalil El Hindi"
+    ],
+    "year": 2025,
+    "venue": "Engineering Applications of Artificial Intelligence",
+    "doi": "10.1016/j.engappai.2025.112743",
+    "type": "Journal article"
+  },
+  {
+    "title": "Stacked ensemble intelligence for predicting compressive strength of cdw-incorporated sustainable concrete",
+    "authors": [
+      "Sagar Paruthi",
+      "Rupesh Kumar Tipu",
+      "Rashmi Verma",
+      "Neha Sharma"
+    ],
+    "year": 2025,
+    "venue": "Iranian Journal of Science and Technology, Transactions of Civil Engineering",
+    "doi": "10.1007/s40996-025-02098-5",
+    "type": "Journal article"
+  },
+  {
+    "title": "Enhancing prediction accuracy of workability and compressive strength of high-performance concrete through extended dataset and improved machine learning models",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Suman",
+      "Vandna Batra"
+    ],
+    "year": 2024,
+    "venue": "Asian Journal of Civil Engineering",
+    "doi": "10.1007/s42107-023-00768-1",
+    "type": "Journal article"
+  },
+  {
+    "title": "Enhancing chloride concentration prediction in marine concrete using conjugate gradient-optimized backpropagation neural network",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "VR Panchal",
+      "KS Pandya"
+    ],
+    "year": 2024,
+    "venue": "Asian Journal of Civil Engineering",
+    "doi": "10.1007/s42107-023-00801-3",
+    "type": "Journal article"
+  },
+  {
+    "title": "Predictive modelling of surface chloride concentration in marine concrete structures: a comparative analysis of machine learning approaches",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Vandna Batra",
+      "Suman",
+      "VR Panchal",
+      "KS Pandya"
+    ],
+    "year": 2024,
+    "venue": "Asian Journal of Civil Engineering",
+    "doi": "10.1007/s42107-023-00854-4",
+    "type": "Journal article"
+  },
+  {
+    "title": "Prognosis of flow of fly ash and blast furnace slag-based concrete: leveraging advanced machine learning algorithms",
+    "authors": [
+      "Rahul Kumar",
+      "Ayush Rathore",
+      "Rajwinder Singh",
+      "Ajaz Ahmad Mir",
+      "Rupesh Kumar Tipu",
+      "Mahesh Patel"
+    ],
+    "year": 2024,
+    "venue": "Asian Journal of Civil Engineering",
+    "doi": "10.1007/s42107-023-00922-9",
+    "type": "Journal article"
+  },
+  {
+    "title": "Machine learning-based prediction of concrete strength properties with coconut shell as partial aggregate replacement: A sustainable approach in construction engineering",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Rishabh Arora",
+      "Kaushal Kumar"
+    ],
+    "year": 2024,
+    "venue": "Asian Journal of Civil Engineering",
+    "doi": "10.1007/s42107-023-00957-y",
+    "type": "Journal article"
+  },
+  {
+    "title": "Machine learning-based prediction of concrete strengths with coconut shell as partial coarse aggregate replacement: A comprehensive analysis and sensitivity study",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "VR Panchal",
+      "KS Pandya"
+    ],
+    "year": 2024,
+    "venue": "Asian Journal of Civil Engineering",
+    "doi": "10.1007/s42107-023-00971-0",
+    "type": "Journal article"
+  },
+  {
+    "title": "Influence of machine learning approaches for partial replacement of cement content through waste in construction sector",
+    "authors": [
+      "Kaushal Kumar",
+      "Rishabh Arora",
+      "Rupesh Kumar Tipu",
+      "Saurav Dixit",
+      "Nikolai Vatin",
+      "Sandeep Arya"
+    ],
+    "year": 2024,
+    "venue": "Asian Journal of Civil Engineering",
+    "doi": "10.1007/s42107-023-00972-z",
+    "type": "Journal article"
+  },
+  {
+    "title": "Predictive modeling of shear strength in fiber-reinforced cementitious matrix-strengthened RC beams using machine learning",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Vandna Batra",
+      "Suman"
+    ],
+    "year": 2024,
+    "venue": "Asian Journal of Civil Engineering",
+    "doi": "10.1007/s42107-023-00976-9",
+    "type": "Journal article"
+  },
+  {
+    "title": "Optimizing compressive strength in sustainable concrete: a machine learning approach with iron waste integration",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Vandna Batra",
+      "Suman",
+      "VR Panchal",
+      "KS Pandya",
+      "Gaurang A Patel"
+    ],
+    "year": 2024,
+    "venue": "Asian Journal of Civil Engineering",
+    "doi": "10.1007/s42107-024-01061-5",
+    "type": "Journal article"
+  },
+  {
+    "title": "Repurposing plastic waste: Experimental study and predictive analysis using machine learning in bricks",
+    "authors": [
+      "Pooja Lamba",
+      "Dilraj Preet Kaur",
+      "Seema Raj",
+      "Rupesh Kumar Tipu",
+      "Jyoti Sorout",
+      "Abdul Malik",
+      "Azmat Ali Khan"
+    ],
+    "year": 2024,
+    "venue": "Journal of Molecular Structure",
+    "doi": "10.1016/j.molstruc.2024.139158",
+    "type": "Journal article"
+  },
+  {
+    "title": "Predicting compressive strength of concrete with iron waste: a BPNN approach",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Vandna Batra",
+      "Suman",
+      "KS Pandya",
+      "VR Panchal"
+    ],
+    "year": 2024,
+    "venue": "Asian Journal of Civil Engineering",
+    "doi": "10.1007/s42107-024-01130-9",
+    "type": "Journal article"
+  },
+  {
+    "title": "Numerical and machine learning models for concentrically and eccentrically loaded CFST columns confined with FRP wraps",
+    "authors": [
+      "Chi Xu",
+      "Ying Zhang",
+      "Haytham F Isleem",
+      "Dianle Qiu",
+      "Yun Zhang",
+      "Mostafa Medhat Alsaadawi",
+      "Rupesh Kumar Tipu",
+      "Waleed E El‐Demerdash",
+      "Asmaa Y Hamed"
+    ],
+    "year": 2024,
+    "venue": "Structural Concrete",
+    "doi": "10.1002/suco.202400541",
+    "type": "Journal article"
+  },
+  {
+    "title": "Compressive behavior of elliptical concrete-filled steel tubular short columns using numerical investigation and machine learning techniques",
+    "authors": [
+      "Hazem Samih Mohamed",
+      "Tang Qiong",
+      "Haytham F Isleem",
+      "Rupesh Kumar Tipu",
+      "Ramy I Shahin",
+      "Saad A Yehia",
+      "Pradeep Jangir",
+      "Arpita",
+      "Mohammad Khishe"
+    ],
+    "year": 2024,
+    "venue": "Scientific Reports",
+    "doi": "10.1038/s41598-024-77396-5",
+    "type": "Journal article"
+  },
+  {
+    "title": "Development of a hybrid stacked machine learning model for predicting compressive strength of high-performance concrete",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Suman",
+      "Vandna Batra"
+    ],
+    "year": 2023,
+    "venue": "Asian Journal of Civil Engineering",
+    "doi": "10.1007/s42107-023-00689-z",
+    "type": "Journal article"
+  },
+  {
+    "title": "Multi-objective optimized high-strength concrete mix design using a hybrid machine learning and metaheuristic algorithm",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "VR Panchal",
+      "KS Pandya"
+    ],
+    "year": 2023,
+    "venue": "Asian Journal of Civil Engineering",
+    "doi": "10.1007/s42107-022-00535-8",
+    "type": "Journal article"
+  },
+  {
+    "title": "Shear capacity prediction for FRCM-strengthened RC beams using Hybrid ReLU-Activated BPNN model",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Vandna Batra",
+      "KS Pandya",
+      "VR Panchal"
+    ],
+    "year": 2023,
+    "venue": "Structures",
+    "doi": "10.1016/j.istruc.2023.105432",
+    "type": "Journal article"
+  },
+  {
+    "title": "Efficient compressive strength prediction of concrete incorporating recycled coarse aggregate using Newton’s boosted backpropagation neural network (NB-BPNN)",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Vandna Batra",
+      "KS Pandya",
+      "VR Panchal"
+    ],
+    "year": 2023,
+    "venue": "Structures",
+    "doi": "10.1016/j.istruc.2023.105559",
+    "type": "Journal article"
+  },
+  {
+    "title": "Enhancing load capacity prediction of column using eReLU-activated BPNN model",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Vandna Batra",
+      "KS Pandya",
+      "VR Panchal"
+    ],
+    "year": 2023,
+    "venue": "Structures",
+    "doi": "10.1016/j.istruc.2023.105600",
+    "type": "Journal article"
+  },
+  {
+    "title": "An ensemble approach to improve BPNN model precision for predicting compressive strength of high-performance concrete",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "VR Panchal",
+      "KS Pandya"
+    ],
+    "year": 2022,
+    "venue": "Structures",
+    "doi": "10.1016/j.istruc.2022.09.046",
+    "type": "Journal article"
+  },
+  {
+    "title": "Enhancing Workability Prediction of Concrete Using Ensemble Machine Learning Models",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Owais Ahmad Shah"
+    ],
+    "year": 2026,
+    "venue": "2026 Sixth International Conference on Advances in Electrical, Computing, Communications and Sustainable Technologies (ICAECT)",
+    "doi": "10.1109/ICAECT68478.2026.11426063",
+    "type": "Conference paper"
+  },
+  {
+    "title": "Data-Driven Prediction of Compressive Strength in High-Performance Concrete",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Owais Ahmad Shah"
+    ],
+    "year": 2026,
+    "venue": "2026 1st International Conference on Advancing Sustainable Solutions through Technologies (ICASST)",
+    "doi": "10.1109/ICASST68917.2026.11484515",
+    "type": "Conference paper"
+  },
+  {
+    "title": "Time-Series Forecasting of Energy Consumption Using LSTM Networks for Optimized Microgrid Management",
+    "authors": [
+      "Kartik S Pandya",
+      "Rupesh Kumar Tipu",
+      "Jigna K Pandya"
+    ],
+    "year": 2025,
+    "venue": "2025 International Conference on Sustainable Energy Technologies and Computational Intelligence (SETCOM)",
+    "doi": "10.1109/SETCOM64758.2025.10932629",
+    "type": "Conference paper"
+  },
+  {
+    "title": "Deep Learning and Optimization Techniques for Sentiment-Driven Stock Market Prediction Using Transformer Models",
+    "authors": [
+      "Vandna Batra",
+      "Rupesh Kumar Tipu"
+    ],
+    "year": 2025,
+    "venue": "2025 2nd International Conference On Multidisciplinary Research and Innovations in Engineering (MRIE)",
+    "doi": "10.1109/MRIE66930.2025.11156446",
+    "type": "Conference paper"
+  },
+  {
+    "title": "Learning Smarter, Not Harder: A Unified Strategy for Efficient Representation Learning with Limited Labels",
+    "authors": [
+      "Archna Goyal",
+      "Ruchika Bhakhar",
+      "Rupesh Kumar Tipu",
+      "Surbhi Singh"
+    ],
+    "year": 2025,
+    "venue": "2025 2nd International Conference On Multidisciplinary Research and Innovations in Engineering (MRIE)",
+    "doi": "10.1109/MRIE66930.2025.11156318",
+    "type": "Conference paper"
+  },
+  {
+    "title": "Mitigating V-folding resonance shifts in flexible patch antennas through ground plane resizing",
+    "authors": [
+      "Ayyala Kishore Ajay Kumar",
+      "Birudula Anil Kumar",
+      "Owais Ahmad Shah",
+      "Appurva Jain",
+      "Digvijay Singh",
+      "Rupesh Kumar Tipu"
+    ],
+    "year": 2025,
+    "venue": "Recent Trends in Intelligent Computing and Communication",
+    "doi": "10.1201/9781003593034-83",
+    "type": "Conference paper"
+  },
+  {
+    "title": "Enhancing Concrete Properties Through the Integration of Recycled Coarse Aggregate: A Machine Learning Approach for Sustainable Construction",
+    "authors": [
+      "R. K. Tipu",
+      "O. A. Shah",
+      "S. Vats",
+      "S. Purohit"
+    ],
+    "year": 2024,
+    "venue": "2024 4th International Conference on Innovative Practices in Technology and Management (ICIPTM)",
+    "doi": "10.1109/ICIPTM59628.2024.10563490",
+    "type": "Conference paper"
+  },
+  {
+    "title": "Deep learning projections for high-performance concrete strength forecasting",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Owais Ahmad Shah",
+      "Satvik Vats",
+      "Sujata Arora"
+    ],
+    "year": 2024,
+    "venue": "2024 4th international conference on innovative practices in technology and management (iciptm)",
+    "doi": "10.1109/ICIPTM59628.2024.10563896",
+    "type": "Conference paper"
+  },
+  {
+    "title": "Predicting Concrete Flow Using Advanced Machine Learning Techniques: Insights and Applications",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Owais Ahmad Shah",
+      "Satvik Vats",
+      "Arjit Tomar",
+      "Md Aamir Sohail",
+      "Aditya Verma"
+    ],
+    "year": 2024,
+    "venue": "2024 15th International Conference on Computing Communication and Networking Technologies (ICCCNT)",
+    "doi": "10.1109/ICCCNT61001.2024.10725851",
+    "type": "Conference paper"
+  },
+  {
+    "title": "Prediction of Flexural Strength for Coconut Shell Embedded Concrete using Machine Learning Technique",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Owais Ahmad Shah",
+      "Satvik Vats",
+      "Taslima Ahmed",
+      "Prashant Singh",
+      "Aditya Verma"
+    ],
+    "year": 2024,
+    "venue": "2024 15th International Conference on Computing Communication and Networking Technologies (ICCCNT)",
+    "doi": "10.1109/ICCCNT61001.2024.10724458",
+    "type": "Conference paper"
+  },
+  {
+    "title": "Predictive Modeling of Compressive Strength in Coconut Shell-Embedded Concrete Using Ensemble Regression Models",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "Owais Ahmad Shah",
+      "Satvik Vats",
+      "Arjit Tomar",
+      "Imran Ahmed Khan",
+      "Pawan Whig",
+      "Kunwar Babar Ali",
+      "Aditya Verma"
+    ],
+    "year": 2024,
+    "venue": "2024 International Conference on Integrated Intelligence and Communication Systems (ICIICS)",
+    "doi": "10.1109/ICIICS63763.2024.10860255",
+    "type": "Conference paper"
+  },
+  {
+    "title": "Predictive Modeling of Shear Capacity for FRCM-Strengthened RC Beams using MLP Neural Networks and Global Sensitivity Analysis for Sustainable Construction",
+    "authors": [
+      "Owais Ahmad Shah",
+      "Rupesh Kumar Tipu",
+      "Satvik Vats",
+      "Shardha Purohit",
+      "Shivangi Bansal",
+      "Anupam Kumar Yadav",
+      "Aditya Verma"
+    ],
+    "year": 2024,
+    "venue": "2024 International BIT Conference (BITCON)",
+    "doi": "10.1109/BITCON63716.2024.10985715",
+    "type": "Conference paper"
+  },
+  {
+    "title": "Multi-objective optimization of the concrete mixture blended with mineral admixture using machine learning and NSGA-II algorithms",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "VR Panchal",
+      "KS Pandya"
+    ],
+    "year": 2023,
+    "venue": "Advanced Engineering Optimization Through Intelligent Techniques: Select Proceedings of AEOTIT 2022",
+    "doi": "10.1007/978-981-19-9285-8_16",
+    "type": "Conference paper"
+  },
+  {
+    "title": "ANN-based scalable video encoding method for crime surveillance-intelligence of things applications",
+    "authors": [
+      "Rupanshi Agarwal",
+      "Paresh Pathak",
+      "Rupesh Kumar Tipu",
+      "Digvijay Singh",
+      "Aarti Kalnawat",
+      "Dharmesh Dhabliya"
+    ],
+    "year": 2023,
+    "venue": "2023 International Conference on Data Science and Network Security (ICDSNS)",
+    "doi": "10.1109/ICDSNS58469.2023.10245873",
+    "type": "Conference paper"
+  },
+  {
+    "title": "Parametric investigation of coconut shells as partial replacement of coarse aggregates in sustainable concrete",
+    "authors": [
+      "Rishabh Arora",
+      "Kaushal Kumar",
+      "Saurav Dixit",
+      "Rupesh Kumar Tipu",
+      "Padmini Kaul",
+      "Swati Chauhan",
+      "Y Kamala Raju",
+      "Ginni Nijhawan",
+      "P Haindavi"
+    ],
+    "year": 2023,
+    "venue": "E3S Web of Conferences",
+    "doi": "10.1051/e3sconf/202343001180",
+    "type": "Conference paper"
+  },
+  {
+    "title": "Prediction of concrete properties using machine learning algorithm",
+    "authors": [
+      "Rupesh Kumar Tipu",
+      "VR Panchal",
+      "KS Pandya"
+    ],
+    "year": 2022,
+    "venue": "Journal of physics: conference series",
+    "doi": "10.1088/1742-6596/2273/1/012016",
+    "type": "Conference paper"
+  },
+  {
+    "title": "The future of digital marketing: Leveraging artificial intelligence for competitive strategies and tactics",
+    "authors": [
+      "Yogita Yashveer Raghav",
+      "Rupesh Kumar Tipu",
+      "Ruchika Bhakhar",
+      "Tanu Gupta",
+      "Kriti Sharma"
+    ],
+    "year": 2024,
+    "venue": "The use of artificial intelligence in digital marketing: competitive strategies and tactics",
+    "doi": "10.4018/978-1-6684-9324-3.ch011",
+    "type": "Book chapter"
+  }
+]

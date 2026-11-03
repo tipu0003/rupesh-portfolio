@@ -25,12 +25,13 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "python scripts/build_site.py && python -m http.server 3000 --bind 127.0.0.1 --directory _site",
+    "build": "python scripts/build_site.py --output build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "pretest": "python -m unittest discover -s scripts -p test_publication_pipeline.py"
   },
   "eslintConfig": {
     "extends": [

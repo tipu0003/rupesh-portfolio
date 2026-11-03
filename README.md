@@ -1,60 +1,37 @@
-# Dr. Rupesh Kumar Tipu — academic portfolio
+# Dr. Rupesh Kumar Tipu · Academic portfolio
 
-React portfolio for https://tipu0003.github.io/rupesh-portfolio/.
+Public site: https://tipu0003.github.io/rupesh-portfolio/
 
-## Run locally
+The portfolio introduces Dr. Tipu's work in structural engineering and applied AI, highlights three representative studies, and provides a searchable publication catalogue with BibTeX export. A distinct latest-publication link is selected from the catalogue every time the site builds. The main text and links are rendered as HTML for readers and search engines. The archive also works with JavaScript disabled.
 
-Use Node.js 22 and Python 3.12 (the publication scripts use only Python standard-library modules).
+## Preview locally
 
-```bash
-npm ci
-npm start
+Python 3.10 or later is sufficient. From the repository root:
+
+```sh
+python scripts/update_publications.py
+python scripts/build_site.py
+python -m http.server 3000 --bind 127.0.0.1 --directory _site
 ```
 
-## Build and verify
+Visit http://localhost:3000/. The saved catalogue makes this build reproducible without network access. The existing npm start and npm run build commands use the same portfolio builder. npm run build writes to build/ for compatibility. The previous React source is retained under src/ and public/ for reference. The published site uses index.template.html, sections/profile.html, style.css, catalog.js and assets/.
 
-```bash
-npm test -- --watchAll=false --runInBand
-python -m unittest discover -s scripts -p 'test_*.py'
-npm run build
-```
+## Update the profile
 
-The production build uses relative asset URLs and supports the existing GitHub Pages project path. No router or third-party contact form is required. Contact opens the visitor's email application.
+- Edit index.template.html for the introduction, selected studies, recognition, academic profile links and contact details. Edit sections/profile.html for appointments, books, patents, grant, teaching and supervision.
+- Update the three Google Scholar figures and the visible snapshot date together when a new profile snapshot is available. The Scopus count has its own source date.
+- The recognition links to the 2026 Stanford–Elsevier database, version 9. The single-year list covers citations received in 2025. The full CV is offered by email.
 
-## Publication automation — no paid key
+## Publications and deployment
 
-`.github/workflows/deploy.yml` refreshes the public ORCID record daily at approximately 07:47 IST, on main-branch pushes, and on manual dispatch. It tests, builds, saves the refreshed catalog and deploys in the same run. Standard GitHub-hosted Actions runners are free for this public repository. GitHub can delay scheduled runs or disable schedules after 60 days without repository activity; re-enable them in Actions when needed.
+The existing daily GitHub Actions job checks public ORCID and Crossref records at approximately 07:47 India time. Neither source requires a paid key. The workflow builds and deploys to this repository's GitHub Pages site. The last successful data remains available during a failed refresh. A record missing from both indexes can be added to the author's public ORCID or included in a future Scholar CSV import.
 
-`python scripts/fetch_publications.py` retrieves the public works for ORCID 0000-0001-8476-8364, including author lists. It writes both the public JSON and a bundled fallback. Failed requests, empty responses and unexpectedly large record drops leave the last good catalog intact. New works appear after they become public in this ORCID record. Enabling Crossref as a trusted party in ORCID and permitting automatic updates can reduce manual ORCID maintenance, but this website cannot change those account settings.
+For the exact source rules, manual refresh, tests and Pages settings, see [publication maintenance](scripts/README.md). The project does not scrape Google Scholar.
 
-The site merges ORCID records, the owner-supplied Scholar export and the existing curated list. It deduplicates by DOI and normalized title. Metadata can retain journal issue dates that are later than online publication dates. The collection count describes this merged catalog; it is not a claimed Google Scholar or Scopus document total.
+## Academic sources
 
-## Import another Google Scholar export
-
-Export all desired records from Scholar as CSV, then run:
-
-```bash
-python scripts/import_scholar.py "/path/to/citations.csv"
-```
-
-Commit `src/data/scholar-export.json`. The supplied CSV on 3 November 2026 contains 20 rows, all represented in the current combined catalog. Original Scholar CSV records do not contain DOI or citation counts, so those fields are never fabricated.
-
-## Dated metrics and profile details
-
-The Scholar screenshot supplied on 3 November 2026 reports 1,199 citations, h-index 22, i10-index 31. Scopus 76 documents comes from the supplied CV dated 14 October 2026. These are dated snapshots, not live API results. Google Scholar does not provide a supported public profile API; automatic scraping is not used. Update those figures and their visible dates in `src/App.js` when a fresh snapshot is available.
-
-Update research themes, experience, patent applications and external profiles in `src/data/profile.js`. The Request CV link opens the visitor’s email application; the attached full CV is not published. The Top 2% statement follows the CV: 2026 edition, Single-Year Impact, citation year 2025, Civil Engineering. It links to the Stanford–Elsevier research database v9. Patent entries describe published applications, not granted patents. The Springer book is labelled forthcoming according to the CV.
-
-## Deployment
-
-The workflow uses the automatic `GITHUB_TOKEN`, not a personal access token or paid service. The current hosting method publishes the built site to the `gh-pages` branch. GitHub Settings → Pages should use Deploy from a branch → gh-pages → /(root). Keep repository Actions permissions set to allow the workflow's declared contents write access. No secrets are needed for the ORCID refresh.
-
-## Sources
-
-- CV supplied by the owner, updated 14 October 2026.
-- Google Scholar profile screenshot and CSV supplied by the owner, 3 November 2026.
-- Public ORCID works: https://pub.orcid.org/v3.0/0000-0001-8476-8364/works
-- ORCID anonymous API limits: https://info.orcid.org/ufaqs/what-are-the-api-limits/
-- Stanford–Elsevier 2026 database: https://data.mendeley.com/datasets/btchxktzyw/9
-- GitHub Actions usage: https://docs.github.com/en/actions/concepts/billing-and-usage
-- GitHub scheduled-run limits: https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule
+- [DSCE Civil Engineering faculty](https://www.dsce.edu.in/civil/faculty-civil)
+- [Stanford–Elsevier citation database, version 9](https://doi.org/10.17632/btchxktzyw.9)
+- [Public ORCID](https://orcid.org/0000-0001-8476-8364)
+- [Google Scholar profile](https://scholar.google.com/citations?user=uZzLU8IAAAAJ)
+- CV dated 14 October 2026 and Google Scholar screenshot and export supplied on 3 November 2026.
