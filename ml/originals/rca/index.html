@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#102b53">
+<title>Recycled-aggregate concrete strength | Dr. Rupesh Kumar Tipu</title>
+<meta name="description" content="Run the published RCA XGBoost model, compare curing and aggregate-replacement scenarios, and download results directly in the browser.">
+<link rel="icon" href="../../../assets/mark.svg" type="image/svg+xml"><link rel="stylesheet" href="../../lab.css">
+<script src="inference.js" defer></script><script src="../../plot.js" defer></script><script src="../../export.js" defer></script><script src="tool.js" defer></script>
+</head><body>
+<a class="skip-link" href="#workspace">Skip to predictor</a>
+<header class="mast"><div class="mast-inner"><a class="identity" href="../../../"><span class="monogram">RKT</span><span>Rupesh Kumar Tipu<small>Academic portfolio</small></span></a><nav aria-label="Primary navigation"><a href="../../../#research">Research</a><a href="../../../#publications">Publications</a><a href="../../" class="nav-selected">ML models</a><a href="../../../#contact">Contact</a></nav></div></header>
+<main class="page">
+<section class="intro"><div><p class="kicker"><span class="dash"></span> Original research model</p><h1>Recycled-aggregate <em>concrete</em></h1><p class="intro-text">Estimate compressive strength with the fitted XGBoost model from Dr. Tipu’s recycled-aggregate concrete study. Explore curing age and coarse-aggregate replacement while holding the rest of the mix fixed.</p></div>
+<div class="intro-readout"><span>MODEL RECORD</span><strong>Compressive strength</strong><span>Original XGBoost · MPa</span><a href="../">All research models ↗</a></div></section>
+<p id="load-state" role="status" class="loading">Loading the saved model…</p>
+<noscript><p>Please enable JavaScript to run this predictor.</p></noscript>
+<section id="workspace" hidden>
+<div class="grid"><section class="panel inputs-panel"><div class="panel-head"><p class="kicker">01 / Inputs</p><h2>Mix parameters</h2><p>The example is an illustrative input. Each field shows the range recorded by the original fitted scaler.</p></div>
+<form id="form"><div class="fields" id="fields"></div>
+<p class="helper">The source identifies “FA” in kg/m³ without expanding its name. Use a value defined in the same way as the study. Natural and recycled coarse aggregate shares add to 100%.</p>
+<p id="error" class="error" role="alert" hidden></p>
+<div class="form-actions"><button type="submit" class="primary">Run prediction →</button><button type="button" class="text-button" id="reset">Reset example</button></div></form>
+</section><section class="panel output-panel"><div class="panel-head"><p class="kicker">02 / Output</p><h2>Estimated strength</h2></div><div class="result-card" role="status" aria-live="polite"><strong id="estimate"></strong> <span>MPa</span></div><p id="summary" class="helper"></p><p id="dirty" class="notice" hidden>Inputs have changed. Run the prediction to update the result and downloads.</p></section></div>
+<section class="panel chart-panel"><div class="chart-heading"><div><p class="kicker">03 / Explore</p><h2>Mix sensitivity</h2></div><div class="plot-selectors"><label for="axis">Horizontal axis<select id="axis"><option value="6">Curing age</option><option value="2">Recycled coarse aggregate share</option><option value="4">Water/cement ratio</option><option value="0">Cement</option><option value="5">Superplasticizer percentage</option><option value="1">FA</option></select></label></div></div>
+<div id="chart"></div><p id="chart-note" class="helper"></p>
+<div class="downloads"><button type="button" id="excel">↓ Excel results</button><button type="button" id="svg">↓ SVG plot</button><button type="button" id="png">↓ PNG plot</button><span id="status" role="status"></span></div></section>
+</section>
+<section class="panel evidence-panel"><div class="panel-head"><p class="kicker">04 / Evidence</p><h2>Model record and limits</h2></div>
+<p class="evidence-copy">Paruthi, Tipu and colleagues reported a test-set R² of 0.929 and an RMSE of 2.71 MPa. The repository also reports an MAE of 2.09 MPa. These are the study’s reported results. Individual held-out measurements are unavailable in the source repository, which prevents an independent check of these scores.</p>
+<p class="evidence-copy">The interface applies the seven features in the order recorded by the fitted scaler, then evaluates the 300 original trees in the browser. The port matched native XGBoost outputs on 503 numerical test cases. This comparison checks the implementation only. Confirm engineering decisions with material-specific experiments.</p>
+<p class="evidence-copy"><a href="https://doi.org/10.1007/s41062-025-02290-6">Read the research paper ↗</a> · <a href="https://github.com/tipu0003/RCA_Concrete_Prediction/tree/b8c6508c46f2996dcd02bfe62e779c69ac648c67">Original model and reported metrics ↗</a></p></section>
+<p class="use-note"><strong>Research use.</strong> The input limits describe separate training ranges. Some combinations within these limits may have no corresponding test in the study.</p></main>
+<footer><div class="mast-inner"><a href="../">← Research models</a><a href="../../../">Portfolio home</a></div></footer>
+</body></html>

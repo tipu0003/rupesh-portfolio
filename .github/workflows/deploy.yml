@@ -30,7 +30,8 @@ jobs:
           python-version: '3.12'
       - name: Test and build offline
         run: |
-          python -m unittest discover -s scripts -p 'test_publication_pipeline.py'
+          python -m unittest discover -s scripts -p 'test_*.py'
+          node scripts/test_model_engine.cjs
           python scripts/update_publications.py
           python scripts/build_site.py
           test -s _site/index.html
@@ -50,23 +51,35 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Run catalogue regression checks
-        run: python -m unittest discover -s scripts -p 'test_publication_pipeline.py'
+      - name: Check publication and model regressions
+        run: |
+          python -m unittest discover -s scripts -p 'test_*.py'
+          node scripts/test_model_engine.cjs
       - name: Refresh publication sources
         id: refresh
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         continue-on-error: true
         run: python scripts/update_publications.py --refresh
+      - name: Assemble publication catalogue
+        run: python scripts/update_publications.py
+      - name: Capture the latest journal page when available
+        id: preview
+        timeout-minutes: 2
+        continue-on-error: true
+        run: |
+          if [[ "$(python scripts/paper_preview.py --needed)" == "true" ]]; then
+            python -m pip install --disable-pip-version-check 'playwright==1.55.0'
+            python scripts/paper_preview.py
+          fi
       - name: Build from the available catalogue
         run: |
-          python scripts/update_publications.py
           python scripts/build_site.py
           test -s _site/index.html
           test -s _site/data/publications.json
       - name: Save refreshed data
-        if: steps.refresh.outcome == 'success' && github.ref == 'refs/heads/main'
+        if: (steps.refresh.outcome == 'success' || steps.preview.outcome == 'success') && github.ref == 'refs/heads/main'
         run: |
-          git add data/remote-publications.json data/publications.json
+          git add data/remote-publications.json data/publications.json assets/paper-previews
           if ! git diff --cached --quiet; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'

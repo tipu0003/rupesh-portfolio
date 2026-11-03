@@ -35,3 +35,13 @@ For the exact source rules, manual refresh, tests and Pages settings, see [publi
 - [Public ORCID](https://orcid.org/0000-0001-8476-8364)
 - [Google Scholar profile](https://scholar.google.com/citations?user=uZzLU8IAAAAJ)
 - CV dated 14 October 2026 and Google Scholar screenshot and export supplied on 3 November 2026.
+
+## Paper previews and recent publications
+
+The homepage features the latest indexed paper and lists the five preceding distinct records. Paper titles resolve to their publisher through the DOI. The Springer preview for DOI 10.1007/s41062-026-03084-0 is the supplied image. The optional Actions capture opens the latest DOI and checks the visible publisher title before saving a DOI-specific PNG under assets/paper-previews/. If the public page is unavailable or obscured, the site publishes its title and link and can try the screenshot again on a later run.
+
+## ML Models
+
+Open `ml/` for the browser-based research tools. The benchmark predictors and two analysis workflows use anonymous local inputs. The Excel workbook includes the mix and model details, and the graphics can be exported as SVG or PNG. The model card and reproducible training procedure are in [ml/MODELS.md](ml/MODELS.md). The browser ships the already-trained models, so training is separate from the regular Pages build.
+
+The published research models at `ml/originals/` link to the original repositories and record their input assumptions and evaluation limits. They are distinct from the models trained here on public benchmarks. All prediction and export code runs in the visitor's browser.

@@ -66,3 +66,7 @@
 @media (max-width: 375px) {
   .mast nav { font-size: 12px; }
 }
+
+/* Entry to the concrete prediction workspace. */
+.lab-entry{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:26px;margin-top:30px;padding:24px clamp(18px,2.6vw,38px);background:#e7efff;border:1px solid #c7d8f4;border-radius:10px}.lab-entry h3{font:normal clamp(25px,2.3vw,34px)/1.2 var(--serif);letter-spacing:-.035em;margin:4px 0 7px}.lab-entry p{max-width:55em;color:var(--muted);font-size:14px}.nav-models{color:#225daf}.lab-entry .btn{white-space:nowrap}
+@media(max-width:690px){.lab-entry{grid-template-columns:1fr;gap:14px}.lab-entry .btn{justify-self:start}.mast nav{gap:6px;font-size:12px}.mast nav a{white-space:nowrap}}
