@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "scholar": {
+    "profileId": "uZzLU8IAAAAJ",
+    "url": "https://scholar.google.com/citations?user=uZzLU8IAAAAJ&hl=en",
+    "name": "Dr. Rupesh Kumar Tipu",
+    "asOf": "2026-11-19",
+    "source": "User-supplied Google Scholar screenshot",
+    "all": {
+      "citations": 1218,
+      "hIndex": 23,
+      "i10Index": 31
+    },
+    "recent": {
+      "since": 2021,
+      "citations": 1211,
+      "hIndex": 23,
+      "i10Index": 31
+    },
+    "lastAttempt": "2026-11-19T10:51:07Z",
+    "lastSuccess": null,
+    "status": "unavailable",
+    "error": "Google Scholar returned HTTP 403."
+  },
+  "scopus": {
+    "documents": 76,
+    "asOf": "2026-10-14",
+    "source": "CV snapshot",
+    "url": "https://www.scopus.com/authid/detail.uri?authorId=57761722500"
+  }
+}

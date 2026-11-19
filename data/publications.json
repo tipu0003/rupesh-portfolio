@@ -1,8 +1,90 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-19",
   "lastCrossrefSync": "2026-11-19",
   "lastOrcidSync": "2026-11-19",
+  "lastAuthorSearchSync": "2026-11-19",
+  "sourceStatus": {
+    "ORCID": {
+      "lastAttempt": "2026-11-19",
+      "lastSuccess": "2026-11-19",
+      "status": "ok",
+      "records": 79
+    },
+    "Crossref": {
+      "lastAttempt": "2026-11-19",
+      "lastSuccess": "2026-11-19",
+      "status": "ok",
+      "records": 14
+    },
+    "Crossref author search": {
+      "lastAttempt": "2026-11-19",
+      "lastSuccess": "2026-11-19",
+      "status": "ok",
+      "records": 52
+    }
+  },
   "publications": [
+    {
+      "title": "V-shaped folded flexible patch antenna for conformal 5 GHz applications: static electromagnetic characterization",
+      "year": 2026,
+      "authorList": [
+        "Ayyala Kishore Ajay kumar",
+        "Kandala Kalyana Srinivas",
+        "Owais Ahmad Shah",
+        "Sandeep Rangi",
+        "Rupesh Kumar Tipu",
+        "Vakkalakula Bharath Sreenivasulu"
+      ],
+      "authors": "Ayyala Kishore Ajay kumar, Kandala Kalyana Srinivas, Owais Ahmad Shah, Sandeep Rangi, Rupesh Kumar Tipu, Vakkalakula Bharath Sreenivasulu",
+      "sourceBibtex": "",
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-026-78626-8",
+      "type": "Journal article",
+      "url": "https://doi.org/10.1038/s41598-026-78626-8",
+      "date": "2026-11-14",
+      "issueYear": 2026,
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "articleNumber": "",
+      "publisher": "Nature Publishing Group UK, London",
+      "isbn": "",
+      "issn": "2045-2322",
+      "sources": [
+        "Google Scholar export",
+        "Crossref author search"
+      ]
+    },
+    {
+      "title": "Response-specific machine-learning surrogates for preliminary assessment of a parametric steel I-beam family with four circular web openings",
+      "year": 2027,
+      "authorList": [
+        "Rupesh Kumar Tipu",
+        "Sagar Paruthi",
+        "Rishika Mehta",
+        "Vipin Kumar Verma",
+        "Amar Saraswat"
+      ],
+      "authors": "Rupesh Kumar Tipu, Sagar Paruthi, Rishika Mehta, Vipin Kumar Verma, Amar Saraswat",
+      "sourceBibtex": "",
+      "venue": "Journal of Structural Integrity and Maintenance",
+      "doi": "10.1080/24705314.2026.2758945",
+      "type": "Journal article",
+      "url": "https://doi.org/10.1080/24705314.2026.2758945",
+      "date": "2026-11-11",
+      "issueYear": 2027,
+      "volume": "12",
+      "issue": "1",
+      "pages": "2758945",
+      "articleNumber": "2758945",
+      "publisher": "Taylor & Francis",
+      "isbn": "",
+      "issn": "2470-5314",
+      "sources": [
+        "Google Scholar export",
+        "Crossref author search"
+      ]
+    },
     {
       "title": "Experimental performance and explainable machine learning prediction of ambient-cured GGBS–alccofine–silica fume concrete: towards reduced dependence on heat curing",
       "year": 2026,
@@ -17,21 +99,25 @@
         "Rupesh Kumar Tipu"
       ],
       "authors": "Arvind Dewangan, Neha Sharma, Nikita Jain, Rashmi Verma, Neelaz Singh, Sagar Paruthi, Mansha Samreen, Rupesh Kumar Tipu",
-      "sourceBibtex": "",
+      "sourceBibtex": "@article{Dewangan_2026, title={Experimental performance and explainable machine learning prediction of ambient-cured GGBS–alccofine–silica fume concrete: towards reduced dependence on heat curing}, volume={11}, ISSN={2364-4184}, url={http://dx.doi.org/10.1007/s41062-026-03084-0}, DOI={10.1007/s41062-026-03084-0}, number={12}, journal={Innovative Infrastructure Solutions}, publisher={Springer Science and Business Media LLC}, author={Dewangan, Arvind and Sharma, Neha and Jain, Nikita and Verma, Rashmi and Singh, Neelaz and Paruthi, Sagar and Samreen, Mansha and Tipu, Rupesh Kumar}, year={2026}, month=Oct }",
       "venue": "Innovative Infrastructure Solutions",
       "doi": "10.1007/s41062-026-03084-0",
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s41062-026-03084-0",
       "date": "2026-10-30",
+      "issueYear": 2026,
       "volume": "11",
       "issue": "12",
-      "pages": "",
+      "pages": "675",
       "articleNumber": "675",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer International Publishing, Cham",
       "isbn": "",
       "issn": "2364-4176",
       "sources": [
+        "Google Scholar export",
         "Crossref",
+        "Crossref author search",
+        "ORCID export",
         "ORCID"
       ]
     },
@@ -54,15 +140,18 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1038/s41598-026-71534-x",
       "date": "2026-10-07",
-      "volume": "",
-      "issue": "",
+      "issueYear": 2026,
+      "volume": "16",
+      "issue": "1",
       "pages": "",
-      "articleNumber": "",
-      "publisher": "Springer Science and Business Media LLC",
+      "articleNumber": "38098",
+      "publisher": "Nature Publishing Group UK, London",
       "isbn": "",
       "issn": "2045-2322",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref"
       ]
     },
@@ -82,16 +171,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1016/j.istruc.2026.112741",
       "date": "2026-10",
+      "issueYear": 2026,
       "volume": "92",
       "issue": "",
       "pages": "112741",
       "articleNumber": "112741",
-      "publisher": "Elsevier BV",
+      "publisher": "Elsevier",
       "isbn": "",
       "issn": "2352-0124",
       "sources": [
         "CV",
+        "Google Scholar export",
         "Crossref",
+        "Crossref author search",
+        "ORCID export",
         "ORCID"
       ]
     },
@@ -114,16 +207,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s40996-026-02239-4",
       "date": "2026-08-17",
+      "issueYear": 2026,
       "volume": "",
       "issue": "",
-      "pages": "",
+      "pages": "1-33",
       "articleNumber": "",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer International Publishing, Cham",
       "isbn": "",
       "issn": "2228-6160",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID"
       ]
     },
@@ -142,16 +239,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s42107-026-01757-w",
       "date": "2026-07-30",
+      "issueYear": 2026,
       "volume": "27",
       "issue": "10",
-      "pages": "5057-5080",
+      "pages": "1-24",
       "articleNumber": "",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer International Publishing, Cham",
       "isbn": "",
       "issn": "1563-0854",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID"
       ]
     },
@@ -174,6 +275,7 @@
       "type": "Journal article",
       "url": "https://doi.org/10.24425/ather.2026.158677",
       "date": "2026-07-24",
+      "issueYear": 2026,
       "volume": "47",
       "issue": "2",
       "pages": "99-118",
@@ -183,7 +285,10 @@
       "issn": "2083-6023",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID"
       ]
     },
@@ -205,16 +310,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s40996-026-02219-8",
       "date": "2026-07-15",
+      "issueYear": 2026,
       "volume": "",
       "issue": "",
-      "pages": "",
+      "pages": "1-29",
       "articleNumber": "",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer International Publishing, Cham",
       "isbn": "",
       "issn": "2228-6160",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID"
       ]
     },
@@ -234,16 +343,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1038/s41598-026-58184-9",
       "date": "2026-07-07",
+      "issueYear": 2026,
       "volume": "16",
       "issue": "1",
-      "pages": "",
+      "pages": "22675-22675",
       "articleNumber": "22675",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Nature Publishing Group UK, London",
       "isbn": "",
       "issn": "2045-2322",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID"
       ]
     },
@@ -262,16 +375,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1080/13632469.2026.2698828",
       "date": "2026-07-06",
+      "issueYear": 2026,
       "volume": "",
       "issue": "",
       "pages": "1-35",
       "articleNumber": "",
-      "publisher": "Informa UK Limited",
+      "publisher": "Taylor & Francis",
       "isbn": "",
       "issn": "1363-2469",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID"
       ]
     },
@@ -294,16 +411,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s42107-026-01733-4",
       "date": "2026-06-25",
+      "issueYear": 2026,
       "volume": "27",
       "issue": "9",
-      "pages": "4527-4558",
+      "pages": "1-32",
       "articleNumber": "",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer International Publishing",
       "isbn": "",
       "issn": "1563-0854",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID"
       ]
     },
@@ -325,16 +446,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s11831-026-10662-z",
       "date": "2026-06-06",
+      "issueYear": 2026,
       "volume": "33",
       "issue": "9",
-      "pages": "12849-12894",
+      "pages": "1-46",
       "articleNumber": "",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer Netherlands",
       "isbn": "",
       "issn": "1134-3060",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID"
       ]
     },
@@ -352,16 +477,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s40996-026-02188-y",
       "date": "2026-05-28",
+      "issueYear": 2026,
       "volume": "",
       "issue": "",
-      "pages": "",
+      "pages": "1-46",
       "articleNumber": "",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer International Publishing",
       "isbn": "",
       "issn": "2228-6160",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID"
       ]
     },
@@ -382,16 +511,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s42107-026-01692-w",
       "date": "2026-05-04",
+      "issueYear": 2026,
       "volume": "27",
       "issue": "8",
-      "pages": "3747-3773",
+      "pages": "1-27",
       "articleNumber": "",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer International Publishing, Cham",
       "isbn": "",
       "issn": "1563-0854",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID"
       ]
     },
@@ -411,16 +544,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s12652-026-05080-9",
       "date": "2026-04-30",
+      "issueYear": 2026,
       "volume": "17",
       "issue": "3",
-      "pages": "911-933",
+      "pages": "1-23",
       "articleNumber": "",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer Berlin Heidelberg, Berlin/Heidelberg",
       "isbn": "",
       "issn": "1868-5137",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID"
       ]
     },
@@ -440,16 +577,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.3390/v18040421",
       "date": "2026-03-30",
+      "issueYear": 2026,
       "volume": "18",
       "issue": "4",
       "pages": "421",
       "articleNumber": "",
-      "publisher": "MDPI AG",
+      "publisher": "MDPI",
       "isbn": "",
       "issn": "1999-4915",
       "sources": [
         "CV",
+        "Google Scholar export",
         "Crossref",
+        "Crossref author search",
+        "ORCID export",
         "ORCID"
       ]
     },
@@ -470,16 +611,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1016/j.asej.2026.104009",
       "date": "2026-03",
+      "issueYear": 2026,
       "volume": "17",
       "issue": "3",
       "pages": "104009",
       "articleNumber": "104009",
-      "publisher": "Elsevier BV",
+      "publisher": "Elsevier",
       "isbn": "",
       "issn": "2090-4479",
       "sources": [
         "CV",
+        "Google Scholar export",
         "Crossref",
+        "Crossref author search",
+        "ORCID export",
         "ORCID"
       ]
     },
@@ -497,16 +642,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s13198-026-03170-7",
       "date": "2026-02-27",
+      "issueYear": 2026,
       "volume": "17",
       "issue": "11",
-      "pages": "3272-3305",
+      "pages": "1-34",
       "articleNumber": "",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer India",
       "isbn": "",
       "issn": "0975-6809",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID"
       ]
     },
@@ -524,16 +673,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s42107-026-01650-6",
       "date": "2026-02-26",
+      "issueYear": 2026,
       "volume": "27",
       "issue": "6",
       "pages": "2927-2965",
       "articleNumber": "",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer International Publishing",
       "isbn": "",
       "issn": "1563-0854",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID"
       ]
     },
@@ -551,6 +704,7 @@
       "type": "Conference paper",
       "url": "https://doi.org/10.1109/icasst68917.2026.11484515",
       "date": "2026-02-05",
+      "issueYear": 2026,
       "volume": "",
       "issue": "",
       "pages": "1-5",
@@ -560,7 +714,10 @@
       "issn": "",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID"
       ]
     },
@@ -582,16 +739,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s40996-025-02109-5",
       "date": "2026-01-21",
+      "issueYear": 2026,
       "volume": "",
       "issue": "",
-      "pages": "",
+      "pages": "1-27",
       "articleNumber": "",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer International Publishing, Cham",
       "isbn": "",
       "issn": "2228-6160",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID"
       ]
     },
@@ -614,16 +775,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s41939-025-01154-x",
       "date": "2026-01-18",
+      "issueYear": 2026,
       "volume": "9",
       "issue": "1",
-      "pages": "",
+      "pages": "78",
       "articleNumber": "78",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer International Publishing, Cham",
       "isbn": "",
       "issn": "2520-8160",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID"
       ]
     },
@@ -641,6 +806,7 @@
       "type": "Conference paper",
       "url": "https://doi.org/10.1109/icaect68478.2026.11426063",
       "date": "2026-01-08",
+      "issueYear": 2026,
       "volume": "",
       "issue": "",
       "pages": "1-4",
@@ -650,7 +816,10 @@
       "issn": "",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID"
       ]
     },
@@ -669,16 +838,53 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1109/access.2026.3709777",
       "date": "2026",
+      "issueYear": 2026,
       "volume": "14",
       "issue": "",
       "pages": "100193-100213",
       "articleNumber": "",
-      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "publisher": "IEEE",
       "isbn": "",
       "issn": "2169-3536",
       "sources": [
         "CV",
+        "Google Scholar export",
         "Crossref",
+        "Crossref author search",
+        "ORCID export",
+        "ORCID"
+      ]
+    },
+    {
+      "title": "Stacked ensemble intelligence for predicting compressive strength of cdw-incorporated sustainable concrete",
+      "year": 2025,
+      "authorList": [
+        "Sagar Paruthi",
+        "Rupesh Kumar Tipu",
+        "Rashmi Verma",
+        "Neha Sharma"
+      ],
+      "authors": "Sagar Paruthi, Rupesh Kumar Tipu, Rashmi Verma, Neha Sharma",
+      "sourceBibtex": "@article{Kumar Tipu2026,title = {Stacked Ensemble Intelligence for Predicting Compressive Strength of CDW-Incorporated Sustainable Concrete},journal = {Iranian Journal of Science and Technology Transactions of Civil Engineering},year = {2026},volume = {50},number = {5},pages = {5379-5407},author = {Paruthi, S. and Tipu, R.K. and Verma, R. and Sharma, N.}}",
+      "venue": "Iranian Journal of Science and Technology, Transactions of Civil Engineering",
+      "doi": "10.1007/s40996-025-02098-5",
+      "type": "Journal article",
+      "url": "https://doi.org/10.1007/s40996-025-02098-5",
+      "date": "2025-12-24",
+      "issueYear": 2026,
+      "volume": "50",
+      "issue": "5",
+      "pages": "5379-5407",
+      "articleNumber": "",
+      "publisher": "Springer International Publishing, Cham",
+      "isbn": "",
+      "issn": "2228-6160",
+      "sources": [
+        "CV",
+        "Google Scholar export",
+        "Crossref author search",
+        "Crossref",
+        "ORCID export",
         "ORCID"
       ]
     },
@@ -700,45 +906,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s10163-025-02443-w",
       "date": "2025-12-04",
+      "issueYear": 2026,
       "volume": "28",
       "issue": "1",
       "pages": "612-636",
       "articleNumber": "",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer Japan, Tokyo",
       "isbn": "",
       "issn": "1438-4957",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
-        "ORCID"
-      ]
-    },
-    {
-      "title": "Stacked ensemble intelligence for predicting compressive strength of cdw-incorporated sustainable concrete",
-      "year": 2025,
-      "authorList": [
-        "Sagar Paruthi",
-        "Rupesh Kumar Tipu",
-        "Rashmi Verma",
-        "Neha Sharma"
-      ],
-      "authors": "Sagar Paruthi, Rupesh Kumar Tipu, Rashmi Verma, Neha Sharma",
-      "sourceBibtex": "@article{Kumar Tipu2026,title = {Stacked Ensemble Intelligence for Predicting Compressive Strength of CDW-Incorporated Sustainable Concrete},journal = {Iranian Journal of Science and Technology Transactions of Civil Engineering},year = {2026},volume = {50},number = {5},pages = {5379-5407},author = {Paruthi, S. and Tipu, R.K. and Verma, R. and Sharma, N.}}",
-      "venue": "Iranian Journal of Science and Technology, Transactions of Civil Engineering",
-      "doi": "10.1007/s40996-025-02098-5",
-      "type": "Journal article",
-      "url": "https://doi.org/10.1007/s40996-025-02098-5",
-      "date": "2025-12-24",
-      "volume": "50",
-      "issue": "5",
-      "pages": "5379-5407",
-      "articleNumber": "",
-      "publisher": "Springer Science and Business Media LLC",
-      "isbn": "",
-      "issn": "2228-6160",
-      "sources": [
-        "CV",
-        "Crossref",
+        "ORCID export",
         "ORCID"
       ]
     },
@@ -758,16 +939,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1016/j.engappai.2025.112743",
       "date": "2025-12",
+      "issueYear": 2025,
       "volume": "162",
       "issue": "",
       "pages": "112743",
       "articleNumber": "112743",
-      "publisher": "Elsevier BV",
+      "publisher": "Elsevier",
       "isbn": "",
       "issn": "0952-1976",
       "sources": [
         "CV",
+        "Google Scholar export",
         "Crossref",
+        "Crossref author search",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -790,16 +975,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s41062-025-02290-6",
       "date": "2025-09-22",
+      "issueYear": 2025,
       "volume": "10",
       "issue": "10",
-      "pages": "",
+      "pages": "479",
       "articleNumber": "479",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer International Publishing, Cham",
       "isbn": "",
       "issn": "2364-4176",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -821,16 +1010,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1016/j.eij.2025.100738",
       "date": "2025-09",
+      "issueYear": 2025,
       "volume": "31",
       "issue": "",
       "pages": "100738",
       "articleNumber": "100738",
-      "publisher": "Elsevier BV",
+      "publisher": "Elsevier",
       "isbn": "",
       "issn": "1110-8665",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -853,7 +1046,8 @@
       "type": "Conference paper",
       "url": "https://doi.org/10.1201/9781003593034-83",
       "date": "2025-08-29",
-      "volume": "",
+      "issueYear": 2025,
+      "volume": "1",
       "issue": "",
       "pages": "527-531",
       "articleNumber": "",
@@ -862,7 +1056,10 @@
       "issn": "",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -883,16 +1080,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s10163-025-02373-7",
       "date": "2025-08-23",
+      "issueYear": 2025,
       "volume": "27",
       "issue": "6",
       "pages": "4389-4403",
       "articleNumber": "",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer Japan, Tokyo",
       "isbn": "",
       "issn": "1438-4957",
       "sources": [
         "CV",
+        "Google Scholar export",
         "Crossref",
+        "Crossref author search",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -912,16 +1113,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1016/j.asej.2025.103474",
       "date": "2025-08",
+      "issueYear": 2025,
       "volume": "16",
       "issue": "8",
       "pages": "103474",
       "articleNumber": "103474",
-      "publisher": "Elsevier BV",
+      "publisher": "Elsevier",
       "isbn": "",
       "issn": "2090-4479",
       "sources": [
         "CV",
+        "Google Scholar export",
         "Crossref",
+        "Crossref author search",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -942,16 +1147,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s42107-025-01475-9",
       "date": "2025-07-31",
+      "issueYear": 2025,
       "volume": "26",
       "issue": "12",
       "pages": "5115-5137",
       "articleNumber": "",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer International Publishing, Cham",
       "isbn": "",
       "issn": "1563-0854",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -974,16 +1183,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s42107-025-01455-z",
       "date": "2025-07-30",
+      "issueYear": 2025,
       "volume": "26",
       "issue": "11",
       "pages": "4775-4796",
       "articleNumber": "",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer International Publishing, Cham",
       "isbn": "",
       "issn": "1563-0854",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1002,6 +1215,7 @@
       "type": "Conference paper",
       "url": "https://doi.org/10.1109/mrie66930.2025.11156446",
       "date": "2025-07-30",
+      "issueYear": 2025,
       "volume": "",
       "issue": "",
       "pages": "433-438",
@@ -1011,7 +1225,10 @@
       "issn": "",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1032,6 +1249,7 @@
       "type": "Conference paper",
       "url": "https://doi.org/10.1109/mrie66930.2025.11156318",
       "date": "2025-07-30",
+      "issueYear": 2025,
       "volume": "",
       "issue": "",
       "pages": "309-313",
@@ -1041,7 +1259,10 @@
       "issn": "",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1062,6 +1283,7 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s42107-025-01450-4",
       "date": "2025-07-23",
+      "issueYear": 2025,
       "volume": "26",
       "issue": "11",
       "pages": "4679-4706",
@@ -1072,7 +1294,9 @@
       "sources": [
         "CV",
         "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1095,16 +1319,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s42107-025-01425-5",
       "date": "2025-07-13",
+      "issueYear": 2025,
       "volume": "26",
       "issue": "10",
       "pages": "4287-4302",
       "articleNumber": "",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer International Publishing, Cham",
       "isbn": "",
       "issn": "1563-0854",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1125,16 +1353,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s41939-025-00920-1",
       "date": "2025-05-28",
+      "issueYear": 2025,
       "volume": "8",
       "issue": "7",
-      "pages": "",
+      "pages": "320",
       "articleNumber": "320",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer International Publishing, Cham",
       "isbn": "",
       "issn": "2520-8160",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1156,6 +1388,7 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1080/24705314.2025.2503027",
       "date": "2025-05-28",
+      "issueYear": 2025,
       "volume": "10",
       "issue": "3",
       "pages": "2503027",
@@ -1166,7 +1399,9 @@
       "sources": [
         "CV",
         "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1187,16 +1422,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s12665-025-12295-0",
       "date": "2025-05-19",
+      "issueYear": 2025,
       "volume": "84",
       "issue": "11",
-      "pages": "",
+      "pages": "292",
       "articleNumber": "292",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer Berlin Heidelberg, Berlin/Heidelberg",
       "isbn": "",
       "issn": "1866-6280",
       "sources": [
         "CV",
+        "Google Scholar export",
         "Crossref",
+        "Crossref author search",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1217,6 +1456,7 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1038/s41598-025-00943-1",
       "date": "2025-05-10",
+      "issueYear": 2025,
       "volume": "15",
       "issue": "1",
       "pages": "16356",
@@ -1227,7 +1467,9 @@
       "sources": [
         "CV",
         "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1246,16 +1488,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s42107-025-01350-7",
       "date": "2025-05-08",
+      "issueYear": 2025,
       "volume": "26",
       "issue": "7",
       "pages": "2887-2914",
       "articleNumber": "",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer International Publishing, Cham",
       "isbn": "",
       "issn": "1563-0854",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1276,16 +1522,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s42107-025-01313-y",
       "date": "2025-03-17",
+      "issueYear": 2025,
       "volume": "26",
       "issue": "6",
       "pages": "2371-2390",
       "articleNumber": "",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer International Publishing, Cham",
       "isbn": "",
       "issn": "1563-0854",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1307,16 +1557,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s41939-025-00812-4",
       "date": "2025-03-14",
+      "issueYear": 2025,
       "volume": "8",
       "issue": "4",
-      "pages": "",
+      "pages": "222",
       "articleNumber": "222",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer International Publishing, Cham",
       "isbn": "",
       "issn": "2520-8160",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1336,6 +1590,7 @@
       "type": "Conference paper",
       "url": "https://doi.org/10.1109/setcom64758.2025.10932629",
       "date": "2025-02-21",
+      "issueYear": 2025,
       "volume": "",
       "issue": "",
       "pages": "1-6",
@@ -1345,7 +1600,10 @@
       "issn": "",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1366,16 +1624,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1016/j.istruc.2025.108206",
       "date": "2025-02",
+      "issueYear": 2025,
       "volume": "72",
       "issue": "",
       "pages": "108206",
       "articleNumber": "108206",
-      "publisher": "Elsevier BV",
+      "publisher": "Elsevier",
       "isbn": "",
       "issn": "2352-0124",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1396,47 +1658,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1109/access.2025.3573589",
       "date": "2025",
+      "issueYear": 2025,
       "volume": "13",
       "issue": "",
       "pages": "92406-92428",
       "articleNumber": "",
-      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "publisher": "IEEE",
       "isbn": "",
       "issn": "2169-3536",
       "sources": [
         "CV",
-        "Crossref",
-        "ORCID",
-        "Portfolio archive"
-      ]
-    },
-    {
-      "title": "Predictive modelling of flexural strength in recycled aggregate-based concrete: A comprehensive approach with machine learning and global sensitivity analysis",
-      "year": 2025,
-      "authorList": [
-        "Rajwinder Singh",
-        "Rupesh Kumar Tipu",
-        "Ajaz Ahmad Mir",
-        "Mahesh Patel"
-      ],
-      "authors": "Rajwinder Singh, Rupesh Kumar Tipu, Ajaz Ahmad Mir, Mahesh Patel",
-      "sourceBibtex": "@article{Kumar Tipu2025,title = {Predictive Modelling of Flexural Strength in Recycled Aggregate-Based Concrete: A Comprehensive Approach with Machine Learning and Global Sensitivity Analysis},journal = {Iranian Journal of Science and Technology Transactions of Civil Engineering},year = {2025},volume = {49},number = {2},pages = {1089-1114},author = {Singh, R. and Tipu, R.K. and Mir, A.A. and Patel, M.}}",
-      "venue": "Iranian Journal of Science and Technology, Transactions of Civil Engineering",
-      "doi": "10.1007/s40996-024-01502-w",
-      "type": "Journal article",
-      "url": "https://doi.org/10.1007/s40996-024-01502-w",
-      "date": "2024-06-14",
-      "volume": "49",
-      "issue": "2",
-      "pages": "1089-1114",
-      "articleNumber": "",
-      "publisher": "Springer International Publishing, Cham",
-      "isbn": "",
-      "issn": "2228-6160",
-      "sources": [
-        "CV",
         "Google Scholar export",
         "Crossref",
+        "Crossref author search",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1460,6 +1695,7 @@
       "type": "Conference paper",
       "url": "https://doi.org/10.1109/bitcon63716.2024.10985715",
       "date": "2024-12-07",
+      "issueYear": 2024,
       "volume": "",
       "issue": "",
       "pages": "1-5",
@@ -1469,7 +1705,10 @@
       "issn": "",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1493,16 +1732,20 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1016/j.molstruc.2024.139158",
       "date": "2024-12",
+      "issueYear": 2024,
       "volume": "1317",
       "issue": "",
       "pages": "139158",
       "articleNumber": "139158",
-      "publisher": "Elsevier BV",
+      "publisher": "Elsevier",
       "isbn": "",
       "issn": "0022-2860",
       "sources": [
         "CV",
+        "Google Scholar export",
         "Crossref",
+        "Crossref author search",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1527,6 +1770,7 @@
       "type": "Conference paper",
       "url": "https://doi.org/10.1109/iciics63763.2024.10860255",
       "date": "2024-11-22",
+      "issueYear": 2024,
       "volume": "",
       "issue": "",
       "pages": "1-5",
@@ -1536,7 +1780,10 @@
       "issn": "",
       "sources": [
         "CV",
+        "Google Scholar export",
+        "Crossref author search",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1562,6 +1809,7 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1038/s41598-024-77396-5",
       "date": "2024-11-06",
+      "issueYear": null,
       "volume": "14",
       "issue": "1",
       "pages": "27007",
@@ -1573,6 +1821,7 @@
         "CV",
         "Google Scholar export",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1598,6 +1847,7 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1002/suco.202400541",
       "date": "2024-09-22",
+      "issueYear": null,
       "volume": "",
       "issue": "",
       "pages": "",
@@ -1609,6 +1859,7 @@
         "CV",
         "Google Scholar export",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1630,16 +1881,19 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s42107-024-01130-9",
       "date": "2024-07-31",
+      "issueYear": null,
       "volume": "25",
       "issue": "7",
       "pages": "5571-5579",
       "articleNumber": "",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer International Publishing, Cham",
       "isbn": "",
       "issn": "1563-0854",
       "sources": [
         "CV",
+        "Google Scholar export",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1662,6 +1916,7 @@
       "type": "Conference paper",
       "url": "https://doi.org/10.1109/icccnt61001.2024.10725851",
       "date": "2024-06-24",
+      "issueYear": null,
       "volume": "",
       "issue": "",
       "pages": "1-5",
@@ -1671,7 +1926,9 @@
       "issn": "",
       "sources": [
         "CV",
+        "Google Scholar export",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1694,6 +1951,7 @@
       "type": "Conference paper",
       "url": "https://doi.org/10.1109/icccnt61001.2024.10724458",
       "date": "2024-06-24",
+      "issueYear": null,
       "volume": "",
       "issue": "",
       "pages": "1-5",
@@ -1703,7 +1961,42 @@
       "issn": "",
       "sources": [
         "CV",
+        "Google Scholar export",
         "Crossref",
+        "ORCID export",
+        "ORCID",
+        "Portfolio archive"
+      ]
+    },
+    {
+      "title": "Predictive modelling of flexural strength in recycled aggregate-based concrete: A comprehensive approach with machine learning and global sensitivity analysis",
+      "year": 2025,
+      "authorList": [
+        "Rajwinder Singh",
+        "Rupesh Kumar Tipu",
+        "Ajaz Ahmad Mir",
+        "Mahesh Patel"
+      ],
+      "authors": "Rajwinder Singh, Rupesh Kumar Tipu, Ajaz Ahmad Mir, Mahesh Patel",
+      "sourceBibtex": "@article{Kumar Tipu2025,title = {Predictive Modelling of Flexural Strength in Recycled Aggregate-Based Concrete: A Comprehensive Approach with Machine Learning and Global Sensitivity Analysis},journal = {Iranian Journal of Science and Technology Transactions of Civil Engineering},year = {2025},volume = {49},number = {2},pages = {1089-1114},author = {Singh, R. and Tipu, R.K. and Mir, A.A. and Patel, M.}}",
+      "venue": "Iranian Journal of Science and Technology, Transactions of Civil Engineering",
+      "doi": "10.1007/s40996-024-01502-w",
+      "type": "Journal article",
+      "url": "https://doi.org/10.1007/s40996-024-01502-w",
+      "date": "2024-06-14",
+      "issueYear": null,
+      "volume": "49",
+      "issue": "2",
+      "pages": "1089-1114",
+      "articleNumber": "",
+      "publisher": "Springer International Publishing, Cham",
+      "isbn": "",
+      "issn": "2228-6160",
+      "sources": [
+        "CV",
+        "Google Scholar export",
+        "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1726,6 +2019,7 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s42107-024-01061-5",
       "date": "2024-05-20",
+      "issueYear": 2024,
       "volume": "25",
       "issue": "6",
       "pages": "4487-4512",
@@ -1737,6 +2031,7 @@
         "CV",
         "Google Scholar export",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1757,6 +2052,7 @@
       "type": "Conference paper",
       "url": "https://doi.org/10.1109/iciptm59628.2024.10563490",
       "date": "2024-02-21",
+      "issueYear": null,
       "volume": "",
       "issue": "",
       "pages": "1-5",
@@ -1766,7 +2062,9 @@
       "issn": "",
       "sources": [
         "CV",
+        "Google Scholar export",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1787,6 +2085,7 @@
       "type": "Conference paper",
       "url": "https://doi.org/10.1109/iciptm59628.2024.10563896",
       "date": "2024-02-21",
+      "issueYear": null,
       "volume": "",
       "issue": "",
       "pages": "1-4",
@@ -1796,7 +2095,9 @@
       "issn": "",
       "sources": [
         "CV",
+        "Google Scholar export",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1816,16 +2117,19 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s42107-023-00976-9",
       "date": "2024-02-05",
+      "issueYear": null,
       "volume": "25",
       "issue": "4",
       "pages": "3251-3261",
       "articleNumber": "",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer International Publishing, Cham",
       "isbn": "",
       "issn": "1563-0854",
       "sources": [
         "CV",
+        "Google Scholar export",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1848,16 +2152,19 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s42107-023-00972-z",
       "date": "2024-01-24",
+      "issueYear": null,
       "volume": "25",
       "issue": "4",
       "pages": "3201-3213",
       "articleNumber": "",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer International Publishing, Cham",
       "isbn": "",
       "issn": "1563-0854",
       "sources": [
         "CV",
+        "Google Scholar export",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -1877,38 +2184,42 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s42107-023-00971-0",
       "date": "2024-01-23",
+      "issueYear": null,
       "volume": "25",
       "issue": "4",
       "pages": "3183-3200",
       "articleNumber": "",
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Springer International Publishing, Cham",
       "isbn": "",
       "issn": "1563-0854",
       "sources": [
         "CV",
+        "Google Scholar export",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
     },
     {
-      "title": "Enhancing prediction accuracy of workability and compressive strength of high-performance concrete through extended dataset and improved machine learning models",
+      "title": "Machine learning-based prediction of concrete strength properties with coconut shell as partial aggregate replacement: A sustainable approach in construction engineering",
       "year": 2024,
       "authorList": [
         "Rupesh Kumar Tipu",
-        "Suman",
-        "Vandna Batra"
+        "Rishabh Arora",
+        "Kaushal Kumar"
       ],
-      "authors": "Rupesh Kumar Tipu, Suman, Vandna Batra",
-      "sourceBibtex": "@article{Kumar Tipu2024,title = {Enhancing prediction accuracy of workability and compressive strength of high-performance concrete through extended dataset and improved machine learning models},journal = {Asian Journal of Civil Engineering},year = {2024},volume = {25},number = {1},pages = {197-218},author = {Tipu, R.K. and Suman and Batra, V.}}",
+      "authors": "Rupesh Kumar Tipu, Rishabh Arora, Kaushal Kumar",
+      "sourceBibtex": "@article{Kumar Tipu2024,title = {Machine learning-based prediction of concrete strength properties with coconut shell as partial aggregate replacement: A sustainable approach in construction engineering},journal = {Asian Journal of Civil Engineering},year = {2024},volume = {25},number = {3},pages = {2979-2992},author = {Tipu, R.K. and Arora, R. and Kumar, K.}}",
       "venue": "Asian Journal of Civil Engineering",
-      "doi": "10.1007/s42107-023-00768-1",
+      "doi": "10.1007/s42107-023-00957-y",
       "type": "Journal article",
-      "url": "https://doi.org/10.1007/s42107-023-00768-1",
-      "date": "2023-06-27",
+      "url": "https://doi.org/10.1007/s42107-023-00957-y",
+      "date": "2023-12-29",
+      "issueYear": null,
       "volume": "25",
-      "issue": "1",
-      "pages": "197-218",
+      "issue": "3",
+      "pages": "2979-2992",
       "articleNumber": "",
       "publisher": "Springer International Publishing, Cham",
       "isbn": "",
@@ -1917,68 +2228,140 @@
         "CV",
         "Google Scholar export",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
     },
     {
-      "title": "Enhancing chloride concentration prediction in marine concrete using conjugate gradient-optimized backpropagation neural network",
-      "year": 2024,
-      "authorList": [
-        "Rupesh Kumar Tipu",
-        "VR Panchal",
-        "KS Pandya"
-      ],
-      "authors": "Rupesh Kumar Tipu, VR Panchal, KS Pandya",
-      "sourceBibtex": "@article{Kumar Tipu2024,title = {Enhancing chloride concentration prediction in marine concrete using conjugate gradient-optimized backpropagation neural network},journal = {Asian Journal of Civil Engineering},year = {2024},volume = {25},number = {1},pages = {637-656},author = {Tipu, R.K. and Panchal, V.R. and Pandya, K.S.}}",
-      "venue": "Asian Journal of Civil Engineering",
-      "doi": "10.1007/s42107-023-00801-3",
-      "type": "Journal article",
-      "url": "https://doi.org/10.1007/s42107-023-00801-3",
-      "date": "2023-07-20",
-      "volume": "25",
-      "issue": "1",
-      "pages": "637-656",
-      "articleNumber": "",
-      "publisher": "Springer International Publishing, Cham",
-      "isbn": "",
-      "issn": "1563-0854",
-      "sources": [
-        "CV",
-        "Google Scholar export",
-        "Crossref",
-        "ORCID",
-        "Portfolio archive"
-      ]
-    },
-    {
-      "title": "Predictive modelling of surface chloride concentration in marine concrete structures: a comparative analysis of machine learning approaches",
-      "year": 2024,
+      "title": "Shear capacity prediction for FRCM-strengthened RC beams using Hybrid ReLU-Activated BPNN model",
+      "year": 2023,
       "authorList": [
         "Rupesh Kumar Tipu",
         "Vandna Batra",
-        "Suman",
-        "VR Panchal",
-        "KS Pandya"
+        "KS Pandya",
+        "VR Panchal"
       ],
-      "authors": "Rupesh Kumar Tipu, Vandna Batra, Suman, VR Panchal, KS Pandya",
-      "sourceBibtex": "@article{Kumar Tipu2024,title = {Predictive modelling of surface chloride concentration in marine concrete structures: a comparative analysis of machine learning approaches},journal = {Asian Journal of Civil Engineering},year = {2024},volume = {25},number = {2},pages = {1443-1465},author = {Tipu, R.K. and Batra, V. and Suman and Panchal, V.R. and Pandya, K.S.}}",
-      "venue": "Asian Journal of Civil Engineering",
-      "doi": "10.1007/s42107-023-00854-4",
+      "authors": "Rupesh Kumar Tipu, Vandna Batra, KS Pandya, VR Panchal",
+      "sourceBibtex": "@article{Kumar Tipu2023,title = {Shear capacity prediction for FRCM-strengthened RC beams using Hybrid ReLU-Activated BPNN model},journal = {Structures},year = {2023},volume = {58},author = {Kumar Tipu, R. and Batra, V. and Suman and Pandya, K.S. and Panchal, V.R.}}",
+      "venue": "Structures",
+      "doi": "10.1016/j.istruc.2023.105432",
       "type": "Journal article",
-      "url": "https://doi.org/10.1007/s42107-023-00854-4",
-      "date": "2023-08-05",
-      "volume": "25",
-      "issue": "2",
-      "pages": "1443-1465",
-      "articleNumber": "",
-      "publisher": "Springer International Publishing, Cham",
+      "url": "https://doi.org/10.1016/j.istruc.2023.105432",
+      "date": "2023-12",
+      "issueYear": null,
+      "volume": "58",
+      "issue": "",
+      "pages": "105432",
+      "articleNumber": "105432",
+      "publisher": "Elsevier",
       "isbn": "",
-      "issn": "1563-0854",
+      "issn": "2352-0124",
       "sources": [
         "CV",
         "Google Scholar export",
         "Crossref",
+        "ORCID export",
+        "ORCID",
+        "Portfolio archive"
+      ]
+    },
+    {
+      "title": "Efficient compressive strength prediction of concrete incorporating recycled coarse aggregate using Newton’s boosted backpropagation neural network (NB-BPNN)",
+      "year": 2023,
+      "authorList": [
+        "Rupesh Kumar Tipu",
+        "Vandna Batra",
+        "KS Pandya",
+        "VR Panchal"
+      ],
+      "authors": "Rupesh Kumar Tipu, Vandna Batra, KS Pandya, VR Panchal",
+      "sourceBibtex": "@article{Kumar Tipu2023,title = {Efficient compressive strength prediction of concrete incorporating recycled coarse aggregate using Newton{'}s boosted backpropagation neural network (NB-BPNN)},journal = {Structures},year = {2023},volume = {58},author = {Tipu, R.K. and Batra, V. and Suman and Pandya, K.S. and Panchal, V.R.}}",
+      "venue": "Structures",
+      "doi": "10.1016/j.istruc.2023.105559",
+      "type": "Journal article",
+      "url": "https://doi.org/10.1016/j.istruc.2023.105559",
+      "date": "2023-12",
+      "issueYear": null,
+      "volume": "58",
+      "issue": "",
+      "pages": "105559",
+      "articleNumber": "105559",
+      "publisher": "Elsevier",
+      "isbn": "",
+      "issn": "2352-0124",
+      "sources": [
+        "CV",
+        "Google Scholar export",
+        "Crossref",
+        "ORCID export",
+        "ORCID",
+        "Portfolio archive"
+      ]
+    },
+    {
+      "title": "Enhancing load capacity prediction of column using eReLU-activated BPNN model",
+      "year": 2023,
+      "authorList": [
+        "Rupesh Kumar Tipu",
+        "Vandna Batra",
+        "KS Pandya",
+        "VR Panchal"
+      ],
+      "authors": "Rupesh Kumar Tipu, Vandna Batra, KS Pandya, VR Panchal",
+      "sourceBibtex": "@article{Kumar Tipu2023,title = {Enhancing load capacity prediction of column using eReLU-activated BPNN model},journal = {Structures},year = {2023},volume = {58},author = {Tipu, R.K. and Batra, V. and Suman and Pandya, K.S. and Panchal, V.R.}}",
+      "venue": "Structures",
+      "doi": "10.1016/j.istruc.2023.105600",
+      "type": "Journal article",
+      "url": "https://doi.org/10.1016/j.istruc.2023.105600",
+      "date": "2023-12",
+      "issueYear": null,
+      "volume": "58",
+      "issue": "",
+      "pages": "105600",
+      "articleNumber": "105600",
+      "publisher": "Elsevier",
+      "isbn": "",
+      "issn": "2352-0124",
+      "sources": [
+        "CV",
+        "Google Scholar export",
+        "Crossref",
+        "ORCID export",
+        "ORCID",
+        "Portfolio archive"
+      ]
+    },
+    {
+      "title": "The future of digital marketing: Leveraging artificial intelligence for competitive strategies and tactics",
+      "year": 2024,
+      "authorList": [
+        "Yogita Yashveer Raghav",
+        "Rupesh Kumar Tipu",
+        "Ruchika Bhakhar",
+        "Tanu Gupta",
+        "Kriti Sharma"
+      ],
+      "authors": "Yogita Yashveer Raghav, Rupesh Kumar Tipu, Ruchika Bhakhar, Tanu Gupta, Kriti Sharma",
+      "sourceBibtex": "@article{Kumar Tipu2023,title = {The future of digital marketing: Leveraging artificial intelligence for competitive strategies and tactics},journal = {Use of Artificial Intelligence in Digital Marketing Competitive Strategies and Tactics},year = {2023},pages = {249-274},author = {Raghav, Y.Y. and Tipu, R.K. and Bhakhar, R. and Gupta, T. and Sharma, K.}}",
+      "venue": "The use of artificial intelligence in digital marketing: competitive strategies and tactics",
+      "doi": "10.4018/978-1-6684-9324-3.ch011",
+      "type": "Book chapter",
+      "url": "https://doi.org/10.4018/978-1-6684-9324-3.ch011",
+      "date": "2023-11-17",
+      "issueYear": null,
+      "volume": "",
+      "issue": "",
+      "pages": "249-274",
+      "articleNumber": "",
+      "publisher": "IGI Global Scientific Publishing",
+      "isbn": "9781668493243",
+      "issn": "2327-5502",
+      "sources": [
+        "CV",
+        "Google Scholar export",
+        "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -2001,6 +2384,7 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s42107-023-00922-9",
       "date": "2023-11-08",
+      "issueYear": null,
       "volume": "25",
       "issue": "3",
       "pages": "2483-2497",
@@ -2012,161 +2396,7 @@
         "CV",
         "Google Scholar export",
         "Crossref",
-        "ORCID",
-        "Portfolio archive"
-      ]
-    },
-    {
-      "title": "Machine learning-based prediction of concrete strength properties with coconut shell as partial aggregate replacement: A sustainable approach in construction engineering",
-      "year": 2024,
-      "authorList": [
-        "Rupesh Kumar Tipu",
-        "Rishabh Arora",
-        "Kaushal Kumar"
-      ],
-      "authors": "Rupesh Kumar Tipu, Rishabh Arora, Kaushal Kumar",
-      "sourceBibtex": "@article{Kumar Tipu2024,title = {Machine learning-based prediction of concrete strength properties with coconut shell as partial aggregate replacement: A sustainable approach in construction engineering},journal = {Asian Journal of Civil Engineering},year = {2024},volume = {25},number = {3},pages = {2979-2992},author = {Tipu, R.K. and Arora, R. and Kumar, K.}}",
-      "venue": "Asian Journal of Civil Engineering",
-      "doi": "10.1007/s42107-023-00957-y",
-      "type": "Journal article",
-      "url": "https://doi.org/10.1007/s42107-023-00957-y",
-      "date": "2023-12-29",
-      "volume": "25",
-      "issue": "3",
-      "pages": "2979-2992",
-      "articleNumber": "",
-      "publisher": "Springer International Publishing, Cham",
-      "isbn": "",
-      "issn": "1563-0854",
-      "sources": [
-        "CV",
-        "Google Scholar export",
-        "Crossref",
-        "ORCID",
-        "Portfolio archive"
-      ]
-    },
-    {
-      "title": "The future of digital marketing: Leveraging artificial intelligence for competitive strategies and tactics",
-      "year": 2024,
-      "authorList": [
-        "Yogita Yashveer Raghav",
-        "Rupesh Kumar Tipu",
-        "Ruchika Bhakhar",
-        "Tanu Gupta",
-        "Kriti Sharma"
-      ],
-      "authors": "Yogita Yashveer Raghav, Rupesh Kumar Tipu, Ruchika Bhakhar, Tanu Gupta, Kriti Sharma",
-      "sourceBibtex": "@article{Kumar Tipu2023,title = {The future of digital marketing: Leveraging artificial intelligence for competitive strategies and tactics},journal = {Use of Artificial Intelligence in Digital Marketing Competitive Strategies and Tactics},year = {2023},pages = {249-274},author = {Raghav, Y.Y. and Tipu, R.K. and Bhakhar, R. and Gupta, T. and Sharma, K.}}",
-      "venue": "The use of artificial intelligence in digital marketing: competitive strategies and tactics",
-      "doi": "10.4018/978-1-6684-9324-3.ch011",
-      "type": "Book chapter",
-      "url": "https://doi.org/10.4018/978-1-6684-9324-3.ch011",
-      "date": "2023-11-17",
-      "volume": "",
-      "issue": "",
-      "pages": "249-274",
-      "articleNumber": "",
-      "publisher": "IGI Global Scientific Publishing",
-      "isbn": "9781668493243",
-      "issn": "2327-5502",
-      "sources": [
-        "CV",
-        "Google Scholar export",
-        "Crossref",
-        "ORCID",
-        "Portfolio archive"
-      ]
-    },
-    {
-      "title": "Shear capacity prediction for FRCM-strengthened RC beams using Hybrid ReLU-Activated BPNN model",
-      "year": 2023,
-      "authorList": [
-        "Rupesh Kumar Tipu",
-        "Vandna Batra",
-        "KS Pandya",
-        "VR Panchal"
-      ],
-      "authors": "Rupesh Kumar Tipu, Vandna Batra, KS Pandya, VR Panchal",
-      "sourceBibtex": "@article{Kumar Tipu2023,title = {Shear capacity prediction for FRCM-strengthened RC beams using Hybrid ReLU-Activated BPNN model},journal = {Structures},year = {2023},volume = {58},author = {Kumar Tipu, R. and Batra, V. and Suman and Pandya, K.S. and Panchal, V.R.}}",
-      "venue": "Structures",
-      "doi": "10.1016/j.istruc.2023.105432",
-      "type": "Journal article",
-      "url": "https://doi.org/10.1016/j.istruc.2023.105432",
-      "date": "2023-12",
-      "volume": "58",
-      "issue": "",
-      "pages": "105432",
-      "articleNumber": "105432",
-      "publisher": "Elsevier",
-      "isbn": "",
-      "issn": "2352-0124",
-      "sources": [
-        "CV",
-        "Google Scholar export",
-        "Crossref",
-        "ORCID",
-        "Portfolio archive"
-      ]
-    },
-    {
-      "title": "Efficient compressive strength prediction of concrete incorporating recycled coarse aggregate using Newton’s boosted backpropagation neural network (NB-BPNN)",
-      "year": 2023,
-      "authorList": [
-        "Rupesh Kumar Tipu",
-        "Vandna Batra",
-        "KS Pandya",
-        "VR Panchal"
-      ],
-      "authors": "Rupesh Kumar Tipu, Vandna Batra, KS Pandya, VR Panchal",
-      "sourceBibtex": "@article{Kumar Tipu2023,title = {Efficient compressive strength prediction of concrete incorporating recycled coarse aggregate using Newton{'}s boosted backpropagation neural network (NB-BPNN)},journal = {Structures},year = {2023},volume = {58},author = {Tipu, R.K. and Batra, V. and Suman and Pandya, K.S. and Panchal, V.R.}}",
-      "venue": "Structures",
-      "doi": "10.1016/j.istruc.2023.105559",
-      "type": "Journal article",
-      "url": "https://doi.org/10.1016/j.istruc.2023.105559",
-      "date": "2023-12",
-      "volume": "58",
-      "issue": "",
-      "pages": "105559",
-      "articleNumber": "105559",
-      "publisher": "Elsevier",
-      "isbn": "",
-      "issn": "2352-0124",
-      "sources": [
-        "CV",
-        "Google Scholar export",
-        "Crossref",
-        "ORCID",
-        "Portfolio archive"
-      ]
-    },
-    {
-      "title": "Enhancing load capacity prediction of column using eReLU-activated BPNN model",
-      "year": 2023,
-      "authorList": [
-        "Rupesh Kumar Tipu",
-        "Vandna Batra",
-        "KS Pandya",
-        "VR Panchal"
-      ],
-      "authors": "Rupesh Kumar Tipu, Vandna Batra, KS Pandya, VR Panchal",
-      "sourceBibtex": "@article{Kumar Tipu2023,title = {Enhancing load capacity prediction of column using eReLU-activated BPNN model},journal = {Structures},year = {2023},volume = {58},author = {Tipu, R.K. and Batra, V. and Suman and Pandya, K.S. and Panchal, V.R.}}",
-      "venue": "Structures",
-      "doi": "10.1016/j.istruc.2023.105600",
-      "type": "Journal article",
-      "url": "https://doi.org/10.1016/j.istruc.2023.105600",
-      "date": "2023-12",
-      "volume": "58",
-      "issue": "",
-      "pages": "105600",
-      "articleNumber": "105600",
-      "publisher": "Elsevier",
-      "isbn": "",
-      "issn": "2352-0124",
-      "sources": [
-        "CV",
-        "Google Scholar export",
-        "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -2192,6 +2422,7 @@
       "type": "Conference paper",
       "url": "https://doi.org/10.1051/e3sconf/202343001180",
       "date": "2023-10-06",
+      "issueYear": null,
       "volume": "430",
       "issue": "",
       "pages": "01180",
@@ -2201,7 +2432,43 @@
       "issn": "2267-1242",
       "sources": [
         "CV",
+        "Google Scholar export",
         "Crossref",
+        "ORCID export",
+        "ORCID",
+        "Portfolio archive"
+      ]
+    },
+    {
+      "title": "Predictive modelling of surface chloride concentration in marine concrete structures: a comparative analysis of machine learning approaches",
+      "year": 2024,
+      "authorList": [
+        "Rupesh Kumar Tipu",
+        "Vandna Batra",
+        "Suman",
+        "VR Panchal",
+        "KS Pandya"
+      ],
+      "authors": "Rupesh Kumar Tipu, Vandna Batra, Suman, VR Panchal, KS Pandya",
+      "sourceBibtex": "@article{Kumar Tipu2024,title = {Predictive modelling of surface chloride concentration in marine concrete structures: a comparative analysis of machine learning approaches},journal = {Asian Journal of Civil Engineering},year = {2024},volume = {25},number = {2},pages = {1443-1465},author = {Tipu, R.K. and Batra, V. and Suman and Panchal, V.R. and Pandya, K.S.}}",
+      "venue": "Asian Journal of Civil Engineering",
+      "doi": "10.1007/s42107-023-00854-4",
+      "type": "Journal article",
+      "url": "https://doi.org/10.1007/s42107-023-00854-4",
+      "date": "2023-08-05",
+      "issueYear": null,
+      "volume": "25",
+      "issue": "2",
+      "pages": "1443-1465",
+      "articleNumber": "",
+      "publisher": "Springer International Publishing, Cham",
+      "isbn": "",
+      "issn": "1563-0854",
+      "sources": [
+        "CV",
+        "Google Scholar export",
+        "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -2224,6 +2491,7 @@
       "type": "Conference paper",
       "url": "https://doi.org/10.1109/icdsns58469.2023.10245873",
       "date": "2023-07-28",
+      "issueYear": null,
       "volume": "",
       "issue": "",
       "pages": "1-7",
@@ -2233,7 +2501,73 @@
       "issn": "",
       "sources": [
         "CV",
+        "Google Scholar export",
         "Crossref",
+        "ORCID export",
+        "ORCID",
+        "Portfolio archive"
+      ]
+    },
+    {
+      "title": "Enhancing chloride concentration prediction in marine concrete using conjugate gradient-optimized backpropagation neural network",
+      "year": 2024,
+      "authorList": [
+        "Rupesh Kumar Tipu",
+        "VR Panchal",
+        "KS Pandya"
+      ],
+      "authors": "Rupesh Kumar Tipu, VR Panchal, KS Pandya",
+      "sourceBibtex": "@article{Kumar Tipu2024,title = {Enhancing chloride concentration prediction in marine concrete using conjugate gradient-optimized backpropagation neural network},journal = {Asian Journal of Civil Engineering},year = {2024},volume = {25},number = {1},pages = {637-656},author = {Tipu, R.K. and Panchal, V.R. and Pandya, K.S.}}",
+      "venue": "Asian Journal of Civil Engineering",
+      "doi": "10.1007/s42107-023-00801-3",
+      "type": "Journal article",
+      "url": "https://doi.org/10.1007/s42107-023-00801-3",
+      "date": "2023-07-20",
+      "issueYear": null,
+      "volume": "25",
+      "issue": "1",
+      "pages": "637-656",
+      "articleNumber": "",
+      "publisher": "Springer International Publishing, Cham",
+      "isbn": "",
+      "issn": "1563-0854",
+      "sources": [
+        "CV",
+        "Google Scholar export",
+        "Crossref",
+        "ORCID export",
+        "ORCID",
+        "Portfolio archive"
+      ]
+    },
+    {
+      "title": "Enhancing prediction accuracy of workability and compressive strength of high-performance concrete through extended dataset and improved machine learning models",
+      "year": 2024,
+      "authorList": [
+        "Rupesh Kumar Tipu",
+        "Suman",
+        "Vandna Batra"
+      ],
+      "authors": "Rupesh Kumar Tipu, Suman, Vandna Batra",
+      "sourceBibtex": "@article{Kumar Tipu2024,title = {Enhancing prediction accuracy of workability and compressive strength of high-performance concrete through extended dataset and improved machine learning models},journal = {Asian Journal of Civil Engineering},year = {2024},volume = {25},number = {1},pages = {197-218},author = {Tipu, R.K. and Suman and Batra, V.}}",
+      "venue": "Asian Journal of Civil Engineering",
+      "doi": "10.1007/s42107-023-00768-1",
+      "type": "Journal article",
+      "url": "https://doi.org/10.1007/s42107-023-00768-1",
+      "date": "2023-06-27",
+      "issueYear": null,
+      "volume": "25",
+      "issue": "1",
+      "pages": "197-218",
+      "articleNumber": "",
+      "publisher": "Springer International Publishing, Cham",
+      "isbn": "",
+      "issn": "1563-0854",
+      "sources": [
+        "CV",
+        "Google Scholar export",
+        "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -2253,6 +2587,7 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s42107-023-00689-z",
       "date": "2023-05-10",
+      "issueYear": 2023,
       "volume": "24",
       "issue": "8",
       "pages": "2985-3000",
@@ -2264,6 +2599,7 @@
         "CV",
         "Google Scholar export",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -2283,16 +2619,19 @@
       "type": "Conference paper",
       "url": "https://doi.org/10.1007/978-981-19-9285-8_16",
       "date": "2023-04-08",
+      "issueYear": null,
       "volume": "",
       "issue": "",
       "pages": "165-174",
       "articleNumber": "",
-      "publisher": "Springer Nature Singapore",
+      "publisher": "Springer Nature Singapore, Singapore",
       "isbn": "9789811992841",
       "issn": "2195-4356",
       "sources": [
         "CV",
+        "Google Scholar export",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -2312,6 +2651,7 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1007/s42107-022-00535-8",
       "date": "2022-12-02",
+      "issueYear": 2023,
       "volume": "24",
       "issue": "3",
       "pages": "849-867",
@@ -2323,6 +2663,7 @@
         "CV",
         "Google Scholar export",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -2342,6 +2683,7 @@
       "type": "Journal article",
       "url": "https://doi.org/10.1016/j.istruc.2022.09.046",
       "date": "2022-11",
+      "issueYear": null,
       "volume": "45",
       "issue": "",
       "pages": "500-508",
@@ -2353,6 +2695,7 @@
         "CV",
         "Google Scholar export",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
@@ -2372,6 +2715,7 @@
       "type": "Conference paper",
       "url": "https://doi.org/10.1088/1742-6596/2273/1/012016",
       "date": "2022-05-01",
+      "issueYear": null,
       "volume": "2273",
       "issue": "1",
       "pages": "012016",
@@ -2383,6 +2727,7 @@
         "CV",
         "Google Scholar export",
         "Crossref",
+        "ORCID export",
         "ORCID",
         "Portfolio archive"
       ]
