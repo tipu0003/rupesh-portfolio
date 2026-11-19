@@ -67,6 +67,16 @@
   .mast nav { font-size: 12px; }
 }
 
+/* Keep the verified snapshot date separate from each automatic check. */
+.metrics-status,.catalogue-status{font-size:14px;color:var(--muted);line-height:1.5}
+.metrics-status{grid-column:1/-1;margin-top:15px}
+.metrics-status summary,.catalogue-status summary{width:fit-content;text-decoration:underline;text-decoration-color:#c0cfe2;text-underline-offset:.2em}
+.metrics-status p,.catalogue-status p{max-width:80em;margin:8px 0 0}
+.catalogue-status{margin:10px 0 18px}
+.archive-source-summary{font-size:14px;flex-wrap:wrap}
+.archive-source-summary a{margin-left:auto}
+@media(max-width:690px){.archive-source-summary a{margin-left:0}.metrics-status{margin-top:1px}.impact-caption>span{font-size:12px}}
+
 /* Entry to the concrete prediction workspace. */
 .lab-entry{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:26px;margin-top:30px;padding:24px clamp(18px,2.6vw,38px);background:#e7efff;border:1px solid #c7d8f4;border-radius:10px}.lab-entry h3{font:normal clamp(25px,2.3vw,34px)/1.2 var(--serif);letter-spacing:-.035em;margin:4px 0 7px}.lab-entry p{max-width:55em;color:var(--muted);font-size:14px}.nav-models{color:#225daf}.lab-entry .btn{white-space:nowrap}
 @media(max-width:690px){.lab-entry{grid-template-columns:1fr;gap:14px}.lab-entry .btn{justify-self:start}.mast nav{gap:6px;font-size:12px}.mast nav a{white-space:nowrap}}

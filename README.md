@@ -19,14 +19,14 @@ Visit http://localhost:3000/. The saved catalogue makes this build reproducible 
 ## Update the profile
 
 - Edit index.template.html for the introduction, selected studies, recognition, academic profile links and contact details. Edit sections/profile.html for appointments, books, patents, grant, teaching and supervision.
-- Update the three Google Scholar figures and the visible snapshot date together when a new profile snapshot is available. The Scopus count has its own source date.
+- Research metrics are generated from `data/metrics.json`. The workflow attempts a public Scholar profile check and retains the verified snapshot if Scholar blocks access. Optional Actions inputs accept a newer screenshot’s citations, h-index, i10-index and date together. The Scopus count remains a separately dated CV snapshot.
 - The recognition links to the 2026 Stanford–Elsevier database, version 9. The single-year list covers citations received in 2025. The full CV is offered by email.
 
 ## Publications and deployment
 
-The existing daily GitHub Actions job checks public ORCID and Crossref records at approximately 07:47 India time. Neither source requires a paid key. The workflow builds and deploys to this repository's GitHub Pages site. The last successful data remains available during a failed refresh. A record missing from both indexes can be added to the author's public ORCID or included in a future Scholar CSV import.
+The daily GitHub Actions job is scheduled for 07:47 India time; GitHub can delay it. Main-branch pushes and manual runs also refresh the public sources. Publication discovery uses the public ORCID record, Crossref ORCID matches, and carefully checked author-name matches for publishers that omit ORCID. No paid service or API key is required. Source-specific dates and warnings appear on the site. The last successful records remain available during an outage. A paper missing from the public indexes still needs a public ORCID record or an export import.
 
-For the exact source rules, manual refresh, tests and Pages settings, see [publication maintenance](scripts/README.md). The project does not scrape Google Scholar.
+For the exact source rules, manual refresh, tests and Pages settings, see [publication maintenance](scripts/README.md). A single ordinary Scholar profile request attempts to read its metrics. The job stops when access is blocked; it does not use login credentials, proxies or CAPTCHA workarounds. Scholar success cannot be guaranteed. The supplied publication CSV does not include citation counts, so it cannot calculate the profile metrics.
 
 ## Academic sources
 
@@ -34,7 +34,7 @@ For the exact source rules, manual refresh, tests and Pages settings, see [publi
 - [Stanford–Elsevier citation database, version 9](https://doi.org/10.17632/btchxktzyw.9)
 - [Public ORCID](https://orcid.org/0000-0001-8476-8364)
 - [Google Scholar profile](https://scholar.google.com/citations?user=uZzLU8IAAAAJ)
-- CV dated 14 October 2026 and Google Scholar screenshot and export supplied on 3 November 2026.
+- CV dated 14 October 2026; updated Scholar CSV, ORCID BibTeX and Scholar metrics screenshot supplied on 19 November 2026.
 
 ## Paper previews and recent publications
 

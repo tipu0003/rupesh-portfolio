@@ -203,13 +203,8 @@
       return paper;
     });
     document.querySelectorAll('[data-catalog-count]').forEach(node => { node.textContent = String(records.length); });
-    const stamps = [data.lastCrossrefSync, data.lastOrcidSync, data.lastORCIDSync, data.updated]
-      .filter(value => /^\d{4}-\d{2}-\d{2}/.test(clean(value))).sort();
-    if (stamps.length) document.querySelectorAll('[data-catalog-updated]').forEach(node => {
-      const date = new Date(stamps.at(-1).slice(0, 10) + 'T00:00:00Z');
-      if (!Number.isNaN(date.getTime())) node.textContent = date.toLocaleDateString('en-GB',
-        { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
-    });
+    // Source checks and content changes are separately rendered by the builder.
+    // A successful daily check must not relabel unchanged records as newly updated.
 
     const openCite = citationDialog();
     const toolbar = el('div', 'archive-toolbar');
