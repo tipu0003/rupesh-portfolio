@@ -1,7 +1,7 @@
 {
   "ORCID": {
-    "checked": "2026-11-19",
-    "lastAttempt": "2026-11-19",
+    "checked": "2026-11-20",
+    "lastAttempt": "2026-11-20",
     "status": "ok",
     "items": [
       {
@@ -1484,8 +1484,8 @@
     ]
   },
   "Crossref": {
-    "checked": "2026-11-19",
-    "lastAttempt": "2026-11-19",
+    "checked": "2026-11-20",
+    "lastAttempt": "2026-11-20",
     "status": "ok",
     "items": [
       {
@@ -3266,8 +3266,8 @@
     ]
   },
   "Crossref author search": {
-    "checked": "2026-11-19",
-    "lastAttempt": "2026-11-19",
+    "checked": "2026-11-20",
+    "lastAttempt": "2026-11-20",
     "status": "ok",
     "items": [
       {
@@ -3923,9 +3923,9 @@
         "doi": "10.1007/s40996-025-02109-5",
         "date": "2026-01-21",
         "issueYear": 2026,
-        "volume": "",
-        "issue": "",
-        "pages": "",
+        "volume": "50",
+        "issue": "6",
+        "pages": "5817-5843",
         "articleNumber": "",
         "publisher": "Springer Science and Business Media LLC",
         "isbn": "",

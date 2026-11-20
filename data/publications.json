@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-19",
-  "lastCrossrefSync": "2026-11-19",
-  "lastOrcidSync": "2026-11-19",
-  "lastAuthorSearchSync": "2026-11-19",
+  "updated": "2026-11-20",
+  "lastCrossrefSync": "2026-11-20",
+  "lastOrcidSync": "2026-11-20",
+  "lastAuthorSearchSync": "2026-11-20",
   "sourceStatus": {
     "ORCID": {
-      "lastAttempt": "2026-11-19",
-      "lastSuccess": "2026-11-19",
+      "lastAttempt": "2026-11-20",
+      "lastSuccess": "2026-11-20",
       "status": "ok",
       "records": 79
     },
     "Crossref": {
-      "lastAttempt": "2026-11-19",
-      "lastSuccess": "2026-11-19",
+      "lastAttempt": "2026-11-20",
+      "lastSuccess": "2026-11-20",
       "status": "ok",
       "records": 14
     },
     "Crossref author search": {
-      "lastAttempt": "2026-11-19",
-      "lastSuccess": "2026-11-19",
+      "lastAttempt": "2026-11-20",
+      "lastSuccess": "2026-11-20",
       "status": "ok",
       "records": 52
     }
@@ -740,8 +740,8 @@
       "url": "https://doi.org/10.1007/s40996-025-02109-5",
       "date": "2026-01-21",
       "issueYear": 2026,
-      "volume": "",
-      "issue": "",
+      "volume": "50",
+      "issue": "6",
       "pages": "1-27",
       "articleNumber": "",
       "publisher": "Springer International Publishing, Cham",
