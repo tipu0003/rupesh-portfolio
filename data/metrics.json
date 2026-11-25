@@ -17,10 +17,10 @@
       "hIndex": 23,
       "i10Index": 31
     },
-    "lastAttempt": "2026-11-24T12:35:16Z",
+    "lastAttempt": "2026-11-25T11:24:09Z",
     "lastSuccess": null,
     "status": "unavailable",
-    "error": "Google Scholar returned HTTP 403."
+    "error": "Google Scholar requires an interactive access check."
   },
   "scopus": {
     "documents": 76,
