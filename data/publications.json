@@ -1,26 +1,26 @@
 {
-  "updated": "2026-11-20",
-  "lastCrossrefSync": "2026-11-25",
-  "lastOrcidSync": "2026-11-25",
-  "lastAuthorSearchSync": "2026-11-25",
+  "updated": "2026-11-26",
+  "lastCrossrefSync": "2026-11-26",
+  "lastOrcidSync": "2026-11-26",
+  "lastAuthorSearchSync": "2026-11-26",
   "sourceStatus": {
     "ORCID": {
-      "lastAttempt": "2026-11-25",
-      "lastSuccess": "2026-11-25",
+      "lastAttempt": "2026-11-26",
+      "lastSuccess": "2026-11-26",
       "status": "ok",
       "records": 79
     },
     "Crossref": {
-      "lastAttempt": "2026-11-25",
-      "lastSuccess": "2026-11-25",
+      "lastAttempt": "2026-11-26",
+      "lastSuccess": "2026-11-26",
       "status": "ok",
       "records": 14
     },
     "Crossref author search": {
-      "lastAttempt": "2026-11-25",
-      "lastSuccess": "2026-11-25",
+      "lastAttempt": "2026-11-26",
+      "lastSuccess": "2026-11-26",
       "status": "ok",
-      "records": 52
+      "records": 56
     }
   },
   "publications": [
@@ -186,6 +186,114 @@
         "Crossref author search",
         "ORCID export",
         "ORCID"
+      ]
+    },
+    {
+      "title": "Design of a Software-Defined Networking Enabled University ERP Testbed and Labeled Dataset for Low-Rate DDoS Detection",
+      "year": 2026,
+      "authorList": [
+        "Monika",
+        "Vandna Batra",
+        "Rupesh Kumar Tipu"
+      ],
+      "authors": "Monika, Vandna Batra, Rupesh Kumar Tipu",
+      "sourceBibtex": "",
+      "venue": "2026 3rd International Conference on Multidisciplinary Research and Innovations in Engineering (MRIE)",
+      "doi": "10.1109/mrie72192.2026.11795212",
+      "type": "Conference paper",
+      "url": "https://doi.org/10.1109/mrie72192.2026.11795212",
+      "date": "2026-09",
+      "issueYear": 2026,
+      "volume": "",
+      "issue": "",
+      "pages": "523-527",
+      "articleNumber": "",
+      "publisher": "IEEE",
+      "isbn": "",
+      "issn": "",
+      "sources": [
+        "Crossref author search"
+      ]
+    },
+    {
+      "title": "Anxiety-Aware Mental Health Text Classification Using BERT",
+      "year": 2026,
+      "authorList": [
+        "Vandna Batra",
+        "Suman",
+        "Rupesh Kumar Tipu"
+      ],
+      "authors": "Vandna Batra, Suman, Rupesh Kumar Tipu",
+      "sourceBibtex": "",
+      "venue": "2026 3rd International Conference on Multidisciplinary Research and Innovations in Engineering (MRIE)",
+      "doi": "10.1109/mrie72192.2026.11795477",
+      "type": "Conference paper",
+      "url": "https://doi.org/10.1109/mrie72192.2026.11795477",
+      "date": "2026-09",
+      "issueYear": 2026,
+      "volume": "",
+      "issue": "",
+      "pages": "583-588",
+      "articleNumber": "",
+      "publisher": "IEEE",
+      "isbn": "",
+      "issn": "",
+      "sources": [
+        "Crossref author search"
+      ]
+    },
+    {
+      "title": "Building a Calibrated Digital Twin of Representative Indian City Water Networks Using Open Sensor Data",
+      "year": 2026,
+      "authorList": [
+        "Madhu Yadav",
+        "Pankaj Agarwal",
+        "Rupesh Kumar Tipu"
+      ],
+      "authors": "Madhu Yadav, Pankaj Agarwal, Rupesh Kumar Tipu",
+      "sourceBibtex": "",
+      "venue": "2026 3rd International Conference on Multidisciplinary Research and Innovations in Engineering (MRIE)",
+      "doi": "10.1109/mrie72192.2026.11795216",
+      "type": "Conference paper",
+      "url": "https://doi.org/10.1109/mrie72192.2026.11795216",
+      "date": "2026-09",
+      "issueYear": 2026,
+      "volume": "",
+      "issue": "",
+      "pages": "485-492",
+      "articleNumber": "",
+      "publisher": "IEEE",
+      "isbn": "",
+      "issn": "",
+      "sources": [
+        "Crossref author search"
+      ]
+    },
+    {
+      "title": "Comparative Evaluation of Machine Learning and Deep Learning Models for SDN-Based DDoS Detection Using Switch-Wise Temporal Windows",
+      "year": 2026,
+      "authorList": [
+        "Suman",
+        "Vandna Batra",
+        "Rupesh Kumar Tipu"
+      ],
+      "authors": "Suman, Vandna Batra, Rupesh Kumar Tipu",
+      "sourceBibtex": "",
+      "venue": "2026 3rd International Conference on Multidisciplinary Research and Innovations in Engineering (MRIE)",
+      "doi": "10.1109/mrie72192.2026.11795446",
+      "type": "Conference paper",
+      "url": "https://doi.org/10.1109/mrie72192.2026.11795446",
+      "date": "2026-09",
+      "issueYear": 2026,
+      "volume": "",
+      "issue": "",
+      "pages": "553-559",
+      "articleNumber": "",
+      "publisher": "IEEE",
+      "isbn": "",
+      "issn": "",
+      "sources": [
+        "Crossref author search"
       ]
     },
     {

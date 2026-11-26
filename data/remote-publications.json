@@ -1,7 +1,7 @@
 {
   "ORCID": {
-    "checked": "2026-11-25",
-    "lastAttempt": "2026-11-25",
+    "checked": "2026-11-26",
+    "lastAttempt": "2026-11-26",
     "status": "ok",
     "items": [
       {
@@ -1484,8 +1484,8 @@
     ]
   },
   "Crossref": {
-    "checked": "2026-11-25",
-    "lastAttempt": "2026-11-25",
+    "checked": "2026-11-26",
+    "lastAttempt": "2026-11-26",
     "status": "ok",
     "items": [
       {
@@ -3266,8 +3266,8 @@
     ]
   },
   "Crossref author search": {
-    "checked": "2026-11-25",
-    "lastAttempt": "2026-11-25",
+    "checked": "2026-11-26",
+    "lastAttempt": "2026-11-26",
     "status": "ok",
     "items": [
       {
@@ -4448,6 +4448,90 @@
         "publisher": "Springer Science and Business Media LLC",
         "isbn": "",
         "issn": "2045-2322"
+      },
+      {
+        "title": "Design of a Software-Defined Networking Enabled University ERP Testbed and Labeled Dataset for Low-Rate DDoS Detection",
+        "year": 2026,
+        "venue": "2026 3rd International Conference on Multidisciplinary Research and Innovations in Engineering (MRIE)",
+        "authorList": [
+          "Monika",
+          "Vandna Batra",
+          "Rupesh Kumar Tipu"
+        ],
+        "type": "Conference paper",
+        "doi": "10.1109/mrie72192.2026.11795212",
+        "date": "2026-09",
+        "issueYear": 2026,
+        "volume": "",
+        "issue": "",
+        "pages": "523-527",
+        "articleNumber": "",
+        "publisher": "IEEE",
+        "isbn": "",
+        "issn": ""
+      },
+      {
+        "title": "Anxiety-Aware Mental Health Text Classification Using BERT",
+        "year": 2026,
+        "venue": "2026 3rd International Conference on Multidisciplinary Research and Innovations in Engineering (MRIE)",
+        "authorList": [
+          "Vandna Batra",
+          "Suman",
+          "Rupesh Kumar Tipu"
+        ],
+        "type": "Conference paper",
+        "doi": "10.1109/mrie72192.2026.11795477",
+        "date": "2026-09",
+        "issueYear": 2026,
+        "volume": "",
+        "issue": "",
+        "pages": "583-588",
+        "articleNumber": "",
+        "publisher": "IEEE",
+        "isbn": "",
+        "issn": ""
+      },
+      {
+        "title": "Building a Calibrated Digital Twin of Representative Indian City Water Networks Using Open Sensor Data",
+        "year": 2026,
+        "venue": "2026 3rd International Conference on Multidisciplinary Research and Innovations in Engineering (MRIE)",
+        "authorList": [
+          "Madhu Yadav",
+          "Pankaj Agarwal",
+          "Rupesh Kumar Tipu"
+        ],
+        "type": "Conference paper",
+        "doi": "10.1109/mrie72192.2026.11795216",
+        "date": "2026-09",
+        "issueYear": 2026,
+        "volume": "",
+        "issue": "",
+        "pages": "485-492",
+        "articleNumber": "",
+        "publisher": "IEEE",
+        "isbn": "",
+        "issn": ""
+      },
+      {
+        "title": "Comparative Evaluation of Machine Learning and Deep Learning Models for SDN-Based DDoS Detection Using Switch-Wise Temporal Windows",
+        "year": 2026,
+        "venue": "2026 3rd International Conference on Multidisciplinary Research and Innovations in Engineering (MRIE)",
+        "authorList": [
+          "Suman",
+          "Vandna Batra",
+          "Rupesh Kumar Tipu"
+        ],
+        "type": "Conference paper",
+        "doi": "10.1109/mrie72192.2026.11795446",
+        "date": "2026-09",
+        "issueYear": 2026,
+        "volume": "",
+        "issue": "",
+        "pages": "553-559",
+        "articleNumber": "",
+        "publisher": "IEEE",
+        "isbn": "",
+        "issn": ""
       }
     ]
   }
