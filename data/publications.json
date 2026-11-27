@@ -1,29 +1,57 @@
 {
-  "updated": "2026-11-26",
-  "lastCrossrefSync": "2026-11-26",
-  "lastOrcidSync": "2026-11-26",
-  "lastAuthorSearchSync": "2026-11-26",
+  "updated": "2026-11-27",
+  "lastCrossrefSync": "2026-11-27",
+  "lastOrcidSync": "2026-11-27",
+  "lastAuthorSearchSync": "2026-11-27",
   "sourceStatus": {
     "ORCID": {
-      "lastAttempt": "2026-11-26",
-      "lastSuccess": "2026-11-26",
+      "lastAttempt": "2026-11-27",
+      "lastSuccess": "2026-11-27",
       "status": "ok",
       "records": 79
     },
     "Crossref": {
-      "lastAttempt": "2026-11-26",
-      "lastSuccess": "2026-11-26",
+      "lastAttempt": "2026-11-27",
+      "lastSuccess": "2026-11-27",
       "status": "ok",
       "records": 14
     },
     "Crossref author search": {
-      "lastAttempt": "2026-11-26",
-      "lastSuccess": "2026-11-26",
+      "lastAttempt": "2026-11-27",
+      "lastSuccess": "2026-11-27",
       "status": "ok",
-      "records": 56
+      "records": 57
     }
   },
   "publications": [
+    {
+      "title": "Explainable Machine Learning and Catalogue-Constrained Screening of Cold-Formed Steel Built-up Columns Under Axial Compression",
+      "year": 2026,
+      "authorList": [
+        "Rupesh Kumar Tipu",
+        "Sagar Paruthi",
+        "Neha Sharma",
+        "Vipin Kumar Verma"
+      ],
+      "authors": "Rupesh Kumar Tipu, Sagar Paruthi, Neha Sharma, Vipin Kumar Verma",
+      "sourceBibtex": "",
+      "venue": "Iranian Journal of Science and Technology, Transactions of Civil Engineering",
+      "doi": "10.1007/s40996-026-02315-9",
+      "type": "Journal article",
+      "url": "https://doi.org/10.1007/s40996-026-02315-9",
+      "date": "2026-11-27",
+      "issueYear": 2026,
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "articleNumber": "",
+      "publisher": "Springer Science and Business Media LLC",
+      "isbn": "",
+      "issn": "2228-6160",
+      "sources": [
+        "Crossref author search"
+      ]
+    },
     {
       "title": "V-shaped folded flexible patch antenna for conformal 5 GHz applications: static electromagnetic characterization",
       "year": 2026,

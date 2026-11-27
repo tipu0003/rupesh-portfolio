@@ -1,7 +1,7 @@
 {
   "ORCID": {
-    "checked": "2026-11-26",
-    "lastAttempt": "2026-11-26",
+    "checked": "2026-11-27",
+    "lastAttempt": "2026-11-27",
     "status": "ok",
     "items": [
       {
@@ -1484,8 +1484,8 @@
     ]
   },
   "Crossref": {
-    "checked": "2026-11-26",
-    "lastAttempt": "2026-11-26",
+    "checked": "2026-11-27",
+    "lastAttempt": "2026-11-27",
     "status": "ok",
     "items": [
       {
@@ -3266,8 +3266,8 @@
     ]
   },
   "Crossref author search": {
-    "checked": "2026-11-26",
-    "lastAttempt": "2026-11-26",
+    "checked": "2026-11-27",
+    "lastAttempt": "2026-11-27",
     "status": "ok",
     "items": [
       {
@@ -4532,6 +4532,28 @@
         "publisher": "IEEE",
         "isbn": "",
         "issn": ""
+      },
+      {
+        "title": "Explainable Machine Learning and Catalogue-Constrained Screening of Cold-Formed Steel Built-up Columns Under Axial Compression",
+        "year": 2026,
+        "venue": "Iranian Journal of Science and Technology, Transactions of Civil Engineering",
+        "authorList": [
+          "Rupesh Kumar Tipu",
+          "Sagar Paruthi",
+          "Neha Sharma",
+          "Vipin Kumar Verma"
+        ],
+        "type": "Journal article",
+        "doi": "10.1007/s40996-026-02315-9",
+        "date": "2026-11-27",
+        "issueYear": 2026,
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "articleNumber": "",
+        "publisher": "Springer Science and Business Media LLC",
+        "isbn": "",
+        "issn": "2228-6160"
       }
     ]
   }
