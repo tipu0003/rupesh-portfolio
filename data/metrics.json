@@ -17,10 +17,10 @@
       "hIndex": 23,
       "i10Index": 31
     },
-    "lastAttempt": "2026-11-26T10:59:16Z",
+    "lastAttempt": "2026-11-27T10:57:00Z",
     "lastSuccess": "2026-11-26T10:59:16Z",
-    "status": "ok",
-    "error": null
+    "status": "unavailable",
+    "error": "Google Scholar returned HTTP 403."
   },
   "scopus": {
     "documents": 76,
