@@ -1,24 +1,24 @@
 {
   "updated": "2026-11-27",
-  "lastCrossrefSync": "2026-11-27",
-  "lastOrcidSync": "2026-11-27",
-  "lastAuthorSearchSync": "2026-11-27",
+  "lastCrossrefSync": "2026-11-28",
+  "lastOrcidSync": "2026-11-28",
+  "lastAuthorSearchSync": "2026-11-28",
   "sourceStatus": {
     "ORCID": {
-      "lastAttempt": "2026-11-27",
-      "lastSuccess": "2026-11-27",
+      "lastAttempt": "2026-11-28",
+      "lastSuccess": "2026-11-28",
       "status": "ok",
       "records": 79
     },
     "Crossref": {
-      "lastAttempt": "2026-11-27",
-      "lastSuccess": "2026-11-27",
+      "lastAttempt": "2026-11-28",
+      "lastSuccess": "2026-11-28",
       "status": "ok",
       "records": 14
     },
     "Crossref author search": {
-      "lastAttempt": "2026-11-27",
-      "lastSuccess": "2026-11-27",
+      "lastAttempt": "2026-11-28",
+      "lastSuccess": "2026-11-28",
       "status": "ok",
       "records": 57
     }
